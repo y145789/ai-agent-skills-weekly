@@ -1,0 +1,10 @@
+node_modules/
+.pnpm-store/
+.vite/
+.env
+.env.local
+*.log
+*.tsbuildinfo
+vite.config.d.ts
+__pycache__/
+*.pyc
