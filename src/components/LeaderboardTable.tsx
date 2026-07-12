@@ -62,7 +62,7 @@ export default function LeaderboardTable({ title, items, mode, emptyText }: Prop
                   <tr key={`${skill.owner}/${skill.name}`}>
                     <td>{index + 1}</td>
                     <td className="name-cell">{skill.name}</td>
-                    <td>{skill.description || skill.readme_summary}</td>
+                    <td>{skill.description_zh || skill.readme_summary || skill.description}</td>
                     <td>{numberFormat.format(skill.stars || 0)}</td>
                     <td>{numberFormat.format(skill.forks || 0)}</td>
                     <td>{dateText(skill.updated_at)}</td>
@@ -86,7 +86,7 @@ export default function LeaderboardTable({ title, items, mode, emptyText }: Prop
                     <td>{numberFormat.format(skill.current_stars || skill.stars || 0)}</td>
                     <td>{skill.previous_stars === null || skill.previous_stars === undefined ? '无' : numberFormat.format(skill.previous_stars)}</td>
                     <td>{skill.growth_rate ? percentFormat.format(skill.growth_rate) : '无'}</td>
-                    <td>{skill.description || skill.readme_summary}</td>
+                    <td>{skill.description_zh || skill.readme_summary || skill.description}</td>
                     <td>
                       <div className="link-pair">
                         <a href={skill.repo_url} target="_blank" rel="noreferrer" aria-label={`${skill.name} 仓库`}>

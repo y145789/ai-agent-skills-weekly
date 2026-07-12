@@ -40,7 +40,7 @@ select {
 
 .app.light {
   color: #16202a;
-  background: #f5f7fa;
+  background: #f7faf9;
 }
 
 .hero,
@@ -50,7 +50,7 @@ select {
 }
 
 .hero {
-  padding: 20px 0 34px;
+  padding: 16px 0 22px;
 }
 
 .topbar {
@@ -81,9 +81,9 @@ select {
 .hero-grid {
   display: grid;
   grid-template-columns: minmax(0, 1.25fr) minmax(360px, 0.75fr);
-  gap: 28px;
+  gap: 20px;
   align-items: end;
-  padding-top: 48px;
+  padding-top: 28px;
 }
 
 .eyebrow {
@@ -105,8 +105,8 @@ p {
 h1 {
   max-width: 860px;
   margin: 0;
-  font-size: clamp(2.55rem, 7vw, 5.2rem);
-  line-height: 0.95;
+  font-size: clamp(2.25rem, 5vw, 4rem);
+  line-height: 1;
   letter-spacing: 0;
 }
 
@@ -126,7 +126,7 @@ h3 {
 
 .hero-copy {
   max-width: 820px;
-  margin: 22px 0 0;
+  margin: 16px 0 0;
   color: #aeb9c5;
   font-size: 1.05rem;
   line-height: 1.75;
@@ -168,15 +168,15 @@ h3 {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 10px;
-  padding: 14px;
+  padding: 10px;
   background: rgba(255, 255, 255, 0.07);
   border: 1px solid rgba(255, 255, 255, 0.12);
   border-radius: 8px;
 }
 
 .stats-panel div {
-  min-height: 112px;
-  padding: 18px;
+  min-height: 88px;
+  padding: 14px;
   background: rgba(11, 16, 23, 0.36);
   border: 1px solid rgba(255, 255, 255, 0.08);
   border-radius: 8px;
@@ -196,7 +196,7 @@ h3 {
 }
 
 .section {
-  padding: 54px 0 8px;
+  padding: 36px 0 8px;
 }
 
 .section-title {
@@ -224,10 +224,10 @@ h3 {
 
 .skill-card {
   display: flex;
-  min-height: 312px;
+  min-height: 0;
   flex-direction: column;
-  gap: 14px;
-  padding: 18px;
+  gap: 12px;
+  padding: 16px;
   background: rgba(255, 255, 255, 0.075);
   border: 1px solid rgba(255, 255, 255, 0.12);
   border-radius: 8px;
@@ -255,10 +255,74 @@ h3 {
 
 .skill-card__desc {
   display: -webkit-box;
-  min-height: 52px;
+  min-height: 0;
   overflow: hidden;
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 2;
+}
+
+.description-block {
+  display: grid;
+  gap: 8px;
+}
+
+.description-block--open .skill-card__desc {
+  display: block;
+  overflow: visible;
+}
+
+.description-block__detail {
+  display: grid;
+  gap: 10px;
+  padding: 12px;
+  color: #52616f;
+  background: #f3f6f8;
+  border: 1px solid #dfe6ed;
+  border-radius: 8px;
+  line-height: 1.58;
+}
+
+.description-block__detail p,
+.description-block__detail dl {
+  margin: 0;
+}
+
+.description-block__detail p {
+  display: grid;
+  gap: 3px;
+}
+
+.description-block__detail strong {
+  color: #16202a;
+  font-size: 0.78rem;
+}
+
+.description-block__detail dl {
+  display: grid;
+  gap: 4px;
+}
+
+.description-block__detail dt {
+  color: #137c70;
+  font-weight: 800;
+}
+
+.description-block__detail dd {
+  margin: 0;
+}
+
+.summary-toggle {
+  display: inline-flex;
+  width: fit-content;
+  align-items: center;
+  gap: 4px;
+  padding: 0;
+  color: #137c70;
+  cursor: pointer;
+  background: transparent;
+  border: 0;
+  font-size: 0.8rem;
+  font-weight: 800;
 }
 
 .tag-row {
@@ -531,6 +595,7 @@ tbody tr:hover {
 .light .link-pair a {
   background: #ffffff;
   border-color: #dce3ea;
+  box-shadow: 0 10px 30px rgba(29, 56, 51, 0.05);
 }
 
 .light .stats-panel div,
@@ -551,6 +616,16 @@ tbody tr:hover {
   color: #16202a;
   background: #eef3f6;
   border-color: #dce3ea;
+}
+
+.light .stats-panel {
+  background: transparent;
+  border-color: transparent;
+  box-shadow: none;
+}
+
+.light .description-block__detail {
+  color: #52616f;
 }
 
 .light th {

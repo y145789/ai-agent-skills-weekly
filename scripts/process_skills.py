@@ -289,6 +289,7 @@ def process() -> dict[str, Any]:
         repo["score"] = round(score, 4)
         repo["recommendation"] = recommendation(score)
         repo["usage_scenarios"] = infer_usage_scenarios(repo["category"], text)
+        repo["description_zh"] = localized_description(repo, repo["category"], text)
         if any(keyword in text for keyword in TOKEN_KEYWORDS):
             repo["token_saving"] = explain_token(repo, text)
         if any(keyword in text for keyword in OFFICE_KEYWORDS):
@@ -371,6 +372,41 @@ def infer_usage_scenarios(category: str, text: str) -> str:
     if "cursor" in text:
         return "Cursor、Codex 或 IDE 内的编码规则与工作流模板。"
     return f"{category} 场景下的 Agent / LLM 工作流增强。"
+
+
+def localized_description(repo: dict[str, Any], category: str, text: str) -> str:
+    """Create a concise Chinese summary while retaining the repository text for details."""
+    category_focus = {
+        "代码生成": "面向代码编写与 Agent 编程协作",
+        "代码审查": "面向代码审查、质量检查与安全风险发现",
+        "测试生成": "面向测试用例生成与自动化验证",
+        "文档生成": "面向技术文档、说明和知识内容生成",
+        "数据分析": "面向数据整理、分析和洞察提取",
+        "网页抓取": "面向网页信息采集与浏览器自动化",
+        "自动化办公": "面向 Word、PPT、Excel、PDF 等办公内容生成",
+        "知识库 / RAG": "面向知识库检索、RAG 问答和上下文注入",
+        "PDF / 文档处理": "面向 PDF、报告和结构化文档处理",
+        "图像 / 多模态": "面向图像理解、OCR 和多模态任务",
+        "DevOps / CI/CD": "面向部署、流水线和工程运维自动化",
+        "个人效率": "面向日常工作流和个人效率提升",
+        "Prompt 优化": "面向 Prompt 设计、模板复用和效果优化",
+        "Token 节省": "面向上下文压缩、记忆整理和 LLM 成本控制",
+        "MCP / Tool integration": "面向 Agent 外部工具、数据源和本地能力接入",
+    }.get(category, "面向 Agent 工作流的实用工具")
+    scenario = infer_usage_scenarios(category, text).rstrip("。")
+    source = str(repo.get("description") or repo.get("readme_summary") or "").lower()
+    capability = "帮助 Agent 更稳定地完成相关任务"
+    for keywords, phrase in [
+        (["compress", "summar", "token", "context"], "减少无效上下文并控制模型输入成本"),
+        (["generate", "create", "automation"], "把重复步骤整理成可复用的自动化流程"),
+        (["search", "retrieval", "rag", "knowledge"], "把分散的信息转成可检索、可调用的上下文"),
+        (["review", "lint", "security"], "提供结构化检查结果并降低遗漏风险"),
+        (["image", "vision", "ocr"], "将图像或视觉信息转成 Agent 可处理的结果"),
+    ]:
+        if any(keyword in source for keyword in keywords):
+            capability = phrase
+            break
+    return f"{category_focus}，{capability}。适合用于{scenario}。"
 
 
 def main() -> int:

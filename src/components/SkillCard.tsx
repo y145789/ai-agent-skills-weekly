@@ -22,7 +22,8 @@ function deltaText(value?: number | null) {
 
 export default function SkillCard({ skill, compact = false }: Props) {
   const [open, setOpen] = useState(false);
-  const topics = (skill.topics || []).slice(0, compact ? 3 : 6);
+  const topics = (skill.topics || []).slice(0, compact ? 2 : 4);
+  const summary = skill.description_zh || skill.readme_summary || skill.description || '暂无中文简介';
 
   return (
     <article className="skill-card">
@@ -33,7 +34,38 @@ export default function SkillCard({ skill, compact = false }: Props) {
         </div>
         <span className="score-pill">{skill.recommendation || '★★★☆☆'}</span>
       </div>
-      <p className="skill-card__desc">{skill.description || skill.readme_summary || '暂无简介'}</p>
+      <div className={`description-block ${open ? 'description-block--open' : ''}`}>
+        <p className="skill-card__desc">{summary}</p>
+        {open && (
+          <div className="description-block__detail">
+            {skill.description && <p><strong>仓库原文</strong>{skill.description}</p>}
+            <p><strong>适用场景</strong>{skill.usage_scenarios || '适合 Agent / Codex 工作流使用。'}</p>
+            {skill.token_saving && (
+              <dl>
+                <dt>如何减少 Token</dt>
+                <dd>{skill.token_saving.token_reduction_method}</dd>
+                <dt>使用门槛</dt>
+                <dd>{skill.token_saving.adoption_threshold}</dd>
+              </dl>
+            )}
+            {skill.office_output && (
+              <dl>
+                <dt>支持文件</dt>
+                <dd>{skill.office_output.file_types.join('、')}</dd>
+                <dt>额外依赖</dt>
+                <dd>{skill.office_output.extra_dependencies}</dd>
+              </dl>
+            )}
+            {!skill.token_saving && !skill.office_output && skill.readme_summary && (
+              <p><strong>README 摘要</strong>{skill.readme_summary}</p>
+            )}
+          </div>
+        )}
+        <button className="summary-toggle" type="button" onClick={() => setOpen((value) => !value)} aria-expanded={open}>
+          <ChevronDown size={15} className={open ? 'rotate' : ''} />
+          {open ? '收起简介' : '展开完整简介'}
+        </button>
+      </div>
       <div className="tag-row">
         <span className="tag tag--strong">{skill.category || '未分类'}</span>
         {topics.map((topic) => (
@@ -60,36 +92,7 @@ export default function SkillCard({ skill, compact = false }: Props) {
           <Download size={16} />
           下载
         </a>
-        <button className="button button--ghost" type="button" onClick={() => setOpen((value) => !value)}>
-          <ChevronDown size={16} className={open ? 'rotate' : ''} />
-          详情
-        </button>
       </div>
-      {open && (
-        <div className="detail-panel">
-          <p>{skill.readme_summary || '暂无 README 摘要。'}</p>
-          {skill.token_saving && (
-            <dl>
-              <dt>如何减少 token</dt>
-              <dd>{skill.token_saving.token_reduction_method}</dd>
-              <dt>适合场景</dt>
-              <dd>{skill.token_saving.best_for}</dd>
-              <dt>使用门槛</dt>
-              <dd>{skill.token_saving.adoption_threshold}</dd>
-            </dl>
-          )}
-          {skill.office_output && (
-            <dl>
-              <dt>文件类型</dt>
-              <dd>{skill.office_output.file_types.join('、')}</dd>
-              <dt>适合生成</dt>
-              <dd>{skill.office_output.content_fit}</dd>
-              <dt>依赖</dt>
-              <dd>{skill.office_output.extra_dependencies}</dd>
-            </dl>
-          )}
-        </div>
-      )}
     </article>
   );
 }

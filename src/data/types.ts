@@ -4,6 +4,7 @@ export type Skill = {
   full_name?: string;
   repo_url: string;
   description?: string;
+  description_zh?: string;
   stars: number;
   forks: number;
   topics?: string[];

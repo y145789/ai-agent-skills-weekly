@@ -1,3 +1,2 @@
 User-agent: *
 Allow: /
-Sitemap: https://y145789.github.io/ai-agent-skills-weekly/sitemap.xml

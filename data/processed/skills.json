@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-12T15:26:53.555063+00:00",
+  "generated_at": "2026-07-12T15:48:34.520780+00:00",
   "last_checked_at": "2026-07-12T15:26:53.441565+00:00",
   "snapshot_date": "2026-07-12",
   "is_first_run": false,
@@ -70,6 +70,7 @@
       "score": 0.9638,
       "recommendation": "★★★★★",
       "usage_scenarios": "为 Agent 接入外部工具、数据源或本地能力。",
+      "description_zh": "面向 Agent 外部工具、数据源和本地能力接入，减少无效上下文并控制模型输入成本。适合用于为 Agent 接入外部工具、数据源或本地能力。",
       "token_saving": {
         "token_reduction_method": "通过优化或模板化 Prompt，减少重复说明和无效上下文。",
         "best_for": "长对话、Agent 多步骤任务、知识库检索前处理、需要控制 LLM 成本的工作流。",
@@ -135,6 +136,7 @@
       "score": 0.9443,
       "recommendation": "★★★★★",
       "usage_scenarios": "Cursor、Codex 或 IDE 内的编码规则与工作流模板。",
+      "description_zh": "面向代码编写与 Agent 编程协作，减少无效上下文并控制模型输入成本。适合用于Cursor、Codex 或 IDE 内的编码规则与工作流模板。",
       "token_saving": {
         "token_reduction_method": "通过上下文裁剪、记忆压缩或成本优化策略降低 token 使用。",
         "best_for": "长对话、Agent 多步骤任务、知识库检索前处理、需要控制 LLM 成本的工作流。",
@@ -200,6 +202,7 @@
       "score": 0.8757,
       "recommendation": "★★★★★",
       "usage_scenarios": "构建检索增强问答、企业知识库和上下文注入。",
+      "description_zh": "面向知识库检索、RAG 问答和上下文注入，减少无效上下文并控制模型输入成本。适合用于构建检索增强问答、企业知识库和上下文注入。",
       "token_saving": {
         "token_reduction_method": "通过摘要和压缩上下文保留关键信息，减少传入模型的冗余内容。",
         "best_for": "长对话、Agent 多步骤任务、知识库检索前处理、需要控制 LLM 成本的工作流。",
@@ -265,6 +268,7 @@
       "score": 0.8389,
       "recommendation": "★★★★★",
       "usage_scenarios": "构建检索增强问答、企业知识库和上下文注入。",
+      "description_zh": "面向知识库检索、RAG 问答和上下文注入，减少无效上下文并控制模型输入成本。适合用于构建检索增强问答、企业知识库和上下文注入。",
       "token_saving": {
         "token_reduction_method": "通过摘要和压缩上下文保留关键信息，减少传入模型的冗余内容。",
         "best_for": "长对话、Agent 多步骤任务、知识库检索前处理、需要控制 LLM 成本的工作流。",
@@ -321,6 +325,7 @@
       "score": 0.8308,
       "recommendation": "★★★★★",
       "usage_scenarios": "为 Agent 接入外部工具、数据源或本地能力。",
+      "description_zh": "面向 Agent 外部工具、数据源和本地能力接入，减少无效上下文并控制模型输入成本。适合用于为 Agent 接入外部工具、数据源或本地能力。",
       "token_saving": {
         "token_reduction_method": "通过上下文裁剪、记忆压缩或成本优化策略降低 token 使用。",
         "best_for": "长对话、Agent 多步骤任务、知识库检索前处理、需要控制 LLM 成本的工作流。",
@@ -376,6 +381,7 @@
       "score": 0.8263,
       "recommendation": "★★★★★",
       "usage_scenarios": "Prompt 优化 场景下的 Agent / LLM 工作流增强。",
+      "description_zh": "面向 Prompt 设计、模板复用和效果优化，减少无效上下文并控制模型输入成本。适合用于Prompt 优化 场景下的 Agent / LLM 工作流增强。",
       "token_saving": {
         "token_reduction_method": "通过优化或模板化 Prompt，减少重复说明和无效上下文。",
         "best_for": "长对话、Agent 多步骤任务、知识库检索前处理、需要控制 LLM 成本的工作流。",
@@ -435,6 +441,7 @@
       "score": 0.8148,
       "recommendation": "★★★★★",
       "usage_scenarios": "压缩上下文、长任务记忆整理、降低 API 调用成本。",
+      "description_zh": "面向上下文压缩、记忆整理和 LLM 成本控制，帮助 Agent 更稳定地完成相关任务。适合用于压缩上下文、长任务记忆整理、降低 API 调用成本。",
       "token_saving": {
         "token_reduction_method": "通过上下文裁剪、记忆压缩或成本优化策略降低 token 使用。",
         "best_for": "长对话、Agent 多步骤任务、知识库检索前处理、需要控制 LLM 成本的工作流。",
@@ -479,6 +486,7 @@
       "score": 0.8051,
       "recommendation": "★★★★★",
       "usage_scenarios": "为 Agent 接入外部工具、数据源或本地能力。",
+      "description_zh": "面向 Agent 外部工具、数据源和本地能力接入，把分散的信息转成可检索、可调用的上下文。适合用于为 Agent 接入外部工具、数据源或本地能力。",
       "token_saving": {
         "token_reduction_method": "通过上下文裁剪、记忆压缩或成本优化策略降低 token 使用。",
         "best_for": "长对话、Agent 多步骤任务、知识库检索前处理、需要控制 LLM 成本的工作流。",
@@ -543,6 +551,7 @@
       "score": 0.7956,
       "recommendation": "★★★★★",
       "usage_scenarios": "Cursor、Codex 或 IDE 内的编码规则与工作流模板。",
+      "description_zh": "面向代码编写与 Agent 编程协作，减少无效上下文并控制模型输入成本。适合用于Cursor、Codex 或 IDE 内的编码规则与工作流模板。",
       "token_saving": {
         "token_reduction_method": "通过上下文裁剪、记忆压缩或成本优化策略降低 token 使用。",
         "best_for": "长对话、Agent 多步骤任务、知识库检索前处理、需要控制 LLM 成本的工作流。",
@@ -608,6 +617,7 @@
       "score": 0.7811,
       "recommendation": "★★★★★",
       "usage_scenarios": "Cursor、Codex 或 IDE 内的编码规则与工作流模板。",
+      "description_zh": "面向代码编写与 Agent 编程协作，减少无效上下文并控制模型输入成本。适合用于Cursor、Codex 或 IDE 内的编码规则与工作流模板。",
       "token_saving": {
         "token_reduction_method": "通过上下文裁剪、记忆压缩或成本优化策略降低 token 使用。",
         "best_for": "长对话、Agent 多步骤任务、知识库检索前处理、需要控制 LLM 成本的工作流。",
@@ -669,6 +679,7 @@
       "score": 0.7132,
       "recommendation": "★★★★☆",
       "usage_scenarios": "压缩上下文、长任务记忆整理、降低 API 调用成本。",
+      "description_zh": "面向上下文压缩、记忆整理和 LLM 成本控制，减少无效上下文并控制模型输入成本。适合用于压缩上下文、长任务记忆整理、降低 API 调用成本。",
       "token_saving": {
         "token_reduction_method": "通过上下文裁剪、记忆压缩或成本优化策略降低 token 使用。",
         "best_for": "长对话、Agent 多步骤任务、知识库检索前处理、需要控制 LLM 成本的工作流。",
@@ -712,6 +723,7 @@
       "score": 0.6787,
       "recommendation": "★★★★☆",
       "usage_scenarios": "Prompt 优化 场景下的 Agent / LLM 工作流增强。",
+      "description_zh": "面向 Prompt 设计、模板复用和效果优化，减少无效上下文并控制模型输入成本。适合用于Prompt 优化 场景下的 Agent / LLM 工作流增强。",
       "token_saving": {
         "token_reduction_method": "通过优化或模板化 Prompt，减少重复说明和无效上下文。",
         "best_for": "长对话、Agent 多步骤任务、知识库检索前处理、需要控制 LLM 成本的工作流。",
@@ -773,6 +785,7 @@
       "score": 0.943,
       "recommendation": "★★★★★",
       "usage_scenarios": "批量生成文档、报表、幻灯片或电子表格。",
+      "description_zh": "面向 Word、PPT、Excel、PDF 等办公内容生成，帮助 Agent 更稳定地完成相关任务。适合用于批量生成文档、报表、幻灯片或电子表格。",
       "office_output": {
         "file_types": [
           "DOCX/Word",
@@ -838,6 +851,7 @@
       "score": 0.891,
       "recommendation": "★★★★★",
       "usage_scenarios": "PDF / 文档处理 场景下的 Agent / LLM 工作流增强。",
+      "description_zh": "面向 PDF、报告和结构化文档处理，帮助 Agent 更稳定地完成相关任务。适合用于PDF / 文档处理 场景下的 Agent / LLM 工作流增强。",
       "office_output": {
         "file_types": [
           "DOCX/Word",
@@ -909,6 +923,7 @@
       "score": 0.8723,
       "recommendation": "★★★★★",
       "usage_scenarios": "Cursor、Codex 或 IDE 内的编码规则与工作流模板。",
+      "description_zh": "面向代码编写与 Agent 编程协作，将图像或视觉信息转成 Agent 可处理的结果。适合用于Cursor、Codex 或 IDE 内的编码规则与工作流模板。",
       "office_output": {
         "file_types": [
           "PPTX/PowerPoint",
@@ -973,6 +988,7 @@
       "score": 0.8687,
       "recommendation": "★★★★★",
       "usage_scenarios": "PDF / 文档处理 场景下的 Agent / LLM 工作流增强。",
+      "description_zh": "面向 PDF、报告和结构化文档处理，帮助 Agent 更稳定地完成相关任务。适合用于PDF / 文档处理 场景下的 Agent / LLM 工作流增强。",
       "office_output": {
         "file_types": [
           "DOCX/Word",
@@ -1030,6 +1046,7 @@
       "score": 0.855,
       "recommendation": "★★★★★",
       "usage_scenarios": "PDF / 文档处理 场景下的 Agent / LLM 工作流增强。",
+      "description_zh": "面向 PDF、报告和结构化文档处理，帮助 Agent 更稳定地完成相关任务。适合用于PDF / 文档处理 场景下的 Agent / LLM 工作流增强。",
       "office_output": {
         "file_types": [
           "PDF",
@@ -1091,6 +1108,7 @@
       "score": 0.8502,
       "recommendation": "★★★★★",
       "usage_scenarios": "PDF / 文档处理 场景下的 Agent / LLM 工作流增强。",
+      "description_zh": "面向 PDF、报告和结构化文档处理，将图像或视觉信息转成 Agent 可处理的结果。适合用于PDF / 文档处理 场景下的 Agent / LLM 工作流增强。",
       "office_output": {
         "file_types": [
           "PDF",
@@ -1159,6 +1177,7 @@
       "score": 0.8481,
       "recommendation": "★★★★★",
       "usage_scenarios": "为 Agent 接入外部工具、数据源或本地能力。",
+      "description_zh": "面向 Agent 外部工具、数据源和本地能力接入，将图像或视觉信息转成 Agent 可处理的结果。适合用于为 Agent 接入外部工具、数据源或本地能力。",
       "office_output": {
         "file_types": [
           "PDF"
@@ -1224,6 +1243,7 @@
       "score": 0.8212,
       "recommendation": "★★★★★",
       "usage_scenarios": "为 Agent 接入外部工具、数据源或本地能力。",
+      "description_zh": "面向 Agent 外部工具、数据源和本地能力接入，帮助 Agent 更稳定地完成相关任务。适合用于为 Agent 接入外部工具、数据源或本地能力。",
       "office_output": {
         "file_types": [
           "PDF"
@@ -1290,6 +1310,7 @@
       "score": 0.7926,
       "recommendation": "★★★★★",
       "usage_scenarios": "PDF / 文档处理 场景下的 Agent / LLM 工作流增强。",
+      "description_zh": "面向 PDF、报告和结构化文档处理，帮助 Agent 更稳定地完成相关任务。适合用于PDF / 文档处理 场景下的 Agent / LLM 工作流增强。",
       "office_output": {
         "file_types": [
           "DOCX/Word",
@@ -1358,6 +1379,7 @@
       "score": 0.7708,
       "recommendation": "★★★★☆",
       "usage_scenarios": "批量生成文档、报表、幻灯片或电子表格。",
+      "description_zh": "面向 Word、PPT、Excel、PDF 等办公内容生成，把重复步骤整理成可复用的自动化流程。适合用于批量生成文档、报表、幻灯片或电子表格。",
       "office_output": {
         "file_types": [
           "DOCX/Word",
@@ -1426,6 +1448,7 @@
       "score": 0.7314,
       "recommendation": "★★★★☆",
       "usage_scenarios": "批量生成文档、报表、幻灯片或电子表格。",
+      "description_zh": "面向 Word、PPT、Excel、PDF 等办公内容生成，将图像或视觉信息转成 Agent 可处理的结果。适合用于批量生成文档、报表、幻灯片或电子表格。",
       "office_output": {
         "file_types": [
           "PPTX/PowerPoint",
@@ -1491,6 +1514,7 @@
       "score": 0.721,
       "recommendation": "★★★★☆",
       "usage_scenarios": "批量生成文档、报表、幻灯片或电子表格。",
+      "description_zh": "面向 Word、PPT、Excel、PDF 等办公内容生成，帮助 Agent 更稳定地完成相关任务。适合用于批量生成文档、报表、幻灯片或电子表格。",
       "office_output": {
         "file_types": [
           "DOCX/Word",
@@ -1547,7 +1571,8 @@
       "growth_rate": null,
       "score": 0.835,
       "recommendation": "★★★★★",
-      "usage_scenarios": "Cursor、Codex 或 IDE 内的编码规则与工作流模板。"
+      "usage_scenarios": "Cursor、Codex 或 IDE 内的编码规则与工作流模板。",
+      "description_zh": "面向代码编写与 Agent 编程协作，帮助 Agent 更稳定地完成相关任务。适合用于Cursor、Codex 或 IDE 内的编码规则与工作流模板。"
     },
     {
       "name": "superpowers",
@@ -1593,7 +1618,8 @@
       "growth_rate": 0.02512365199059434,
       "score": 0.93,
       "recommendation": "★★★★★",
-      "usage_scenarios": "代码生成 场景下的 Agent / LLM 工作流增强。"
+      "usage_scenarios": "代码生成 场景下的 Agent / LLM 工作流增强。",
+      "description_zh": "面向代码编写与 Agent 编程协作，帮助 Agent 更稳定地完成相关任务。适合用于代码生成 场景下的 Agent / LLM 工作流增强。"
     },
     {
       "name": "ECC",
@@ -1640,7 +1666,8 @@
       "growth_rate": 0.01156401540100522,
       "score": 0.98,
       "recommendation": "★★★★★",
-      "usage_scenarios": "Cursor、Codex 或 IDE 内的编码规则与工作流模板。"
+      "usage_scenarios": "Cursor、Codex 或 IDE 内的编码规则与工作流模板。",
+      "description_zh": "面向代码编写与 Agent 编程协作，把分散的信息转成可检索、可调用的上下文。适合用于Cursor、Codex 或 IDE 内的编码规则与工作流模板。"
     },
     {
       "name": "hermes-agent",
@@ -1695,7 +1722,8 @@
       "growth_rate": null,
       "score": 0.78,
       "recommendation": "★★★★★",
-      "usage_scenarios": "个人效率 场景下的 Agent / LLM 工作流增强。"
+      "usage_scenarios": "个人效率 场景下的 Agent / LLM 工作流增强。",
+      "description_zh": "面向日常工作流和个人效率提升，帮助 Agent 更稳定地完成相关任务。适合用于个人效率 场景下的 Agent / LLM 工作流增强。"
     },
     {
       "name": "andrej-karpathy-skills",
@@ -1732,7 +1760,8 @@
       "growth_rate": null,
       "score": 0.785,
       "recommendation": "★★★★★",
-      "usage_scenarios": "代码生成 场景下的 Agent / LLM 工作流增强。"
+      "usage_scenarios": "代码生成 场景下的 Agent / LLM 工作流增强。",
+      "description_zh": "面向代码编写与 Agent 编程协作，帮助 Agent 更稳定地完成相关任务。适合用于代码生成 场景下的 Agent / LLM 工作流增强。"
     },
     {
       "name": "ollama",
@@ -1786,7 +1815,8 @@
       "growth_rate": null,
       "score": 0.8,
       "recommendation": "★★★★★",
-      "usage_scenarios": "图像 / 多模态 场景下的 Agent / LLM 工作流增强。"
+      "usage_scenarios": "图像 / 多模态 场景下的 Agent / LLM 工作流增强。",
+      "description_zh": "面向图像理解、OCR 和多模态任务，帮助 Agent 更稳定地完成相关任务。适合用于图像 / 多模态 场景下的 Agent / LLM 工作流增强。"
     },
     {
       "name": "skills",
@@ -1824,7 +1854,8 @@
       "growth_rate": 0.05940398783544771,
       "score": 0.93,
       "recommendation": "★★★★★",
-      "usage_scenarios": "代码生成 场景下的 Agent / LLM 工作流增强。"
+      "usage_scenarios": "代码生成 场景下的 Agent / LLM 工作流增强。",
+      "description_zh": "面向代码编写与 Agent 编程协作，帮助 Agent 更稳定地完成相关任务。适合用于代码生成 场景下的 Agent / LLM 工作流增强。"
     },
     {
       "name": "prompts.chat",
@@ -1881,7 +1912,8 @@
       "growth_rate": null,
       "score": 0.781,
       "recommendation": "★★★★★",
-      "usage_scenarios": "Prompt 优化 场景下的 Agent / LLM 工作流增强。"
+      "usage_scenarios": "Prompt 优化 场景下的 Agent / LLM 工作流增强。",
+      "description_zh": "面向 Prompt 设计、模板复用和效果优化，帮助 Agent 更稳定地完成相关任务。适合用于Prompt 优化 场景下的 Agent / LLM 工作流增强。"
     },
     {
       "name": "markitdown",
@@ -1927,6 +1959,7 @@
       "score": 0.855,
       "recommendation": "★★★★★",
       "usage_scenarios": "PDF / 文档处理 场景下的 Agent / LLM 工作流增强。",
+      "description_zh": "面向 PDF、报告和结构化文档处理，帮助 Agent 更稳定地完成相关任务。适合用于PDF / 文档处理 场景下的 Agent / LLM 工作流增强。",
       "office_output": {
         "file_types": [
           "PDF",
@@ -1975,7 +2008,8 @@
       "growth_rate": 0.013513086856312948,
       "score": 0.8747,
       "recommendation": "★★★★★",
-      "usage_scenarios": "个人效率 场景下的 Agent / LLM 工作流增强。"
+      "usage_scenarios": "个人效率 场景下的 Agent / LLM 工作流增强。",
+      "description_zh": "面向日常工作流和个人效率提升，帮助 Agent 更稳定地完成相关任务。适合用于个人效率 场景下的 Agent / LLM 工作流增强。"
     },
     {
       "name": "langflow",
@@ -2019,7 +2053,8 @@
       "growth_rate": null,
       "score": 0.824,
       "recommendation": "★★★★★",
-      "usage_scenarios": "为 Agent 接入外部工具、数据源或本地能力。"
+      "usage_scenarios": "为 Agent 接入外部工具、数据源或本地能力。",
+      "description_zh": "面向 Agent 外部工具、数据源和本地能力接入，帮助 Agent 更稳定地完成相关任务。适合用于为 Agent 接入外部工具、数据源或本地能力。"
     },
     {
       "name": "firecrawl",
@@ -2076,7 +2111,8 @@
       "growth_rate": null,
       "score": 0.88,
       "recommendation": "★★★★★",
-      "usage_scenarios": "网页抓取 场景下的 Agent / LLM 工作流增强。"
+      "usage_scenarios": "网页抓取 场景下的 Agent / LLM 工作流增强。",
+      "description_zh": "面向网页信息采集与浏览器自动化，把分散的信息转成可检索、可调用的上下文。适合用于网页抓取 场景下的 Agent / LLM 工作流增强。"
     },
     {
       "name": "dify",
@@ -2135,7 +2171,8 @@
       "growth_rate": null,
       "score": 0.88,
       "recommendation": "★★★★★",
-      "usage_scenarios": "个人效率 场景下的 Agent / LLM 工作流增强。"
+      "usage_scenarios": "个人效率 场景下的 Agent / LLM 工作流增强。",
+      "description_zh": "面向日常工作流和个人效率提升，帮助 Agent 更稳定地完成相关任务。适合用于个人效率 场景下的 Agent / LLM 工作流增强。"
     },
     {
       "name": "open-webui",
@@ -2189,7 +2226,8 @@
       "growth_rate": null,
       "score": 0.83,
       "recommendation": "★★★★★",
-      "usage_scenarios": "为 Agent 接入外部工具、数据源或本地能力。"
+      "usage_scenarios": "为 Agent 接入外部工具、数据源或本地能力。",
+      "description_zh": "面向 Agent 外部工具、数据源和本地能力接入，帮助 Agent 更稳定地完成相关任务。适合用于为 Agent 接入外部工具、数据源或本地能力。"
     },
     {
       "name": "langchain",
@@ -2247,7 +2285,8 @@
       "growth_rate": null,
       "score": 0.8068,
       "recommendation": "★★★★★",
-      "usage_scenarios": "构建检索增强问答、企业知识库和上下文注入。"
+      "usage_scenarios": "构建检索增强问答、企业知识库和上下文注入。",
+      "description_zh": "面向知识库检索、RAG 问答和上下文注入，帮助 Agent 更稳定地完成相关任务。适合用于构建检索增强问答、企业知识库和上下文注入。"
     },
     {
       "name": "agency-agents",
@@ -2285,7 +2324,8 @@
       "growth_rate": null,
       "score": 0.83,
       "recommendation": "★★★★★",
-      "usage_scenarios": "个人效率 场景下的 Agent / LLM 工作流增强。"
+      "usage_scenarios": "个人效率 场景下的 Agent / LLM 工作流增强。",
+      "description_zh": "面向日常工作流和个人效率提升，帮助 Agent 更稳定地完成相关任务。适合用于个人效率 场景下的 Agent / LLM 工作流增强。"
     },
     {
       "name": "gstack",
@@ -2323,7 +2363,8 @@
       "growth_rate": 0.015184962204829755,
       "score": 0.88,
       "recommendation": "★★★★★",
-      "usage_scenarios": "个人效率 场景下的 Agent / LLM 工作流增强。"
+      "usage_scenarios": "个人效率 场景下的 Agent / LLM 工作流增强。",
+      "description_zh": "面向日常工作流和个人效率提升，帮助 Agent 更稳定地完成相关任务。适合用于个人效率 场景下的 Agent / LLM 工作流增强。"
     },
     {
       "name": "awesome-llm-apps",
@@ -2366,7 +2407,8 @@
       "growth_rate": 0.01569179528559411,
       "score": 0.93,
       "recommendation": "★★★★★",
-      "usage_scenarios": "为 Agent 接入外部工具、数据源或本地能力。"
+      "usage_scenarios": "为 Agent 接入外部工具、数据源或本地能力。",
+      "description_zh": "面向 Agent 外部工具、数据源和本地能力接入，把分散的信息转成可检索、可调用的上下文。适合用于为 Agent 接入外部工具、数据源或本地能力。"
     },
     {
       "name": "cc-switch",
@@ -2425,7 +2467,8 @@
       "growth_rate": null,
       "score": 0.83,
       "recommendation": "★★★★★",
-      "usage_scenarios": "为 Agent 接入外部工具、数据源或本地能力。"
+      "usage_scenarios": "为 Agent 接入外部工具、数据源或本地能力。",
+      "description_zh": "面向 Agent 外部工具、数据源和本地能力接入，帮助 Agent 更稳定地完成相关任务。适合用于为 Agent 接入外部工具、数据源或本地能力。"
     },
     {
       "name": "generative-ai-for-beginners",
@@ -2478,7 +2521,8 @@
       "growth_rate": null,
       "score": 0.83,
       "recommendation": "★★★★★",
-      "usage_scenarios": "Prompt 优化 场景下的 Agent / LLM 工作流增强。"
+      "usage_scenarios": "Prompt 优化 场景下的 Agent / LLM 工作流增强。",
+      "description_zh": "面向 Prompt 设计、模板复用和效果优化，帮助 Agent 更稳定地完成相关任务。适合用于Prompt 优化 场景下的 Agent / LLM 工作流增强。"
     },
     {
       "name": "gemini-cli",
@@ -2524,7 +2568,8 @@
       "growth_rate": null,
       "score": 0.88,
       "recommendation": "★★★★★",
-      "usage_scenarios": "为 Agent 接入外部工具、数据源或本地能力。"
+      "usage_scenarios": "为 Agent 接入外部工具、数据源或本地能力。",
+      "description_zh": "面向 Agent 外部工具、数据源和本地能力接入，帮助 Agent 更稳定地完成相关任务。适合用于为 Agent 接入外部工具、数据源或本地能力。"
     },
     {
       "name": "ui-ux-pro-max-skill",
@@ -2582,7 +2627,8 @@
       "growth_rate": 0.035273979379811214,
       "score": 0.98,
       "recommendation": "★★★★★",
-      "usage_scenarios": "Cursor、Codex 或 IDE 内的编码规则与工作流模板。"
+      "usage_scenarios": "Cursor、Codex 或 IDE 内的编码规则与工作流模板。",
+      "description_zh": "面向代码编写与 Agent 编程协作，帮助 Agent 更稳定地完成相关任务。适合用于Cursor、Codex 或 IDE 内的编码规则与工作流模板。"
     },
     {
       "name": "browser-use",
@@ -2628,7 +2674,8 @@
       "growth_rate": 0.014908390710701365,
       "score": 0.93,
       "recommendation": "★★★★★",
-      "usage_scenarios": "个人效率 场景下的 Agent / LLM 工作流增强。"
+      "usage_scenarios": "个人效率 场景下的 Agent / LLM 工作流增强。",
+      "description_zh": "面向日常工作流和个人效率提升，帮助 Agent 更稳定地完成相关任务。适合用于个人效率 场景下的 Agent / LLM 工作流增强。"
     },
     {
       "name": "playwright",
@@ -2681,7 +2728,8 @@
       "growth_rate": 0.00475958150376755,
       "score": 0.9158,
       "recommendation": "★★★★★",
-      "usage_scenarios": "PDF / 文档处理 场景下的 Agent / LLM 工作流增强。"
+      "usage_scenarios": "PDF / 文档处理 场景下的 Agent / LLM 工作流增强。",
+      "description_zh": "面向 PDF、报告和结构化文档处理，把重复步骤整理成可复用的自动化流程。适合用于PDF / 文档处理 场景下的 Agent / LLM 工作流增强。"
     },
     {
       "name": "awesome-mcp-servers",
@@ -2717,7 +2765,8 @@
       "growth_rate": 0.003598635840198423,
       "score": 0.8108,
       "recommendation": "★★★★★",
-      "usage_scenarios": "为 Agent 接入外部工具、数据源或本地能力。"
+      "usage_scenarios": "为 Agent 接入外部工具、数据源或本地能力。",
+      "description_zh": "面向 Agent 外部工具、数据源和本地能力接入，帮助 Agent 更稳定地完成相关任务。适合用于为 Agent 接入外部工具、数据源或本地能力。"
     },
     {
       "name": "NextChat",
@@ -2775,7 +2824,8 @@
       "growth_rate": null,
       "score": 0.8263,
       "recommendation": "★★★★★",
-      "usage_scenarios": "为 Agent 接入外部工具、数据源或本地能力。"
+      "usage_scenarios": "为 Agent 接入外部工具、数据源或本地能力。",
+      "description_zh": "面向 Agent 外部工具、数据源和本地能力接入，帮助 Agent 更稳定地完成相关任务。适合用于为 Agent 接入外部工具、数据源或本地能力。"
     },
     {
       "name": "caveman",
@@ -2825,6 +2875,7 @@
       "score": 0.8263,
       "recommendation": "★★★★★",
       "usage_scenarios": "Prompt 优化 场景下的 Agent / LLM 工作流增强。",
+      "description_zh": "面向 Prompt 设计、模板复用和效果优化，减少无效上下文并控制模型输入成本。适合用于Prompt 优化 场景下的 Agent / LLM 工作流增强。",
       "token_saving": {
         "token_reduction_method": "通过优化或模板化 Prompt，减少重复说明和无效上下文。",
         "best_for": "长对话、Agent 多步骤任务、知识库检索前处理、需要控制 LLM 成本的工作流。",
@@ -2868,7 +2919,8 @@
       "growth_rate": null,
       "score": 0.8962,
       "recommendation": "★★★★★",
-      "usage_scenarios": "为 Agent 接入外部工具、数据源或本地能力。"
+      "usage_scenarios": "为 Agent 接入外部工具、数据源或本地能力。",
+      "description_zh": "面向 Agent 外部工具、数据源和本地能力接入，减少无效上下文并控制模型输入成本。适合用于为 Agent 接入外部工具、数据源或本地能力。"
     },
     {
       "name": "claude-mem",
@@ -2928,6 +2980,7 @@
       "score": 0.8757,
       "recommendation": "★★★★★",
       "usage_scenarios": "构建检索增强问答、企业知识库和上下文注入。",
+      "description_zh": "面向知识库检索、RAG 问答和上下文注入，减少无效上下文并控制模型输入成本。适合用于构建检索增强问答、企业知识库和上下文注入。",
       "token_saving": {
         "token_reduction_method": "通过摘要和压缩上下文保留关键信息，减少传入模型的冗余内容。",
         "best_for": "长对话、Agent 多步骤任务、知识库检索前处理、需要控制 LLM 成本的工作流。",
@@ -2986,6 +3039,7 @@
       "score": 0.8502,
       "recommendation": "★★★★★",
       "usage_scenarios": "PDF / 文档处理 场景下的 Agent / LLM 工作流增强。",
+      "description_zh": "面向 PDF、报告和结构化文档处理，将图像或视觉信息转成 Agent 可处理的结果。适合用于PDF / 文档处理 场景下的 Agent / LLM 工作流增强。",
       "office_output": {
         "file_types": [
           "PDF",
@@ -3044,7 +3098,8 @@
       "growth_rate": null,
       "score": 0.8743,
       "recommendation": "★★★★★",
-      "usage_scenarios": "Cursor、Codex 或 IDE 内的编码规则与工作流模板。"
+      "usage_scenarios": "Cursor、Codex 或 IDE 内的编码规则与工作流模板。",
+      "description_zh": "面向代码编写与 Agent 编程协作，把分散的信息转成可检索、可调用的上下文。适合用于Cursor、Codex 或 IDE 内的编码规则与工作流模板。"
     },
     {
       "name": "ponytail",
@@ -3093,7 +3148,8 @@
       "growth_rate": null,
       "score": 0.8736,
       "recommendation": "★★★★★",
-      "usage_scenarios": "Cursor、Codex 或 IDE 内的编码规则与工作流模板。"
+      "usage_scenarios": "Cursor、Codex 或 IDE 内的编码规则与工作流模板。",
+      "description_zh": "面向代码编写与 Agent 编程协作，帮助 Agent 更稳定地完成相关任务。适合用于Cursor、Codex 或 IDE 内的编码规则与工作流模板。"
     },
     {
       "name": "llm-course",
@@ -3136,7 +3192,8 @@
       "growth_rate": null,
       "score": 0.706,
       "recommendation": "★★★★☆",
-      "usage_scenarios": "数据分析 场景下的 Agent / LLM 工作流增强。"
+      "usage_scenarios": "数据分析 场景下的 Agent / LLM 工作流增强。",
+      "description_zh": "面向数据整理、分析和洞察提取，帮助 Agent 更稳定地完成相关任务。适合用于数据分析 场景下的 Agent / LLM 工作流增强。"
     },
     {
       "name": "OpenHands",
@@ -3183,7 +3240,8 @@
       "growth_rate": null,
       "score": 0.8711,
       "recommendation": "★★★★★",
-      "usage_scenarios": "代码生成 场景下的 Agent / LLM 工作流增强。"
+      "usage_scenarios": "代码生成 场景下的 Agent / LLM 工作流增强。",
+      "description_zh": "面向代码编写与 Agent 编程协作，帮助 Agent 更稳定地完成相关任务。适合用于代码生成 场景下的 Agent / LLM 工作流增强。"
     },
     {
       "name": "RuView",
@@ -3242,7 +3300,8 @@
       "growth_rate": null,
       "score": 0.8733,
       "recommendation": "★★★★★",
-      "usage_scenarios": "个人效率 场景下的 Agent / LLM 工作流增强。"
+      "usage_scenarios": "个人效率 场景下的 Agent / LLM 工作流增强。",
+      "description_zh": "面向日常工作流和个人效率提升，帮助 Agent 更稳定地完成相关任务。适合用于个人效率 场景下的 Agent / LLM 工作流增强。"
     },
     {
       "name": "agent-skills",
@@ -3287,7 +3346,8 @@
       "growth_rate": null,
       "score": 0.8723,
       "recommendation": "★★★★★",
-      "usage_scenarios": "Cursor、Codex 或 IDE 内的编码规则与工作流模板。"
+      "usage_scenarios": "Cursor、Codex 或 IDE 内的编码规则与工作流模板。",
+      "description_zh": "面向代码编写与 Agent 编程协作，帮助 Agent 更稳定地完成相关任务。适合用于Cursor、Codex 或 IDE 内的编码规则与工作流模板。"
     },
     {
       "name": "open-design",
@@ -3347,6 +3407,7 @@
       "score": 0.8723,
       "recommendation": "★★★★★",
       "usage_scenarios": "Cursor、Codex 或 IDE 内的编码规则与工作流模板。",
+      "description_zh": "面向代码编写与 Agent 编程协作，将图像或视觉信息转成 Agent 可处理的结果。适合用于Cursor、Codex 或 IDE 内的编码规则与工作流模板。",
       "office_output": {
         "file_types": [
           "PPTX/PowerPoint",
@@ -3413,7 +3474,8 @@
       "growth_rate": null,
       "score": 0.822,
       "recommendation": "★★★★★",
-      "usage_scenarios": "个人效率 场景下的 Agent / LLM 工作流增强。"
+      "usage_scenarios": "个人效率 场景下的 Agent / LLM 工作流增强。",
+      "description_zh": "面向日常工作流和个人效率提升，把重复步骤整理成可复用的自动化流程。适合用于个人效率 场景下的 Agent / LLM 工作流增强。"
     },
     {
       "name": "Prompt-Engineering-Guide",
@@ -3462,7 +3524,8 @@
       "growth_rate": null,
       "score": 0.7843,
       "recommendation": "★★★★★",
-      "usage_scenarios": "Prompt 优化 场景下的 Agent / LLM 工作流增强。"
+      "usage_scenarios": "Prompt 优化 场景下的 Agent / LLM 工作流增强。",
+      "description_zh": "面向 Prompt 设计、模板复用和效果优化，减少无效上下文并控制模型输入成本。适合用于Prompt 优化 场景下的 Agent / LLM 工作流增强。"
     },
     {
       "name": "openai-cookbook",
@@ -3503,7 +3566,8 @@
       "growth_rate": null,
       "score": 0.7116,
       "recommendation": "★★★★☆",
-      "usage_scenarios": "数据分析 场景下的 Agent / LLM 工作流增强。"
+      "usage_scenarios": "数据分析 场景下的 Agent / LLM 工作流增强。",
+      "description_zh": "面向数据整理、分析和洞察提取，帮助 Agent 更稳定地完成相关任务。适合用于数据分析 场景下的 Agent / LLM 工作流增强。"
     },
     {
       "name": "MinerU",
@@ -3559,6 +3623,7 @@
       "score": 0.891,
       "recommendation": "★★★★★",
       "usage_scenarios": "PDF / 文档处理 场景下的 Agent / LLM 工作流增强。",
+      "description_zh": "面向 PDF、报告和结构化文档处理，帮助 Agent 更稳定地完成相关任务。适合用于PDF / 文档处理 场景下的 Agent / LLM 工作流增强。",
       "office_output": {
         "file_types": [
           "DOCX/Word",
@@ -3608,7 +3673,8 @@
       "growth_rate": null,
       "score": 0.7706,
       "recommendation": "★★★★☆",
-      "usage_scenarios": "个人效率 场景下的 Agent / LLM 工作流增强。"
+      "usage_scenarios": "个人效率 场景下的 Agent / LLM 工作流增强。",
+      "description_zh": "面向日常工作流和个人效率提升，帮助 Agent 更稳定地完成相关任务。适合用于个人效率 场景下的 Agent / LLM 工作流增强。"
     },
     {
       "name": "Front-End-Checklist",
@@ -3662,7 +3728,8 @@
       "growth_rate": null,
       "score": 0.7755,
       "recommendation": "★★★★☆",
-      "usage_scenarios": "为 Agent 接入外部工具、数据源或本地能力。"
+      "usage_scenarios": "为 Agent 接入外部工具、数据源或本地能力。",
+      "description_zh": "面向 Agent 外部工具、数据源和本地能力接入，帮助 Agent 更稳定地完成相关任务。适合用于为 Agent 接入外部工具、数据源或本地能力。"
     },
     {
       "name": "LlamaFactory",
@@ -3721,7 +3788,8 @@
       "growth_rate": null,
       "score": 0.8205,
       "recommendation": "★★★★★",
-      "usage_scenarios": "代码生成 场景下的 Agent / LLM 工作流增强。"
+      "usage_scenarios": "代码生成 场景下的 Agent / LLM 工作流增强。",
+      "description_zh": "面向代码编写与 Agent 编程协作，帮助 Agent 更稳定地完成相关任务。适合用于代码生成 场景下的 Agent / LLM 工作流增强。"
     },
     {
       "name": "crawl4ai",
@@ -3759,7 +3827,8 @@
       "growth_rate": 0.01991549295774648,
       "score": 0.9402,
       "recommendation": "★★★★★",
-      "usage_scenarios": "网页抓取 场景下的 Agent / LLM 工作流增强。"
+      "usage_scenarios": "网页抓取 场景下的 Agent / LLM 工作流增强。",
+      "description_zh": "面向网页信息采集与浏览器自动化，帮助 Agent 更稳定地完成相关任务。适合用于网页抓取 场景下的 Agent / LLM 工作流增强。"
     },
     {
       "name": "learn-claude-code",
@@ -3807,7 +3876,8 @@
       "growth_rate": null,
       "score": 0.7245,
       "recommendation": "★★★★☆",
-      "usage_scenarios": "个人效率 场景下的 Agent / LLM 工作流增强。"
+      "usage_scenarios": "个人效率 场景下的 Agent / LLM 工作流增强。",
+      "description_zh": "面向日常工作流和个人效率提升，帮助 Agent 更稳定地完成相关任务。适合用于个人效率 场景下的 Agent / LLM 工作流增强。"
     },
     {
       "name": "Scrapling",
@@ -3866,7 +3936,8 @@
       "growth_rate": null,
       "score": 0.8888,
       "recommendation": "★★★★★",
-      "usage_scenarios": "网页抓取 场景下的 Agent / LLM 工作流增强。"
+      "usage_scenarios": "网页抓取 场景下的 Agent / LLM 工作流增强。",
+      "description_zh": "面向网页信息采集与浏览器自动化，帮助 Agent 更稳定地完成相关任务。适合用于网页抓取 场景下的 Agent / LLM 工作流增强。"
     },
     {
       "name": "awesome-claude-skills",
@@ -3922,7 +3993,8 @@
       "growth_rate": null,
       "score": 0.8431,
       "recommendation": "★★★★★",
-      "usage_scenarios": "Cursor、Codex 或 IDE 内的编码规则与工作流模板。"
+      "usage_scenarios": "Cursor、Codex 或 IDE 内的编码规则与工作流模板。",
+      "description_zh": "面向日常工作流和个人效率提升，帮助 Agent 更稳定地完成相关任务。适合用于Cursor、Codex 或 IDE 内的编码规则与工作流模板。"
     },
     {
       "name": "gpt4free",
@@ -3981,7 +4053,8 @@
       "growth_rate": null,
       "score": 0.8676,
       "recommendation": "★★★★★",
-      "usage_scenarios": "文档生成 场景下的 Agent / LLM 工作流增强。"
+      "usage_scenarios": "文档生成 场景下的 Agent / LLM 工作流增强。",
+      "description_zh": "面向技术文档、说明和知识内容生成，帮助 Agent 更稳定地完成相关任务。适合用于文档生成 场景下的 Agent / LLM 工作流增强。"
     },
     {
       "name": "hello-agents",
@@ -4022,7 +4095,8 @@
       "growth_rate": null,
       "score": 0.8172,
       "recommendation": "★★★★★",
-      "usage_scenarios": "构建检索增强问答、企业知识库和上下文注入。"
+      "usage_scenarios": "构建检索增强问答、企业知识库和上下文注入。",
+      "description_zh": "面向知识库检索、RAG 问答和上下文注入，帮助 Agent 更稳定地完成相关任务。适合用于构建检索增强问答、企业知识库和上下文注入。"
     }
   ],
   "top_growth": [
@@ -4070,7 +4144,8 @@
       "growth_rate": 0.02512365199059434,
       "score": 0.93,
       "recommendation": "★★★★★",
-      "usage_scenarios": "代码生成 场景下的 Agent / LLM 工作流增强。"
+      "usage_scenarios": "代码生成 场景下的 Agent / LLM 工作流增强。",
+      "description_zh": "面向代码编写与 Agent 编程协作，帮助 Agent 更稳定地完成相关任务。适合用于代码生成 场景下的 Agent / LLM 工作流增强。"
     },
     {
       "name": "ECC",
@@ -4117,7 +4192,8 @@
       "growth_rate": 0.01156401540100522,
       "score": 0.98,
       "recommendation": "★★★★★",
-      "usage_scenarios": "Cursor、Codex 或 IDE 内的编码规则与工作流模板。"
+      "usage_scenarios": "Cursor、Codex 或 IDE 内的编码规则与工作流模板。",
+      "description_zh": "面向代码编写与 Agent 编程协作，把分散的信息转成可检索、可调用的上下文。适合用于Cursor、Codex 或 IDE 内的编码规则与工作流模板。"
     },
     {
       "name": "skills",
@@ -4155,7 +4231,8 @@
       "growth_rate": 0.05940398783544771,
       "score": 0.93,
       "recommendation": "★★★★★",
-      "usage_scenarios": "代码生成 场景下的 Agent / LLM 工作流增强。"
+      "usage_scenarios": "代码生成 场景下的 Agent / LLM 工作流增强。",
+      "description_zh": "面向代码编写与 Agent 编程协作，帮助 Agent 更稳定地完成相关任务。适合用于代码生成 场景下的 Agent / LLM 工作流增强。"
     },
     {
       "name": "skills",
@@ -4195,7 +4272,8 @@
       "growth_rate": 0.013513086856312948,
       "score": 0.8747,
       "recommendation": "★★★★★",
-      "usage_scenarios": "个人效率 场景下的 Agent / LLM 工作流增强。"
+      "usage_scenarios": "个人效率 场景下的 Agent / LLM 工作流增强。",
+      "description_zh": "面向日常工作流和个人效率提升，帮助 Agent 更稳定地完成相关任务。适合用于个人效率 场景下的 Agent / LLM 工作流增强。"
     },
     {
       "name": "gstack",
@@ -4233,7 +4311,8 @@
       "growth_rate": 0.015184962204829755,
       "score": 0.88,
       "recommendation": "★★★★★",
-      "usage_scenarios": "个人效率 场景下的 Agent / LLM 工作流增强。"
+      "usage_scenarios": "个人效率 场景下的 Agent / LLM 工作流增强。",
+      "description_zh": "面向日常工作流和个人效率提升，帮助 Agent 更稳定地完成相关任务。适合用于个人效率 场景下的 Agent / LLM 工作流增强。"
     },
     {
       "name": "awesome-llm-apps",
@@ -4276,7 +4355,8 @@
       "growth_rate": 0.01569179528559411,
       "score": 0.93,
       "recommendation": "★★★★★",
-      "usage_scenarios": "为 Agent 接入外部工具、数据源或本地能力。"
+      "usage_scenarios": "为 Agent 接入外部工具、数据源或本地能力。",
+      "description_zh": "面向 Agent 外部工具、数据源和本地能力接入，把分散的信息转成可检索、可调用的上下文。适合用于为 Agent 接入外部工具、数据源或本地能力。"
     },
     {
       "name": "ui-ux-pro-max-skill",
@@ -4334,7 +4414,8 @@
       "growth_rate": 0.035273979379811214,
       "score": 0.98,
       "recommendation": "★★★★★",
-      "usage_scenarios": "Cursor、Codex 或 IDE 内的编码规则与工作流模板。"
+      "usage_scenarios": "Cursor、Codex 或 IDE 内的编码规则与工作流模板。",
+      "description_zh": "面向代码编写与 Agent 编程协作，帮助 Agent 更稳定地完成相关任务。适合用于Cursor、Codex 或 IDE 内的编码规则与工作流模板。"
     },
     {
       "name": "browser-use",
@@ -4380,7 +4461,8 @@
       "growth_rate": 0.014908390710701365,
       "score": 0.93,
       "recommendation": "★★★★★",
-      "usage_scenarios": "个人效率 场景下的 Agent / LLM 工作流增强。"
+      "usage_scenarios": "个人效率 场景下的 Agent / LLM 工作流增强。",
+      "description_zh": "面向日常工作流和个人效率提升，帮助 Agent 更稳定地完成相关任务。适合用于个人效率 场景下的 Agent / LLM 工作流增强。"
     },
     {
       "name": "playwright",
@@ -4433,7 +4515,8 @@
       "growth_rate": 0.00475958150376755,
       "score": 0.9158,
       "recommendation": "★★★★★",
-      "usage_scenarios": "PDF / 文档处理 场景下的 Agent / LLM 工作流增强。"
+      "usage_scenarios": "PDF / 文档处理 场景下的 Agent / LLM 工作流增强。",
+      "description_zh": "面向 PDF、报告和结构化文档处理，把重复步骤整理成可复用的自动化流程。适合用于PDF / 文档处理 场景下的 Agent / LLM 工作流增强。"
     },
     {
       "name": "awesome-mcp-servers",
@@ -4469,7 +4552,8 @@
       "growth_rate": 0.003598635840198423,
       "score": 0.8108,
       "recommendation": "★★★★★",
-      "usage_scenarios": "为 Agent 接入外部工具、数据源或本地能力。"
+      "usage_scenarios": "为 Agent 接入外部工具、数据源或本地能力。",
+      "description_zh": "面向 Agent 外部工具、数据源和本地能力接入，帮助 Agent 更稳定地完成相关任务。适合用于为 Agent 接入外部工具、数据源或本地能力。"
     },
     {
       "name": "crawl4ai",
@@ -4507,7 +4591,8 @@
       "growth_rate": 0.01991549295774648,
       "score": 0.9402,
       "recommendation": "★★★★★",
-      "usage_scenarios": "网页抓取 场景下的 Agent / LLM 工作流增强。"
+      "usage_scenarios": "网页抓取 场景下的 Agent / LLM 工作流增强。",
+      "description_zh": "面向网页信息采集与浏览器自动化，帮助 Agent 更稳定地完成相关任务。适合用于网页抓取 场景下的 Agent / LLM 工作流增强。"
     },
     {
       "name": "headroom",
@@ -4567,6 +4652,7 @@
       "score": 0.9638,
       "recommendation": "★★★★★",
       "usage_scenarios": "为 Agent 接入外部工具、数据源或本地能力。",
+      "description_zh": "面向 Agent 外部工具、数据源和本地能力接入，减少无效上下文并控制模型输入成本。适合用于为 Agent 接入外部工具、数据源或本地能力。",
       "token_saving": {
         "token_reduction_method": "通过优化或模板化 Prompt，减少重复说明和无效上下文。",
         "best_for": "长对话、Agent 多步骤任务、知识库检索前处理、需要控制 LLM 成本的工作流。",
@@ -4617,7 +4703,8 @@
       "growth_rate": 0.004985079866596454,
       "score": 0.8949,
       "recommendation": "★★★★★",
-      "usage_scenarios": "为 Agent 接入外部工具、数据源或本地能力。"
+      "usage_scenarios": "为 Agent 接入外部工具、数据源或本地能力。",
+      "description_zh": "面向 Agent 外部工具、数据源和本地能力接入，帮助 Agent 更稳定地完成相关任务。适合用于为 Agent 接入外部工具、数据源或本地能力。"
     },
     {
       "name": "last30days-skill",
@@ -4675,7 +4762,8 @@
       "growth_rate": 0.053341758219359575,
       "score": 0.9099,
       "recommendation": "★★★★★",
-      "usage_scenarios": "Prompt 优化 场景下的 Agent / LLM 工作流增强。"
+      "usage_scenarios": "Prompt 优化 场景下的 Agent / LLM 工作流增强。",
+      "description_zh": "面向 Prompt 设计、模板复用和效果优化，减少无效上下文并控制模型输入成本。适合用于Prompt 优化 场景下的 Agent / LLM 工作流增强。"
     },
     {
       "name": "awesome-openclaw-skills",
@@ -4726,7 +4814,8 @@
       "growth_rate": 0.003985080486847271,
       "score": 0.8866,
       "recommendation": "★★★★★",
-      "usage_scenarios": "个人效率 场景下的 Agent / LLM 工作流增强。"
+      "usage_scenarios": "个人效率 场景下的 Agent / LLM 工作流增强。",
+      "description_zh": "面向日常工作流和个人效率提升，帮助 Agent 更稳定地完成相关任务。适合用于个人效率 场景下的 Agent / LLM 工作流增强。"
     },
     {
       "name": "awesome-claude-code",
@@ -4784,7 +4873,8 @@
       "growth_rate": 0.035092090782615916,
       "score": 0.9588,
       "recommendation": "★★★★★",
-      "usage_scenarios": "个人效率 场景下的 Agent / LLM 工作流增强。"
+      "usage_scenarios": "个人效率 场景下的 Agent / LLM 工作流增强。",
+      "description_zh": "面向日常工作流和个人效率提升，帮助 Agent 更稳定地完成相关任务。适合用于个人效率 场景下的 Agent / LLM 工作流增强。"
     },
     {
       "name": "CowAgent",
@@ -4838,7 +4928,8 @@
       "growth_rate": 0.003166007991440861,
       "score": 0.8785,
       "recommendation": "★★★★★",
-      "usage_scenarios": "为 Agent 接入外部工具、数据源或本地能力。"
+      "usage_scenarios": "为 Agent 接入外部工具、数据源或本地能力。",
+      "description_zh": "面向 Agent 外部工具、数据源和本地能力接入，把分散的信息转成可检索、可调用的上下文。适合用于为 Agent 接入外部工具、数据源或本地能力。"
     },
     {
       "name": "CLI-Anything",
@@ -4876,7 +4967,8 @@
       "growth_rate": 0.009741275302739175,
       "score": 0.8439,
       "recommendation": "★★★★★",
-      "usage_scenarios": "个人效率 场景下的 Agent / LLM 工作流增强。"
+      "usage_scenarios": "个人效率 场景下的 Agent / LLM 工作流增强。",
+      "description_zh": "面向日常工作流和个人效率提升，帮助 Agent 更稳定地完成相关任务。适合用于个人效率 场景下的 Agent / LLM 工作流增强。"
     },
     {
       "name": "obsidian-skills",
@@ -4929,7 +5021,8 @@
       "growth_rate": 0.03486386014267055,
       "score": 0.772,
       "recommendation": "★★★★☆",
-      "usage_scenarios": "PDF / 文档处理 场景下的 Agent / LLM 工作流增强。"
+      "usage_scenarios": "PDF / 文档处理 场景下的 Agent / LLM 工作流增强。",
+      "description_zh": "面向 PDF、报告和结构化文档处理，帮助 Agent 更稳定地完成相关任务。适合用于PDF / 文档处理 场景下的 Agent / LLM 工作流增强。"
     },
     {
       "name": "ai-engineering-from-scratch",
@@ -4988,7 +5081,8 @@
       "growth_rate": 0.018733608092918696,
       "score": 0.8505,
       "recommendation": "★★★★★",
-      "usage_scenarios": "为 Agent 接入外部工具、数据源或本地能力。"
+      "usage_scenarios": "为 Agent 接入外部工具、数据源或本地能力。",
+      "description_zh": "面向 Agent 外部工具、数据源和本地能力接入，帮助 Agent 更稳定地完成相关任务。适合用于为 Agent 接入外部工具、数据源或本地能力。"
     },
     {
       "name": "marketingskills",
@@ -5029,7 +5123,8 @@
       "growth_rate": 0.044262928417683096,
       "score": 0.9005,
       "recommendation": "★★★★★",
-      "usage_scenarios": "代码生成 场景下的 Agent / LLM 工作流增强。"
+      "usage_scenarios": "代码生成 场景下的 Agent / LLM 工作流增强。",
+      "description_zh": "面向代码编写与 Agent 编程协作，帮助 Agent 更稳定地完成相关任务。适合用于代码生成 场景下的 Agent / LLM 工作流增强。"
     },
     {
       "name": "agents",
@@ -5088,7 +5183,8 @@
       "growth_rate": 0.007805839727195226,
       "score": 0.9527,
       "recommendation": "★★★★★",
-      "usage_scenarios": "Cursor、Codex 或 IDE 内的编码规则与工作流模板。"
+      "usage_scenarios": "Cursor、Codex 或 IDE 内的编码规则与工作流模板。",
+      "description_zh": "面向代码编写与 Agent 编程协作，帮助 Agent 更稳定地完成相关任务。适合用于Cursor、Codex 或 IDE 内的编码规则与工作流模板。"
     },
     {
       "name": "academic-research-skills",
@@ -5135,7 +5231,8 @@
       "growth_rate": 0.030538131396500495,
       "score": 0.9001,
       "recommendation": "★★★★★",
-      "usage_scenarios": "Prompt 优化 场景下的 Agent / LLM 工作流增强。"
+      "usage_scenarios": "Prompt 优化 场景下的 Agent / LLM 工作流增强。",
+      "description_zh": "面向 Prompt 设计、模板复用和效果优化，把分散的信息转成可检索、可调用的上下文。适合用于Prompt 优化 场景下的 Agent / LLM 工作流增强。"
     },
     {
       "name": "AstrBot",
@@ -5191,7 +5288,8 @@
       "growth_rate": 0.010933534153348395,
       "score": 0.8856,
       "recommendation": "★★★★★",
-      "usage_scenarios": "为 Agent 接入外部工具、数据源或本地能力。"
+      "usage_scenarios": "为 Agent 接入外部工具、数据源或本地能力。",
+      "description_zh": "面向 Agent 外部工具、数据源和本地能力接入，帮助 Agent 更稳定地完成相关任务。适合用于为 Agent 接入外部工具、数据源或本地能力。"
     },
     {
       "name": "playwright-mcp",
@@ -5232,7 +5330,8 @@
       "growth_rate": 0.007372422531966363,
       "score": 0.9484,
       "recommendation": "★★★★★",
-      "usage_scenarios": "为 Agent 接入外部工具、数据源或本地能力。"
+      "usage_scenarios": "为 Agent 接入外部工具、数据源或本地能力。",
+      "description_zh": "面向 Agent 外部工具、数据源和本地能力接入，帮助 Agent 更稳定地完成相关任务。适合用于为 Agent 接入外部工具、数据源或本地能力。"
     },
     {
       "name": "cli",
@@ -5287,7 +5386,8 @@
       "growth_rate": 0.0074817207957830305,
       "score": 0.8712,
       "recommendation": "★★★★★",
-      "usage_scenarios": "个人效率 场景下的 Agent / LLM 工作流增强。"
+      "usage_scenarios": "个人效率 场景下的 Agent / LLM 工作流增强。",
+      "description_zh": "面向日常工作流和个人效率提升，帮助 Agent 更稳定地完成相关任务。适合用于个人效率 场景下的 Agent / LLM 工作流增强。"
     },
     {
       "name": "nature-skills",
@@ -5328,7 +5428,8 @@
       "growth_rate": 0.07204930898510777,
       "score": 0.8413,
       "recommendation": "★★★★★",
-      "usage_scenarios": "个人效率 场景下的 Agent / LLM 工作流增强。"
+      "usage_scenarios": "个人效率 场景下的 Agent / LLM 工作流增强。",
+      "description_zh": "面向日常工作流和个人效率提升，帮助 Agent 更稳定地完成相关任务。适合用于个人效率 场景下的 Agent / LLM 工作流增强。"
     },
     {
       "name": "awesome-agent-skills",
@@ -5381,7 +5482,8 @@
       "growth_rate": 0.019737563507438136,
       "score": 0.8823,
       "recommendation": "★★★★★",
-      "usage_scenarios": "Cursor、Codex 或 IDE 内的编码规则与工作流模板。"
+      "usage_scenarios": "Cursor、Codex 或 IDE 内的编码规则与工作流模板。",
+      "description_zh": "面向代码编写与 Agent 编程协作，帮助 Agent 更稳定地完成相关任务。适合用于Cursor、Codex 或 IDE 内的编码规则与工作流模板。"
     },
     {
       "name": "nuwa-skill",
@@ -5418,7 +5520,8 @@
       "growth_rate": 0.02530751793080382,
       "score": 0.8853,
       "recommendation": "★★★★★",
-      "usage_scenarios": "Cursor、Codex 或 IDE 内的编码规则与工作流模板。"
+      "usage_scenarios": "Cursor、Codex 或 IDE 内的编码规则与工作流模板。",
+      "description_zh": "面向代码编写与 Agent 编程协作，帮助 Agent 更稳定地完成相关任务。适合用于Cursor、Codex 或 IDE 内的编码规则与工作流模板。"
     },
     {
       "name": "repomix",
@@ -5477,7 +5580,8 @@
       "growth_rate": 0.008342333618859632,
       "score": 0.9187,
       "recommendation": "★★★★★",
-      "usage_scenarios": "代码审查 场景下的 Agent / LLM 工作流增强。"
+      "usage_scenarios": "代码审查 场景下的 Agent / LLM 工作流增强。",
+      "description_zh": "面向代码审查、质量检查与安全风险发现，帮助 Agent 更稳定地完成相关任务。适合用于代码审查 场景下的 Agent / LLM 工作流增强。"
     },
     {
       "name": "OpenViking",
@@ -5521,7 +5625,8 @@
       "growth_rate": 0.010900113938473224,
       "score": 0.8717,
       "recommendation": "★★★★★",
-      "usage_scenarios": "文档生成 场景下的 Agent / LLM 工作流增强。"
+      "usage_scenarios": "文档生成 场景下的 Agent / LLM 工作流增强。",
+      "description_zh": "面向技术文档、说明和知识内容生成，减少无效上下文并控制模型输入成本。适合用于文档生成 场景下的 Agent / LLM 工作流增强。"
     },
     {
       "name": "skills",
@@ -5559,7 +5664,8 @@
       "growth_rate": 0.032642487046632127,
       "score": 0.8861,
       "recommendation": "★★★★★",
-      "usage_scenarios": "Cursor、Codex 或 IDE 内的编码规则与工作流模板。"
+      "usage_scenarios": "Cursor、Codex 或 IDE 内的编码规则与工作流模板。",
+      "description_zh": "面向代码编写与 Agent 编程协作，帮助 Agent 更稳定地完成相关任务。适合用于Cursor、Codex 或 IDE 内的编码规则与工作流模板。"
     },
     {
       "name": "Vibe-Trading",
@@ -5608,7 +5714,8 @@
       "growth_rate": 0.1308798031209799,
       "score": 0.8814,
       "recommendation": "★★★★★",
-      "usage_scenarios": "为 Agent 接入外部工具、数据源或本地能力。"
+      "usage_scenarios": "为 Agent 接入外部工具、数据源或本地能力。",
+      "description_zh": "面向 Agent 外部工具、数据源和本地能力接入，帮助 Agent 更稳定地完成相关任务。适合用于为 Agent 接入外部工具、数据源或本地能力。"
     },
     {
       "name": "code-review-graph",
@@ -5659,7 +5766,8 @@
       "growth_rate": 0.013493097160718937,
       "score": 0.8157,
       "recommendation": "★★★★★",
-      "usage_scenarios": "为 Agent 接入外部工具、数据源或本地能力。"
+      "usage_scenarios": "为 Agent 接入外部工具、数据源或本地能力。",
+      "description_zh": "面向 Agent 外部工具、数据源和本地能力接入，减少无效上下文并控制模型输入成本。适合用于为 Agent 接入外部工具、数据源或本地能力。"
     },
     {
       "name": "Agent-Skills-for-Context-Engineering",
@@ -5697,7 +5805,8 @@
       "growth_rate": 0.012564452083209861,
       "score": 0.8039,
       "recommendation": "★★★★★",
-      "usage_scenarios": "个人效率 场景下的 Agent / LLM 工作流增强。"
+      "usage_scenarios": "个人效率 场景下的 Agent / LLM 工作流增强。",
+      "description_zh": "面向日常工作流和个人效率提升，减少无效上下文并控制模型输入成本。适合用于个人效率 场景下的 Agent / LLM 工作流增强。"
     },
     {
       "name": "OmniRoute",
@@ -5757,6 +5866,7 @@
       "score": 0.9443,
       "recommendation": "★★★★★",
       "usage_scenarios": "Cursor、Codex 或 IDE 内的编码规则与工作流模板。",
+      "description_zh": "面向代码编写与 Agent 编程协作，减少无效上下文并控制模型输入成本。适合用于Cursor、Codex 或 IDE 内的编码规则与工作流模板。",
       "token_saving": {
         "token_reduction_method": "通过上下文裁剪、记忆压缩或成本优化策略降低 token 使用。",
         "best_for": "长对话、Agent 多步骤任务、知识库检索前处理、需要控制 LLM 成本的工作流。",
@@ -5816,6 +5926,7 @@
       "score": 0.943,
       "recommendation": "★★★★★",
       "usage_scenarios": "批量生成文档、报表、幻灯片或电子表格。",
+      "description_zh": "面向 Word、PPT、Excel、PDF 等办公内容生成，帮助 Agent 更稳定地完成相关任务。适合用于批量生成文档、报表、幻灯片或电子表格。",
       "office_output": {
         "file_types": [
           "DOCX/Word",
@@ -5867,7 +5978,8 @@
       "growth_rate": 0.006341094075335983,
       "score": 0.698,
       "recommendation": "★★★★☆",
-      "usage_scenarios": "个人效率 场景下的 Agent / LLM 工作流增强。"
+      "usage_scenarios": "个人效率 场景下的 Agent / LLM 工作流增强。",
+      "description_zh": "面向日常工作流和个人效率提升，帮助 Agent 更稳定地完成相关任务。适合用于个人效率 场景下的 Agent / LLM 工作流增强。"
     },
     {
       "name": "xberg",
@@ -5927,6 +6039,7 @@
       "score": 0.8481,
       "recommendation": "★★★★★",
       "usage_scenarios": "为 Agent 接入外部工具、数据源或本地能力。",
+      "description_zh": "面向 Agent 外部工具、数据源和本地能力接入，将图像或视觉信息转成 Agent 可处理的结果。适合用于为 Agent 接入外部工具、数据源或本地能力。",
       "office_output": {
         "file_types": [
           "PDF"
@@ -5982,7 +6095,8 @@
       "growth_rate": 0.006314786131299893,
       "score": 0.8826,
       "recommendation": "★★★★★",
-      "usage_scenarios": "Prompt 优化 场景下的 Agent / LLM 工作流增强。"
+      "usage_scenarios": "Prompt 优化 场景下的 Agent / LLM 工作流增强。",
+      "description_zh": "面向 Prompt 设计、模板复用和效果优化，帮助 Agent 更稳定地完成相关任务。适合用于Prompt 优化 场景下的 Agent / LLM 工作流增强。"
     },
     {
       "name": "learning",
@@ -6027,7 +6141,8 @@
       "growth_rate": 0.0007232749891508751,
       "score": 0.6947,
       "recommendation": "★★★★☆",
-      "usage_scenarios": "个人效率 场景下的 Agent / LLM 工作流增强。"
+      "usage_scenarios": "个人效率 场景下的 Agent / LLM 工作流增强。",
+      "description_zh": "面向日常工作流和个人效率提升，帮助 Agent 更稳定地完成相关任务。适合用于个人效率 场景下的 Agent / LLM 工作流增强。"
     },
     {
       "name": "LLMLingua",
@@ -6066,6 +6181,7 @@
       "score": 0.6757,
       "recommendation": "★★★★☆",
       "usage_scenarios": "Prompt 优化 场景下的 Agent / LLM 工作流增强。",
+      "description_zh": "面向 Prompt 设计、模板复用和效果优化，减少无效上下文并控制模型输入成本。适合用于Prompt 优化 场景下的 Agent / LLM 工作流增强。",
       "token_saving": {
         "token_reduction_method": "通过优化或模板化 Prompt，减少重复说明和无效上下文。",
         "best_for": "长对话、Agent 多步骤任务、知识库检索前处理、需要控制 LLM 成本的工作流。",
@@ -6129,7 +6245,8 @@
       "growth_rate": 0.004897159647404506,
       "score": 0.845,
       "recommendation": "★★★★★",
-      "usage_scenarios": "Prompt 优化 场景下的 Agent / LLM 工作流增强。"
+      "usage_scenarios": "Prompt 优化 场景下的 Agent / LLM 工作流增强。",
+      "description_zh": "面向 Prompt 设计、模板复用和效果优化，帮助 Agent 更稳定地完成相关任务。适合用于Prompt 优化 场景下的 Agent / LLM 工作流增强。"
     },
     {
       "name": "opensquilla",
@@ -6180,6 +6297,7 @@
       "score": 0.8308,
       "recommendation": "★★★★★",
       "usage_scenarios": "为 Agent 接入外部工具、数据源或本地能力。",
+      "description_zh": "面向 Agent 外部工具、数据源和本地能力接入，减少无效上下文并控制模型输入成本。适合用于为 Agent 接入外部工具、数据源或本地能力。",
       "token_saving": {
         "token_reduction_method": "通过上下文裁剪、记忆压缩或成本优化策略降低 token 使用。",
         "best_for": "长对话、Agent 多步骤任务、知识库检索前处理、需要控制 LLM 成本的工作流。",
@@ -6244,7 +6362,8 @@
       "growth_rate": 0.014989694584972832,
       "score": 0.875,
       "recommendation": "★★★★★",
-      "usage_scenarios": "Cursor、Codex 或 IDE 内的编码规则与工作流模板。"
+      "usage_scenarios": "Cursor、Codex 或 IDE 内的编码规则与工作流模板。",
+      "description_zh": "面向代码编写与 Agent 编程协作，帮助 Agent 更稳定地完成相关任务。适合用于Cursor、Codex 或 IDE 内的编码规则与工作流模板。"
     },
     {
       "name": "openagent",
@@ -6302,7 +6421,8 @@
       "growth_rate": 0.008988764044943821,
       "score": 0.7975,
       "recommendation": "★★★★★",
-      "usage_scenarios": "为 Agent 接入外部工具、数据源或本地能力。"
+      "usage_scenarios": "为 Agent 接入外部工具、数据源或本地能力。",
+      "description_zh": "面向 Agent 外部工具、数据源和本地能力接入，把分散的信息转成可检索、可调用的上下文。适合用于为 Agent 接入外部工具、数据源或本地能力。"
     },
     {
       "name": "Awesome-LLM-Inference",
@@ -6354,7 +6474,8 @@
       "growth_rate": 0.0016741071428571428,
       "score": 0.6495,
       "recommendation": "★★★★☆",
-      "usage_scenarios": "个人效率 场景下的 Agent / LLM 工作流增强。"
+      "usage_scenarios": "个人效率 场景下的 Agent / LLM 工作流增强。",
+      "description_zh": "面向日常工作流和个人效率提升，帮助 Agent 更稳定地完成相关任务。适合用于个人效率 场景下的 Agent / LLM 工作流增强。"
     },
     {
       "name": "awesome-generative-ai",
@@ -6410,7 +6531,8 @@
       "growth_rate": 0.001430615164520744,
       "score": 0.624,
       "recommendation": "★★★★☆",
-      "usage_scenarios": "Prompt 优化 场景下的 Agent / LLM 工作流增强。"
+      "usage_scenarios": "Prompt 优化 场景下的 Agent / LLM 工作流增强。",
+      "description_zh": "面向 Prompt 设计、模板复用和效果优化，帮助 Agent 更稳定地完成相关任务。适合用于Prompt 优化 场景下的 Agent / LLM 工作流增强。"
     },
     {
       "name": "MetaClaw",
@@ -6462,7 +6584,8 @@
       "growth_rate": 0.0023154848046309695,
       "score": 0.6646,
       "recommendation": "★★★★☆",
-      "usage_scenarios": "个人效率 场景下的 Agent / LLM 工作流增强。"
+      "usage_scenarios": "个人效率 场景下的 Agent / LLM 工作流增强。",
+      "description_zh": "面向日常工作流和个人效率提升，帮助 Agent 更稳定地完成相关任务。适合用于个人效率 场景下的 Agent / LLM 工作流增强。"
     },
     {
       "name": "Mano-P",
@@ -6514,7 +6637,8 @@
       "growth_rate": 0.005418924551896623,
       "score": 0.76,
       "recommendation": "★★★★☆",
-      "usage_scenarios": "图像 / 多模态 场景下的 Agent / LLM 工作流增强。"
+      "usage_scenarios": "图像 / 多模态 场景下的 Agent / LLM 工作流增强。",
+      "description_zh": "面向图像理解、OCR 和多模态任务，帮助 Agent 更稳定地完成相关任务。适合用于图像 / 多模态 场景下的 Agent / LLM 工作流增强。"
     }
   ],
   "radar": {
@@ -6564,7 +6688,8 @@
         "growth_rate": 0.01156401540100522,
         "score": 0.98,
         "recommendation": "★★★★★",
-        "usage_scenarios": "Cursor、Codex 或 IDE 内的编码规则与工作流模板。"
+        "usage_scenarios": "Cursor、Codex 或 IDE 内的编码规则与工作流模板。",
+        "description_zh": "面向代码编写与 Agent 编程协作，把分散的信息转成可检索、可调用的上下文。适合用于Cursor、Codex 或 IDE 内的编码规则与工作流模板。"
       },
       {
         "name": "ui-ux-pro-max-skill",
@@ -6622,7 +6747,8 @@
         "growth_rate": 0.035273979379811214,
         "score": 0.98,
         "recommendation": "★★★★★",
-        "usage_scenarios": "Cursor、Codex 或 IDE 内的编码规则与工作流模板。"
+        "usage_scenarios": "Cursor、Codex 或 IDE 内的编码规则与工作流模板。",
+        "description_zh": "面向代码编写与 Agent 编程协作，帮助 Agent 更稳定地完成相关任务。适合用于Cursor、Codex 或 IDE 内的编码规则与工作流模板。"
       },
       {
         "name": "agents",
@@ -6681,7 +6807,8 @@
         "growth_rate": 0.007805839727195226,
         "score": 0.9527,
         "recommendation": "★★★★★",
-        "usage_scenarios": "Cursor、Codex 或 IDE 内的编码规则与工作流模板。"
+        "usage_scenarios": "Cursor、Codex 或 IDE 内的编码规则与工作流模板。",
+        "description_zh": "面向代码编写与 Agent 编程协作，帮助 Agent 更稳定地完成相关任务。适合用于Cursor、Codex 或 IDE 内的编码规则与工作流模板。"
       },
       {
         "name": "OmniRoute",
@@ -6741,6 +6868,7 @@
         "score": 0.9443,
         "recommendation": "★★★★★",
         "usage_scenarios": "Cursor、Codex 或 IDE 内的编码规则与工作流模板。",
+        "description_zh": "面向代码编写与 Agent 编程协作，减少无效上下文并控制模型输入成本。适合用于Cursor、Codex 或 IDE 内的编码规则与工作流模板。",
         "token_saving": {
           "token_reduction_method": "通过上下文裁剪、记忆压缩或成本优化策略降低 token 使用。",
           "best_for": "长对话、Agent 多步骤任务、知识库检索前处理、需要控制 LLM 成本的工作流。",
@@ -6792,7 +6920,8 @@
         "growth_rate": 0.02512365199059434,
         "score": 0.93,
         "recommendation": "★★★★★",
-        "usage_scenarios": "代码生成 场景下的 Agent / LLM 工作流增强。"
+        "usage_scenarios": "代码生成 场景下的 Agent / LLM 工作流增强。",
+        "description_zh": "面向代码编写与 Agent 编程协作，帮助 Agent 更稳定地完成相关任务。适合用于代码生成 场景下的 Agent / LLM 工作流增强。"
       },
       {
         "name": "skills",
@@ -6830,7 +6959,8 @@
         "growth_rate": 0.05940398783544771,
         "score": 0.93,
         "recommendation": "★★★★★",
-        "usage_scenarios": "代码生成 场景下的 Agent / LLM 工作流增强。"
+        "usage_scenarios": "代码生成 场景下的 Agent / LLM 工作流增强。",
+        "description_zh": "面向代码编写与 Agent 编程协作，帮助 Agent 更稳定地完成相关任务。适合用于代码生成 场景下的 Agent / LLM 工作流增强。"
       },
       {
         "name": "marketingskills",
@@ -6871,7 +7001,8 @@
         "growth_rate": 0.044262928417683096,
         "score": 0.9005,
         "recommendation": "★★★★★",
-        "usage_scenarios": "代码生成 场景下的 Agent / LLM 工作流增强。"
+        "usage_scenarios": "代码生成 场景下的 Agent / LLM 工作流增强。",
+        "description_zh": "面向代码编写与 Agent 编程协作，帮助 Agent 更稳定地完成相关任务。适合用于代码生成 场景下的 Agent / LLM 工作流增强。"
       },
       {
         "name": "skills",
@@ -6909,7 +7040,8 @@
         "growth_rate": 0.032642487046632127,
         "score": 0.8861,
         "recommendation": "★★★★★",
-        "usage_scenarios": "Cursor、Codex 或 IDE 内的编码规则与工作流模板。"
+        "usage_scenarios": "Cursor、Codex 或 IDE 内的编码规则与工作流模板。",
+        "description_zh": "面向代码编写与 Agent 编程协作，帮助 Agent 更稳定地完成相关任务。适合用于Cursor、Codex 或 IDE 内的编码规则与工作流模板。"
       },
       {
         "name": "nuwa-skill",
@@ -6946,7 +7078,8 @@
         "growth_rate": 0.02530751793080382,
         "score": 0.8853,
         "recommendation": "★★★★★",
-        "usage_scenarios": "Cursor、Codex 或 IDE 内的编码规则与工作流模板。"
+        "usage_scenarios": "Cursor、Codex 或 IDE 内的编码规则与工作流模板。",
+        "description_zh": "面向代码编写与 Agent 编程协作，帮助 Agent 更稳定地完成相关任务。适合用于Cursor、Codex 或 IDE 内的编码规则与工作流模板。"
       },
       {
         "name": "awesome-agent-skills",
@@ -6999,7 +7132,8 @@
         "growth_rate": 0.019737563507438136,
         "score": 0.8823,
         "recommendation": "★★★★★",
-        "usage_scenarios": "Cursor、Codex 或 IDE 内的编码规则与工作流模板。"
+        "usage_scenarios": "Cursor、Codex 或 IDE 内的编码规则与工作流模板。",
+        "description_zh": "面向代码编写与 Agent 编程协作，帮助 Agent 更稳定地完成相关任务。适合用于Cursor、Codex 或 IDE 内的编码规则与工作流模板。"
       }
     ],
     "代码审查": [
@@ -7060,7 +7194,8 @@
         "growth_rate": 0.008342333618859632,
         "score": 0.9187,
         "recommendation": "★★★★★",
-        "usage_scenarios": "代码审查 场景下的 Agent / LLM 工作流增强。"
+        "usage_scenarios": "代码审查 场景下的 Agent / LLM 工作流增强。",
+        "description_zh": "面向代码审查、质量检查与安全风险发现，帮助 Agent 更稳定地完成相关任务。适合用于代码审查 场景下的 Agent / LLM 工作流增强。"
       },
       {
         "name": "visual-explainer",
@@ -7096,7 +7231,8 @@
         "growth_rate": null,
         "score": 0.7125,
         "recommendation": "★★★★☆",
-        "usage_scenarios": "代码审查 场景下的 Agent / LLM 工作流增强。"
+        "usage_scenarios": "代码审查 场景下的 Agent / LLM 工作流增强。",
+        "description_zh": "面向代码审查、质量检查与安全风险发现，把重复步骤整理成可复用的自动化流程。适合用于代码审查 场景下的 Agent / LLM 工作流增强。"
       },
       {
         "name": "Deep-Research-Agent",
@@ -7139,6 +7275,7 @@
         "score": 0.6412,
         "recommendation": "★★★★☆",
         "usage_scenarios": "代码审查 场景下的 Agent / LLM 工作流增强。",
+        "description_zh": "面向代码审查、质量检查与安全风险发现，把分散的信息转成可检索、可调用的上下文。适合用于代码审查 场景下的 Agent / LLM 工作流增强。",
         "office_output": {
           "file_types": [
             "DOCX/Word"
@@ -7184,7 +7321,8 @@
         "growth_rate": 0.0,
         "score": 0.609,
         "recommendation": "★★★☆☆",
-        "usage_scenarios": "代码审查 场景下的 Agent / LLM 工作流增强。"
+        "usage_scenarios": "代码审查 场景下的 Agent / LLM 工作流增强。",
+        "description_zh": "面向代码审查、质量检查与安全风险发现，提供结构化检查结果并降低遗漏风险。适合用于代码审查 场景下的 Agent / LLM 工作流增强。"
       },
       {
         "name": "opencode-academic-research",
@@ -7222,7 +7360,8 @@
         "growth_rate": null,
         "score": 0.5711,
         "recommendation": "★★★☆☆",
-        "usage_scenarios": "代码审查 场景下的 Agent / LLM 工作流增强。"
+        "usage_scenarios": "代码审查 场景下的 Agent / LLM 工作流增强。",
+        "description_zh": "面向代码审查、质量检查与安全风险发现，把分散的信息转成可检索、可调用的上下文。适合用于代码审查 场景下的 Agent / LLM 工作流增强。"
       },
       {
         "name": "contract-playbook-ai",
@@ -7259,6 +7398,7 @@
         "score": 0.4298,
         "recommendation": "★★☆☆☆",
         "usage_scenarios": "代码审查 场景下的 Agent / LLM 工作流增强。",
+        "description_zh": "面向代码审查、质量检查与安全风险发现，把重复步骤整理成可复用的自动化流程。适合用于代码审查 场景下的 Agent / LLM 工作流增强。",
         "office_output": {
           "file_types": [
             "DOCX/Word"
@@ -7321,7 +7461,8 @@
         "growth_rate": 0.00475958150376755,
         "score": 0.9158,
         "recommendation": "★★★★★",
-        "usage_scenarios": "PDF / 文档处理 场景下的 Agent / LLM 工作流增强。"
+        "usage_scenarios": "PDF / 文档处理 场景下的 Agent / LLM 工作流增强。",
+        "description_zh": "面向 PDF、报告和结构化文档处理，把重复步骤整理成可复用的自动化流程。适合用于PDF / 文档处理 场景下的 Agent / LLM 工作流增强。"
       },
       {
         "name": "Vibe-Trading",
@@ -7370,7 +7511,8 @@
         "growth_rate": 0.1308798031209799,
         "score": 0.8814,
         "recommendation": "★★★★★",
-        "usage_scenarios": "为 Agent 接入外部工具、数据源或本地能力。"
+        "usage_scenarios": "为 Agent 接入外部工具、数据源或本地能力。",
+        "description_zh": "面向 Agent 外部工具、数据源和本地能力接入，帮助 Agent 更稳定地完成相关任务。适合用于为 Agent 接入外部工具、数据源或本地能力。"
       },
       {
         "name": "giskard-oss",
@@ -7425,7 +7567,8 @@
         "growth_rate": null,
         "score": 0.7904,
         "recommendation": "★★★★★",
-        "usage_scenarios": "测试生成 场景下的 Agent / LLM 工作流增强。"
+        "usage_scenarios": "测试生成 场景下的 Agent / LLM 工作流增强。",
+        "description_zh": "面向测试用例生成与自动化验证，帮助 Agent 更稳定地完成相关任务。适合用于测试生成 场景下的 Agent / LLM 工作流增强。"
       },
       {
         "name": "qodo-cover",
@@ -7468,7 +7611,8 @@
         "growth_rate": null,
         "score": 0.7046,
         "recommendation": "★★★★☆",
-        "usage_scenarios": "个人效率 场景下的 Agent / LLM 工作流增强。"
+        "usage_scenarios": "个人效率 场景下的 Agent / LLM 工作流增强。",
+        "description_zh": "面向日常工作流和个人效率提升，把分散的信息转成可检索、可调用的上下文。适合用于个人效率 场景下的 Agent / LLM 工作流增强。"
       },
       {
         "name": "ragas",
@@ -7510,7 +7654,8 @@
         "growth_rate": null,
         "score": 0.6162,
         "recommendation": "★★★☆☆",
-        "usage_scenarios": "测试生成 场景下的 Agent / LLM 工作流增强。"
+        "usage_scenarios": "测试生成 场景下的 Agent / LLM 工作流增强。",
+        "description_zh": "面向测试用例生成与自动化验证，帮助 Agent 更稳定地完成相关任务。适合用于测试生成 场景下的 Agent / LLM 工作流增强。"
       }
     ],
     "文档生成": [
@@ -7556,7 +7701,8 @@
         "growth_rate": 0.010900113938473224,
         "score": 0.8717,
         "recommendation": "★★★★★",
-        "usage_scenarios": "文档生成 场景下的 Agent / LLM 工作流增强。"
+        "usage_scenarios": "文档生成 场景下的 Agent / LLM 工作流增强。",
+        "description_zh": "面向技术文档、说明和知识内容生成，减少无效上下文并控制模型输入成本。适合用于文档生成 场景下的 Agent / LLM 工作流增强。"
       },
       {
         "name": "gpt4free",
@@ -7615,7 +7761,8 @@
         "growth_rate": null,
         "score": 0.8676,
         "recommendation": "★★★★★",
-        "usage_scenarios": "文档生成 场景下的 Agent / LLM 工作流增强。"
+        "usage_scenarios": "文档生成 场景下的 Agent / LLM 工作流增强。",
+        "description_zh": "面向技术文档、说明和知识内容生成，帮助 Agent 更稳定地完成相关任务。适合用于文档生成 场景下的 Agent / LLM 工作流增强。"
       },
       {
         "name": "dspy",
@@ -7652,7 +7799,8 @@
         "growth_rate": null,
         "score": 0.7553,
         "recommendation": "★★★★☆",
-        "usage_scenarios": "文档生成 场景下的 Agent / LLM 工作流增强。"
+        "usage_scenarios": "文档生成 场景下的 Agent / LLM 工作流增强。",
+        "description_zh": "面向技术文档、说明和知识内容生成，帮助 Agent 更稳定地完成相关任务。适合用于文档生成 场景下的 Agent / LLM 工作流增强。"
       },
       {
         "name": "Awesome-Scientific-Skills",
@@ -7697,7 +7845,8 @@
         "growth_rate": 0.010660980810234541,
         "score": 0.6483,
         "recommendation": "★★★★☆",
-        "usage_scenarios": "文档生成 场景下的 Agent / LLM 工作流增强。"
+        "usage_scenarios": "文档生成 场景下的 Agent / LLM 工作流增强。",
+        "description_zh": "面向技术文档、说明和知识内容生成，把分散的信息转成可检索、可调用的上下文。适合用于文档生成 场景下的 Agent / LLM 工作流增强。"
       }
     ],
     "数据分析": [
@@ -7740,7 +7889,8 @@
         "growth_rate": 0.044262928417683096,
         "score": 0.9005,
         "recommendation": "★★★★★",
-        "usage_scenarios": "代码生成 场景下的 Agent / LLM 工作流增强。"
+        "usage_scenarios": "代码生成 场景下的 Agent / LLM 工作流增强。",
+        "description_zh": "面向代码编写与 Agent 编程协作，帮助 Agent 更稳定地完成相关任务。适合用于代码生成 场景下的 Agent / LLM 工作流增强。"
       },
       {
         "name": "claude-mem",
@@ -7800,6 +7950,7 @@
         "score": 0.8757,
         "recommendation": "★★★★★",
         "usage_scenarios": "构建检索增强问答、企业知识库和上下文注入。",
+        "description_zh": "面向知识库检索、RAG 问答和上下文注入，减少无效上下文并控制模型输入成本。适合用于构建检索增强问答、企业知识库和上下文注入。",
         "token_saving": {
           "token_reduction_method": "通过摘要和压缩上下文保留关键信息，减少传入模型的冗余内容。",
           "best_for": "长对话、Agent 多步骤任务、知识库检索前处理、需要控制 LLM 成本的工作流。",
@@ -7855,7 +8006,8 @@
         "growth_rate": null,
         "score": 0.8743,
         "recommendation": "★★★★★",
-        "usage_scenarios": "Cursor、Codex 或 IDE 内的编码规则与工作流模板。"
+        "usage_scenarios": "Cursor、Codex 或 IDE 内的编码规则与工作流模板。",
+        "description_zh": "面向代码编写与 Agent 编程协作，把分散的信息转成可检索、可调用的上下文。适合用于Cursor、Codex 或 IDE 内的编码规则与工作流模板。"
       },
       {
         "name": "generative-ai-for-beginners",
@@ -7908,7 +8060,8 @@
         "growth_rate": null,
         "score": 0.83,
         "recommendation": "★★★★★",
-        "usage_scenarios": "Prompt 优化 场景下的 Agent / LLM 工作流增强。"
+        "usage_scenarios": "Prompt 优化 场景下的 Agent / LLM 工作流增强。",
+        "description_zh": "面向 Prompt 设计、模板复用和效果优化，帮助 Agent 更稳定地完成相关任务。适合用于Prompt 优化 场景下的 Agent / LLM 工作流增强。"
       },
       {
         "name": "Skill_Seekers",
@@ -7966,6 +8119,7 @@
         "score": 0.8212,
         "recommendation": "★★★★★",
         "usage_scenarios": "为 Agent 接入外部工具、数据源或本地能力。",
+        "description_zh": "面向 Agent 外部工具、数据源和本地能力接入，帮助 Agent 更稳定地完成相关任务。适合用于为 Agent 接入外部工具、数据源或本地能力。",
         "office_output": {
           "file_types": [
             "PDF"
@@ -8029,7 +8183,8 @@
         "growth_rate": null,
         "score": 0.8019,
         "recommendation": "★★★★★",
-        "usage_scenarios": "Prompt 优化 场景下的 Agent / LLM 工作流增强。"
+        "usage_scenarios": "Prompt 优化 场景下的 Agent / LLM 工作流增强。",
+        "description_zh": "面向 Prompt 设计、模板复用和效果优化，把分散的信息转成可检索、可调用的上下文。适合用于Prompt 优化 场景下的 Agent / LLM 工作流增强。"
       },
       {
         "name": "GenAI_Agents",
@@ -8087,7 +8242,8 @@
         "growth_rate": null,
         "score": 0.7855,
         "recommendation": "★★★★★",
-        "usage_scenarios": "为 Agent 接入外部工具、数据源或本地能力。"
+        "usage_scenarios": "为 Agent 接入外部工具、数据源或本地能力。",
+        "description_zh": "面向 Agent 外部工具、数据源和本地能力接入，帮助 Agent 更稳定地完成相关任务。适合用于为 Agent 接入外部工具、数据源或本地能力。"
       },
       {
         "name": "Prompt-Engineering-Guide",
@@ -8136,7 +8292,8 @@
         "growth_rate": null,
         "score": 0.7843,
         "recommendation": "★★★★★",
-        "usage_scenarios": "Prompt 优化 场景下的 Agent / LLM 工作流增强。"
+        "usage_scenarios": "Prompt 优化 场景下的 Agent / LLM 工作流增强。",
+        "description_zh": "面向 Prompt 设计、模板复用和效果优化，减少无效上下文并控制模型输入成本。适合用于Prompt 优化 场景下的 Agent / LLM 工作流增强。"
       },
       {
         "name": "LangGPT",
@@ -8189,7 +8346,8 @@
         "growth_rate": null,
         "score": 0.7664,
         "recommendation": "★★★★☆",
-        "usage_scenarios": "Prompt 优化 场景下的 Agent / LLM 工作流增强。"
+        "usage_scenarios": "Prompt 优化 场景下的 Agent / LLM 工作流增强。",
+        "description_zh": "面向 Prompt 设计、模板复用和效果优化，把重复步骤整理成可复用的自动化流程。适合用于Prompt 优化 场景下的 Agent / LLM 工作流增强。"
       },
       {
         "name": "claude-cookbooks",
@@ -8226,7 +8384,8 @@
         "growth_rate": null,
         "score": 0.7647,
         "recommendation": "★★★★☆",
-        "usage_scenarios": "代码生成 场景下的 Agent / LLM 工作流增强。"
+        "usage_scenarios": "代码生成 场景下的 Agent / LLM 工作流增强。",
+        "description_zh": "面向代码编写与 Agent 编程协作，帮助 Agent 更稳定地完成相关任务。适合用于代码生成 场景下的 Agent / LLM 工作流增强。"
       }
     ],
     "网页抓取": [
@@ -8266,7 +8425,8 @@
         "growth_rate": 0.01991549295774648,
         "score": 0.9402,
         "recommendation": "★★★★★",
-        "usage_scenarios": "网页抓取 场景下的 Agent / LLM 工作流增强。"
+        "usage_scenarios": "网页抓取 场景下的 Agent / LLM 工作流增强。",
+        "description_zh": "面向网页信息采集与浏览器自动化，帮助 Agent 更稳定地完成相关任务。适合用于网页抓取 场景下的 Agent / LLM 工作流增强。"
       },
       {
         "name": "Scrapling",
@@ -8325,7 +8485,8 @@
         "growth_rate": null,
         "score": 0.8888,
         "recommendation": "★★★★★",
-        "usage_scenarios": "网页抓取 场景下的 Agent / LLM 工作流增强。"
+        "usage_scenarios": "网页抓取 场景下的 Agent / LLM 工作流增强。",
+        "description_zh": "面向网页信息采集与浏览器自动化，帮助 Agent 更稳定地完成相关任务。适合用于网页抓取 场景下的 Agent / LLM 工作流增强。"
       },
       {
         "name": "firecrawl",
@@ -8382,7 +8543,8 @@
         "growth_rate": null,
         "score": 0.88,
         "recommendation": "★★★★★",
-        "usage_scenarios": "网页抓取 场景下的 Agent / LLM 工作流增强。"
+        "usage_scenarios": "网页抓取 场景下的 Agent / LLM 工作流增强。",
+        "description_zh": "面向网页信息采集与浏览器自动化，把分散的信息转成可检索、可调用的上下文。适合用于网页抓取 场景下的 Agent / LLM 工作流增强。"
       }
     ],
     "自动化办公": [
@@ -8438,6 +8600,7 @@
         "score": 0.943,
         "recommendation": "★★★★★",
         "usage_scenarios": "批量生成文档、报表、幻灯片或电子表格。",
+        "description_zh": "面向 Word、PPT、Excel、PDF 等办公内容生成，帮助 Agent 更稳定地完成相关任务。适合用于批量生成文档、报表、幻灯片或电子表格。",
         "office_output": {
           "file_types": [
             "DOCX/Word",
@@ -8506,6 +8669,7 @@
         "score": 0.7708,
         "recommendation": "★★★★☆",
         "usage_scenarios": "批量生成文档、报表、幻灯片或电子表格。",
+        "description_zh": "面向 Word、PPT、Excel、PDF 等办公内容生成，把重复步骤整理成可复用的自动化流程。适合用于批量生成文档、报表、幻灯片或电子表格。",
         "office_output": {
           "file_types": [
             "DOCX/Word",
@@ -8574,6 +8738,7 @@
         "score": 0.7314,
         "recommendation": "★★★★☆",
         "usage_scenarios": "批量生成文档、报表、幻灯片或电子表格。",
+        "description_zh": "面向 Word、PPT、Excel、PDF 等办公内容生成，将图像或视觉信息转成 Agent 可处理的结果。适合用于批量生成文档、报表、幻灯片或电子表格。",
         "office_output": {
           "file_types": [
             "PPTX/PowerPoint",
@@ -8639,6 +8804,7 @@
         "score": 0.721,
         "recommendation": "★★★★☆",
         "usage_scenarios": "批量生成文档、报表、幻灯片或电子表格。",
+        "description_zh": "面向 Word、PPT、Excel、PDF 等办公内容生成，帮助 Agent 更稳定地完成相关任务。适合用于批量生成文档、报表、幻灯片或电子表格。",
         "office_output": {
           "file_types": [
             "DOCX/Word",
@@ -8687,6 +8853,7 @@
         "score": 0.6782,
         "recommendation": "★★★★☆",
         "usage_scenarios": "批量生成文档、报表、幻灯片或电子表格。",
+        "description_zh": "面向 Word、PPT、Excel、PDF 等办公内容生成，把分散的信息转成可检索、可调用的上下文。适合用于批量生成文档、报表、幻灯片或电子表格。",
         "office_output": {
           "file_types": [
             "DOCX/Word",
@@ -8745,6 +8912,7 @@
         "score": 0.6479,
         "recommendation": "★★★★☆",
         "usage_scenarios": "批量生成文档、报表、幻灯片或电子表格。",
+        "description_zh": "面向 Word、PPT、Excel、PDF 等办公内容生成，把重复步骤整理成可复用的自动化流程。适合用于批量生成文档、报表、幻灯片或电子表格。",
         "office_output": {
           "file_types": [
             "DOCX/Word",
@@ -8813,6 +8981,7 @@
         "score": 0.6305,
         "recommendation": "★★★★☆",
         "usage_scenarios": "批量生成文档、报表、幻灯片或电子表格。",
+        "description_zh": "面向 Word、PPT、Excel、PDF 等办公内容生成，把重复步骤整理成可复用的自动化流程。适合用于批量生成文档、报表、幻灯片或电子表格。",
         "office_output": {
           "file_types": [
             "DOCX/Word",
@@ -8882,6 +9051,7 @@
         "score": 0.6302,
         "recommendation": "★★★★☆",
         "usage_scenarios": "批量生成文档、报表、幻灯片或电子表格。",
+        "description_zh": "面向 Word、PPT、Excel、PDF 等办公内容生成，帮助 Agent 更稳定地完成相关任务。适合用于批量生成文档、报表、幻灯片或电子表格。",
         "office_output": {
           "file_types": [
             "PPTX/PowerPoint"
@@ -8943,6 +9113,7 @@
         "score": 0.5438,
         "recommendation": "★★★☆☆",
         "usage_scenarios": "批量生成文档、报表、幻灯片或电子表格。",
+        "description_zh": "面向 Word、PPT、Excel、PDF 等办公内容生成，帮助 Agent 更稳定地完成相关任务。适合用于批量生成文档、报表、幻灯片或电子表格。",
         "office_output": {
           "file_types": [
             "DOCX/Word"
@@ -8998,6 +9169,7 @@
         "score": 0.5394,
         "recommendation": "★★★☆☆",
         "usage_scenarios": "批量生成文档、报表、幻灯片或电子表格。",
+        "description_zh": "面向 Word、PPT、Excel、PDF 等办公内容生成，帮助 Agent 更稳定地完成相关任务。适合用于批量生成文档、报表、幻灯片或电子表格。",
         "office_output": {
           "file_types": [
             "DOCX/Word",
@@ -9068,6 +9240,7 @@
         "score": 0.8757,
         "recommendation": "★★★★★",
         "usage_scenarios": "构建检索增强问答、企业知识库和上下文注入。",
+        "description_zh": "面向知识库检索、RAG 问答和上下文注入，减少无效上下文并控制模型输入成本。适合用于构建检索增强问答、企业知识库和上下文注入。",
         "token_saving": {
           "token_reduction_method": "通过摘要和压缩上下文保留关键信息，减少传入模型的冗余内容。",
           "best_for": "长对话、Agent 多步骤任务、知识库检索前处理、需要控制 LLM 成本的工作流。",
@@ -9124,7 +9297,8 @@
         "growth_rate": null,
         "score": 0.8672,
         "recommendation": "★★★★★",
-        "usage_scenarios": "构建检索增强问答、企业知识库和上下文注入。"
+        "usage_scenarios": "构建检索增强问答、企业知识库和上下文注入。",
+        "description_zh": "面向知识库检索、RAG 问答和上下文注入，把分散的信息转成可检索、可调用的上下文。适合用于构建检索增强问答、企业知识库和上下文注入。"
       },
       {
         "name": "llama_index",
@@ -9173,7 +9347,8 @@
         "growth_rate": null,
         "score": 0.8594,
         "recommendation": "★★★★★",
-        "usage_scenarios": "构建检索增强问答、企业知识库和上下文注入。"
+        "usage_scenarios": "构建检索增强问答、企业知识库和上下文注入。",
+        "description_zh": "面向知识库检索、RAG 问答和上下文注入，将图像或视觉信息转成 Agent 可处理的结果。适合用于构建检索增强问答、企业知识库和上下文注入。"
       },
       {
         "name": "cognee",
@@ -9231,7 +9406,8 @@
         "growth_rate": null,
         "score": 0.8409,
         "recommendation": "★★★★★",
-        "usage_scenarios": "构建检索增强问答、企业知识库和上下文注入。"
+        "usage_scenarios": "构建检索增强问答、企业知识库和上下文注入。",
+        "description_zh": "面向知识库检索、RAG 问答和上下文注入，把分散的信息转成可检索、可调用的上下文。适合用于构建检索增强问答、企业知识库和上下文注入。"
       },
       {
         "name": "haystack",
@@ -9291,6 +9467,7 @@
         "score": 0.8389,
         "recommendation": "★★★★★",
         "usage_scenarios": "构建检索增强问答、企业知识库和上下文注入。",
+        "description_zh": "面向知识库检索、RAG 问答和上下文注入，减少无效上下文并控制模型输入成本。适合用于构建检索增强问答、企业知识库和上下文注入。",
         "token_saving": {
           "token_reduction_method": "通过摘要和压缩上下文保留关键信息，减少传入模型的冗余内容。",
           "best_for": "长对话、Agent 多步骤任务、知识库检索前处理、需要控制 LLM 成本的工作流。",
@@ -9337,7 +9514,8 @@
         "growth_rate": null,
         "score": 0.8172,
         "recommendation": "★★★★★",
-        "usage_scenarios": "构建检索增强问答、企业知识库和上下文注入。"
+        "usage_scenarios": "构建检索增强问答、企业知识库和上下文注入。",
+        "description_zh": "面向知识库检索、RAG 问答和上下文注入，帮助 Agent 更稳定地完成相关任务。适合用于构建检索增强问答、企业知识库和上下文注入。"
       },
       {
         "name": "langchain",
@@ -9395,7 +9573,8 @@
         "growth_rate": null,
         "score": 0.8068,
         "recommendation": "★★★★★",
-        "usage_scenarios": "构建检索增强问答、企业知识库和上下文注入。"
+        "usage_scenarios": "构建检索增强问答、企业知识库和上下文注入。",
+        "description_zh": "面向知识库检索、RAG 问答和上下文注入，帮助 Agent 更稳定地完成相关任务。适合用于构建检索增强问答、企业知识库和上下文注入。"
       },
       {
         "name": "langgraph",
@@ -9451,7 +9630,8 @@
         "growth_rate": null,
         "score": 0.7785,
         "recommendation": "★★★★☆",
-        "usage_scenarios": "构建检索增强问答、企业知识库和上下文注入。"
+        "usage_scenarios": "构建检索增强问答、企业知识库和上下文注入。",
+        "description_zh": "面向知识库检索、RAG 问答和上下文注入，帮助 Agent 更稳定地完成相关任务。适合用于构建检索增强问答、企业知识库和上下文注入。"
       },
       {
         "name": "TencentDB-Agent-Memory",
@@ -9499,7 +9679,8 @@
         "growth_rate": null,
         "score": 0.7605,
         "recommendation": "★★★★☆",
-        "usage_scenarios": "构建检索增强问答、企业知识库和上下文注入。"
+        "usage_scenarios": "构建检索增强问答、企业知识库和上下文注入。",
+        "description_zh": "面向知识库检索、RAG 问答和上下文注入，帮助 Agent 更稳定地完成相关任务。适合用于构建检索增强问答、企业知识库和上下文注入。"
       },
       {
         "name": "AgentGuide",
@@ -9549,7 +9730,8 @@
         "growth_rate": null,
         "score": 0.7487,
         "recommendation": "★★★★☆",
-        "usage_scenarios": "构建检索增强问答、企业知识库和上下文注入。"
+        "usage_scenarios": "构建检索增强问答、企业知识库和上下文注入。",
+        "description_zh": "面向知识库检索、RAG 问答和上下文注入，把分散的信息转成可检索、可调用的上下文。适合用于构建检索增强问答、企业知识库和上下文注入。"
       }
     ],
     "PDF / 文档处理": [
@@ -9604,7 +9786,8 @@
         "growth_rate": 0.00475958150376755,
         "score": 0.9158,
         "recommendation": "★★★★★",
-        "usage_scenarios": "PDF / 文档处理 场景下的 Agent / LLM 工作流增强。"
+        "usage_scenarios": "PDF / 文档处理 场景下的 Agent / LLM 工作流增强。",
+        "description_zh": "面向 PDF、报告和结构化文档处理，把重复步骤整理成可复用的自动化流程。适合用于PDF / 文档处理 场景下的 Agent / LLM 工作流增强。"
       },
       {
         "name": "MinerU",
@@ -9660,6 +9843,7 @@
         "score": 0.891,
         "recommendation": "★★★★★",
         "usage_scenarios": "PDF / 文档处理 场景下的 Agent / LLM 工作流增强。",
+        "description_zh": "面向 PDF、报告和结构化文档处理，帮助 Agent 更稳定地完成相关任务。适合用于PDF / 文档处理 场景下的 Agent / LLM 工作流增强。",
         "office_output": {
           "file_types": [
             "DOCX/Word",
@@ -9726,6 +9910,7 @@
         "score": 0.8687,
         "recommendation": "★★★★★",
         "usage_scenarios": "PDF / 文档处理 场景下的 Agent / LLM 工作流增强。",
+        "description_zh": "面向 PDF、报告和结构化文档处理，帮助 Agent 更稳定地完成相关任务。适合用于PDF / 文档处理 场景下的 Agent / LLM 工作流增强。",
         "office_output": {
           "file_types": [
             "DOCX/Word",
@@ -9783,6 +9968,7 @@
         "score": 0.855,
         "recommendation": "★★★★★",
         "usage_scenarios": "PDF / 文档处理 场景下的 Agent / LLM 工作流增强。",
+        "description_zh": "面向 PDF、报告和结构化文档处理，帮助 Agent 更稳定地完成相关任务。适合用于PDF / 文档处理 场景下的 Agent / LLM 工作流增强。",
         "office_output": {
           "file_types": [
             "PDF",
@@ -9844,6 +10030,7 @@
         "score": 0.8502,
         "recommendation": "★★★★★",
         "usage_scenarios": "PDF / 文档处理 场景下的 Agent / LLM 工作流增强。",
+        "description_zh": "面向 PDF、报告和结构化文档处理，将图像或视觉信息转成 Agent 可处理的结果。适合用于PDF / 文档处理 场景下的 Agent / LLM 工作流增强。",
         "office_output": {
           "file_types": [
             "PDF",
@@ -9911,6 +10098,7 @@
         "score": 0.7926,
         "recommendation": "★★★★★",
         "usage_scenarios": "PDF / 文档处理 场景下的 Agent / LLM 工作流增强。",
+        "description_zh": "面向 PDF、报告和结构化文档处理，帮助 Agent 更稳定地完成相关任务。适合用于PDF / 文档处理 场景下的 Agent / LLM 工作流增强。",
         "office_output": {
           "file_types": [
             "DOCX/Word",
@@ -9958,7 +10146,8 @@
         "growth_rate": null,
         "score": 0.7733,
         "recommendation": "★★★★☆",
-        "usage_scenarios": "PDF / 文档处理 场景下的 Agent / LLM 工作流增强。"
+        "usage_scenarios": "PDF / 文档处理 场景下的 Agent / LLM 工作流增强。",
+        "description_zh": "面向 PDF、报告和结构化文档处理，帮助 Agent 更稳定地完成相关任务。适合用于PDF / 文档处理 场景下的 Agent / LLM 工作流增强。"
       },
       {
         "name": "obsidian-skills",
@@ -10011,7 +10200,8 @@
         "growth_rate": 0.03486386014267055,
         "score": 0.772,
         "recommendation": "★★★★☆",
-        "usage_scenarios": "PDF / 文档处理 场景下的 Agent / LLM 工作流增强。"
+        "usage_scenarios": "PDF / 文档处理 场景下的 Agent / LLM 工作流增强。",
+        "description_zh": "面向 PDF、报告和结构化文档处理，帮助 Agent 更稳定地完成相关任务。适合用于PDF / 文档处理 场景下的 Agent / LLM 工作流增强。"
       },
       {
         "name": "paperless-gpt",
@@ -10058,7 +10248,8 @@
         "growth_rate": null,
         "score": 0.768,
         "recommendation": "★★★★☆",
-        "usage_scenarios": "PDF / 文档处理 场景下的 Agent / LLM 工作流增强。"
+        "usage_scenarios": "PDF / 文档处理 场景下的 Agent / LLM 工作流增强。",
+        "description_zh": "面向 PDF、报告和结构化文档处理，将图像或视觉信息转成 Agent 可处理的结果。适合用于PDF / 文档处理 场景下的 Agent / LLM 工作流增强。"
       },
       {
         "name": "pypdf",
@@ -10105,6 +10296,7 @@
         "score": 0.7109,
         "recommendation": "★★★★☆",
         "usage_scenarios": "PDF / 文档处理 场景下的 Agent / LLM 工作流增强。",
+        "description_zh": "面向 PDF、报告和结构化文档处理，帮助 Agent 更稳定地完成相关任务。适合用于PDF / 文档处理 场景下的 Agent / LLM 工作流增强。",
         "office_output": {
           "file_types": [
             "PDF"
@@ -10171,7 +10363,8 @@
         "growth_rate": null,
         "score": 0.8136,
         "recommendation": "★★★★★",
-        "usage_scenarios": "图像 / 多模态 场景下的 Agent / LLM 工作流增强。"
+        "usage_scenarios": "图像 / 多模态 场景下的 Agent / LLM 工作流增强。",
+        "description_zh": "面向图像理解、OCR 和多模态任务，帮助 Agent 更稳定地完成相关任务。适合用于图像 / 多模态 场景下的 Agent / LLM 工作流增强。"
       },
       {
         "name": "ollama",
@@ -10225,7 +10418,8 @@
         "growth_rate": null,
         "score": 0.8,
         "recommendation": "★★★★★",
-        "usage_scenarios": "图像 / 多模态 场景下的 Agent / LLM 工作流增强。"
+        "usage_scenarios": "图像 / 多模态 场景下的 Agent / LLM 工作流增强。",
+        "description_zh": "面向图像理解、OCR 和多模态任务，帮助 Agent 更稳定地完成相关任务。适合用于图像 / 多模态 场景下的 Agent / LLM 工作流增强。"
       },
       {
         "name": "Mano-P",
@@ -10277,7 +10471,8 @@
         "growth_rate": 0.005418924551896623,
         "score": 0.76,
         "recommendation": "★★★★☆",
-        "usage_scenarios": "图像 / 多模态 场景下的 Agent / LLM 工作流增强。"
+        "usage_scenarios": "图像 / 多模态 场景下的 Agent / LLM 工作流增强。",
+        "description_zh": "面向图像理解、OCR 和多模态任务，帮助 Agent 更稳定地完成相关任务。适合用于图像 / 多模态 场景下的 Agent / LLM 工作流增强。"
       },
       {
         "name": "Awesome-LLM4AD",
@@ -10318,7 +10513,8 @@
         "growth_rate": null,
         "score": 0.634,
         "recommendation": "★★★★☆",
-        "usage_scenarios": "图像 / 多模态 场景下的 Agent / LLM 工作流增强。"
+        "usage_scenarios": "图像 / 多模态 场景下的 Agent / LLM 工作流增强。",
+        "description_zh": "面向图像理解、OCR 和多模态任务，帮助 Agent 更稳定地完成相关任务。适合用于图像 / 多模态 场景下的 Agent / LLM 工作流增强。"
       },
       {
         "name": "NBLM2PPTX",
@@ -10366,6 +10562,7 @@
         "score": 0.599,
         "recommendation": "★★★☆☆",
         "usage_scenarios": "图像 / 多模态 场景下的 Agent / LLM 工作流增强。",
+        "description_zh": "面向图像理解、OCR 和多模态任务，将图像或视觉信息转成 Agent 可处理的结果。适合用于图像 / 多模态 场景下的 Agent / LLM 工作流增强。",
         "office_output": {
           "file_types": [
             "PPTX/PowerPoint",
@@ -10424,7 +10621,8 @@
         "growth_rate": 0.01156401540100522,
         "score": 0.98,
         "recommendation": "★★★★★",
-        "usage_scenarios": "Cursor、Codex 或 IDE 内的编码规则与工作流模板。"
+        "usage_scenarios": "Cursor、Codex 或 IDE 内的编码规则与工作流模板。",
+        "description_zh": "面向代码编写与 Agent 编程协作，把分散的信息转成可检索、可调用的上下文。适合用于Cursor、Codex 或 IDE 内的编码规则与工作流模板。"
       },
       {
         "name": "ui-ux-pro-max-skill",
@@ -10482,7 +10680,8 @@
         "growth_rate": 0.035273979379811214,
         "score": 0.98,
         "recommendation": "★★★★★",
-        "usage_scenarios": "Cursor、Codex 或 IDE 内的编码规则与工作流模板。"
+        "usage_scenarios": "Cursor、Codex 或 IDE 内的编码规则与工作流模板。",
+        "description_zh": "面向代码编写与 Agent 编程协作，帮助 Agent 更稳定地完成相关任务。适合用于Cursor、Codex 或 IDE 内的编码规则与工作流模板。"
       },
       {
         "name": "headroom",
@@ -10542,6 +10741,7 @@
         "score": 0.9638,
         "recommendation": "★★★★★",
         "usage_scenarios": "为 Agent 接入外部工具、数据源或本地能力。",
+        "description_zh": "面向 Agent 外部工具、数据源和本地能力接入，减少无效上下文并控制模型输入成本。适合用于为 Agent 接入外部工具、数据源或本地能力。",
         "token_saving": {
           "token_reduction_method": "通过优化或模板化 Prompt，减少重复说明和无效上下文。",
           "best_for": "长对话、Agent 多步骤任务、知识库检索前处理、需要控制 LLM 成本的工作流。",
@@ -10605,7 +10805,8 @@
         "growth_rate": 0.035092090782615916,
         "score": 0.9588,
         "recommendation": "★★★★★",
-        "usage_scenarios": "个人效率 场景下的 Agent / LLM 工作流增强。"
+        "usage_scenarios": "个人效率 场景下的 Agent / LLM 工作流增强。",
+        "description_zh": "面向日常工作流和个人效率提升，帮助 Agent 更稳定地完成相关任务。适合用于个人效率 场景下的 Agent / LLM 工作流增强。"
       },
       {
         "name": "agents",
@@ -10664,7 +10865,8 @@
         "growth_rate": 0.007805839727195226,
         "score": 0.9527,
         "recommendation": "★★★★★",
-        "usage_scenarios": "Cursor、Codex 或 IDE 内的编码规则与工作流模板。"
+        "usage_scenarios": "Cursor、Codex 或 IDE 内的编码规则与工作流模板。",
+        "description_zh": "面向代码编写与 Agent 编程协作，帮助 Agent 更稳定地完成相关任务。适合用于Cursor、Codex 或 IDE 内的编码规则与工作流模板。"
       },
       {
         "name": "playwright-mcp",
@@ -10705,7 +10907,8 @@
         "growth_rate": 0.007372422531966363,
         "score": 0.9484,
         "recommendation": "★★★★★",
-        "usage_scenarios": "为 Agent 接入外部工具、数据源或本地能力。"
+        "usage_scenarios": "为 Agent 接入外部工具、数据源或本地能力。",
+        "description_zh": "面向 Agent 外部工具、数据源和本地能力接入，帮助 Agent 更稳定地完成相关任务。适合用于为 Agent 接入外部工具、数据源或本地能力。"
       },
       {
         "name": "OmniRoute",
@@ -10765,6 +10968,7 @@
         "score": 0.9443,
         "recommendation": "★★★★★",
         "usage_scenarios": "Cursor、Codex 或 IDE 内的编码规则与工作流模板。",
+        "description_zh": "面向代码编写与 Agent 编程协作，减少无效上下文并控制模型输入成本。适合用于Cursor、Codex 或 IDE 内的编码规则与工作流模板。",
         "token_saving": {
           "token_reduction_method": "通过上下文裁剪、记忆压缩或成本优化策略降低 token 使用。",
           "best_for": "长对话、Agent 多步骤任务、知识库检索前处理、需要控制 LLM 成本的工作流。",
@@ -10824,6 +11028,7 @@
         "score": 0.943,
         "recommendation": "★★★★★",
         "usage_scenarios": "批量生成文档、报表、幻灯片或电子表格。",
+        "description_zh": "面向 Word、PPT、Excel、PDF 等办公内容生成，帮助 Agent 更稳定地完成相关任务。适合用于批量生成文档、报表、幻灯片或电子表格。",
         "office_output": {
           "file_types": [
             "DOCX/Word",
@@ -10871,7 +11076,8 @@
         "growth_rate": 0.01991549295774648,
         "score": 0.9402,
         "recommendation": "★★★★★",
-        "usage_scenarios": "网页抓取 场景下的 Agent / LLM 工作流增强。"
+        "usage_scenarios": "网页抓取 场景下的 Agent / LLM 工作流增强。",
+        "description_zh": "面向网页信息采集与浏览器自动化，帮助 Agent 更稳定地完成相关任务。适合用于网页抓取 场景下的 Agent / LLM 工作流增强。"
       },
       {
         "name": "superpowers",
@@ -10917,7 +11123,8 @@
         "growth_rate": 0.02512365199059434,
         "score": 0.93,
         "recommendation": "★★★★★",
-        "usage_scenarios": "代码生成 场景下的 Agent / LLM 工作流增强。"
+        "usage_scenarios": "代码生成 场景下的 Agent / LLM 工作流增强。",
+        "description_zh": "面向代码编写与 Agent 编程协作，帮助 Agent 更稳定地完成相关任务。适合用于代码生成 场景下的 Agent / LLM 工作流增强。"
       }
     ],
     "个人效率": [
@@ -10977,7 +11184,8 @@
         "growth_rate": 0.035092090782615916,
         "score": 0.9588,
         "recommendation": "★★★★★",
-        "usage_scenarios": "个人效率 场景下的 Agent / LLM 工作流增强。"
+        "usage_scenarios": "个人效率 场景下的 Agent / LLM 工作流增强。",
+        "description_zh": "面向日常工作流和个人效率提升，帮助 Agent 更稳定地完成相关任务。适合用于个人效率 场景下的 Agent / LLM 工作流增强。"
       },
       {
         "name": "browser-use",
@@ -11023,7 +11231,8 @@
         "growth_rate": 0.014908390710701365,
         "score": 0.93,
         "recommendation": "★★★★★",
-        "usage_scenarios": "个人效率 场景下的 Agent / LLM 工作流增强。"
+        "usage_scenarios": "个人效率 场景下的 Agent / LLM 工作流增强。",
+        "description_zh": "面向日常工作流和个人效率提升，帮助 Agent 更稳定地完成相关任务。适合用于个人效率 场景下的 Agent / LLM 工作流增强。"
       },
       {
         "name": "awesome-openclaw-skills",
@@ -11074,7 +11283,8 @@
         "growth_rate": 0.003985080486847271,
         "score": 0.8866,
         "recommendation": "★★★★★",
-        "usage_scenarios": "个人效率 场景下的 Agent / LLM 工作流增强。"
+        "usage_scenarios": "个人效率 场景下的 Agent / LLM 工作流增强。",
+        "description_zh": "面向日常工作流和个人效率提升，帮助 Agent 更稳定地完成相关任务。适合用于个人效率 场景下的 Agent / LLM 工作流增强。"
       },
       {
         "name": "dify",
@@ -11133,7 +11343,8 @@
         "growth_rate": null,
         "score": 0.88,
         "recommendation": "★★★★★",
-        "usage_scenarios": "个人效率 场景下的 Agent / LLM 工作流增强。"
+        "usage_scenarios": "个人效率 场景下的 Agent / LLM 工作流增强。",
+        "description_zh": "面向日常工作流和个人效率提升，帮助 Agent 更稳定地完成相关任务。适合用于个人效率 场景下的 Agent / LLM 工作流增强。"
       },
       {
         "name": "gstack",
@@ -11171,7 +11382,8 @@
         "growth_rate": 0.015184962204829755,
         "score": 0.88,
         "recommendation": "★★★★★",
-        "usage_scenarios": "个人效率 场景下的 Agent / LLM 工作流增强。"
+        "usage_scenarios": "个人效率 场景下的 Agent / LLM 工作流增强。",
+        "description_zh": "面向日常工作流和个人效率提升，帮助 Agent 更稳定地完成相关任务。适合用于个人效率 场景下的 Agent / LLM 工作流增强。"
       },
       {
         "name": "skills",
@@ -11211,7 +11423,8 @@
         "growth_rate": 0.013513086856312948,
         "score": 0.8747,
         "recommendation": "★★★★★",
-        "usage_scenarios": "个人效率 场景下的 Agent / LLM 工作流增强。"
+        "usage_scenarios": "个人效率 场景下的 Agent / LLM 工作流增强。",
+        "description_zh": "面向日常工作流和个人效率提升，帮助 Agent 更稳定地完成相关任务。适合用于个人效率 场景下的 Agent / LLM 工作流增强。"
       },
       {
         "name": "RuView",
@@ -11270,7 +11483,8 @@
         "growth_rate": null,
         "score": 0.8733,
         "recommendation": "★★★★★",
-        "usage_scenarios": "个人效率 场景下的 Agent / LLM 工作流增强。"
+        "usage_scenarios": "个人效率 场景下的 Agent / LLM 工作流增强。",
+        "description_zh": "面向日常工作流和个人效率提升，帮助 Agent 更稳定地完成相关任务。适合用于个人效率 场景下的 Agent / LLM 工作流增强。"
       },
       {
         "name": "cli",
@@ -11325,7 +11539,8 @@
         "growth_rate": 0.0074817207957830305,
         "score": 0.8712,
         "recommendation": "★★★★★",
-        "usage_scenarios": "个人效率 场景下的 Agent / LLM 工作流增强。"
+        "usage_scenarios": "个人效率 场景下的 Agent / LLM 工作流增强。",
+        "description_zh": "面向日常工作流和个人效率提升，帮助 Agent 更稳定地完成相关任务。适合用于个人效率 场景下的 Agent / LLM 工作流增强。"
       },
       {
         "name": "crewAI",
@@ -11369,7 +11584,8 @@
         "growth_rate": null,
         "score": 0.862,
         "recommendation": "★★★★★",
-        "usage_scenarios": "个人效率 场景下的 Agent / LLM 工作流增强。"
+        "usage_scenarios": "个人效率 场景下的 Agent / LLM 工作流增强。",
+        "description_zh": "面向日常工作流和个人效率提升，帮助 Agent 更稳定地完成相关任务。适合用于个人效率 场景下的 Agent / LLM 工作流增强。"
       },
       {
         "name": "CLI-Anything",
@@ -11407,7 +11623,8 @@
         "growth_rate": 0.009741275302739175,
         "score": 0.8439,
         "recommendation": "★★★★★",
-        "usage_scenarios": "个人效率 场景下的 Agent / LLM 工作流增强。"
+        "usage_scenarios": "个人效率 场景下的 Agent / LLM 工作流增强。",
+        "description_zh": "面向日常工作流和个人效率提升，帮助 Agent 更稳定地完成相关任务。适合用于个人效率 场景下的 Agent / LLM 工作流增强。"
       }
     ],
     "Prompt 优化": [
@@ -11467,7 +11684,8 @@
         "growth_rate": 0.053341758219359575,
         "score": 0.9099,
         "recommendation": "★★★★★",
-        "usage_scenarios": "Prompt 优化 场景下的 Agent / LLM 工作流增强。"
+        "usage_scenarios": "Prompt 优化 场景下的 Agent / LLM 工作流增强。",
+        "description_zh": "面向 Prompt 设计、模板复用和效果优化，减少无效上下文并控制模型输入成本。适合用于Prompt 优化 场景下的 Agent / LLM 工作流增强。"
       },
       {
         "name": "academic-research-skills",
@@ -11514,7 +11732,8 @@
         "growth_rate": 0.030538131396500495,
         "score": 0.9001,
         "recommendation": "★★★★★",
-        "usage_scenarios": "Prompt 优化 场景下的 Agent / LLM 工作流增强。"
+        "usage_scenarios": "Prompt 优化 场景下的 Agent / LLM 工作流增强。",
+        "description_zh": "面向 Prompt 设计、模板复用和效果优化，把分散的信息转成可检索、可调用的上下文。适合用于Prompt 优化 场景下的 Agent / LLM 工作流增强。"
       },
       {
         "name": "awesome-prompts",
@@ -11562,7 +11781,8 @@
         "growth_rate": 0.006314786131299893,
         "score": 0.8826,
         "recommendation": "★★★★★",
-        "usage_scenarios": "Prompt 优化 场景下的 Agent / LLM 工作流增强。"
+        "usage_scenarios": "Prompt 优化 场景下的 Agent / LLM 工作流增强。",
+        "description_zh": "面向 Prompt 设计、模板复用和效果优化，帮助 Agent 更稳定地完成相关任务。适合用于Prompt 优化 场景下的 Agent / LLM 工作流增强。"
       },
       {
         "name": "Awesome-Prompt-Engineering",
@@ -11620,7 +11840,8 @@
         "growth_rate": 0.004897159647404506,
         "score": 0.845,
         "recommendation": "★★★★★",
-        "usage_scenarios": "Prompt 优化 场景下的 Agent / LLM 工作流增强。"
+        "usage_scenarios": "Prompt 优化 场景下的 Agent / LLM 工作流增强。",
+        "description_zh": "面向 Prompt 设计、模板复用和效果优化，帮助 Agent 更稳定地完成相关任务。适合用于Prompt 优化 场景下的 Agent / LLM 工作流增强。"
       },
       {
         "name": "generative-ai-for-beginners",
@@ -11673,7 +11894,8 @@
         "growth_rate": null,
         "score": 0.83,
         "recommendation": "★★★★★",
-        "usage_scenarios": "Prompt 优化 场景下的 Agent / LLM 工作流增强。"
+        "usage_scenarios": "Prompt 优化 场景下的 Agent / LLM 工作流增强。",
+        "description_zh": "面向 Prompt 设计、模板复用和效果优化，帮助 Agent 更稳定地完成相关任务。适合用于Prompt 优化 场景下的 Agent / LLM 工作流增强。"
       },
       {
         "name": "caveman",
@@ -11723,6 +11945,7 @@
         "score": 0.8263,
         "recommendation": "★★★★★",
         "usage_scenarios": "Prompt 优化 场景下的 Agent / LLM 工作流增强。",
+        "description_zh": "面向 Prompt 设计、模板复用和效果优化，减少无效上下文并控制模型输入成本。适合用于Prompt 优化 场景下的 Agent / LLM 工作流增强。",
         "token_saving": {
           "token_reduction_method": "通过优化或模板化 Prompt，减少重复说明和无效上下文。",
           "best_for": "长对话、Agent 多步骤任务、知识库检索前处理、需要控制 LLM 成本的工作流。",
@@ -11784,7 +12007,8 @@
         "growth_rate": null,
         "score": 0.8019,
         "recommendation": "★★★★★",
-        "usage_scenarios": "Prompt 优化 场景下的 Agent / LLM 工作流增强。"
+        "usage_scenarios": "Prompt 优化 场景下的 Agent / LLM 工作流增强。",
+        "description_zh": "面向 Prompt 设计、模板复用和效果优化，把分散的信息转成可检索、可调用的上下文。适合用于Prompt 优化 场景下的 Agent / LLM 工作流增强。"
       },
       {
         "name": "mlflow",
@@ -11841,7 +12065,8 @@
         "growth_rate": null,
         "score": 0.7902,
         "recommendation": "★★★★★",
-        "usage_scenarios": "Prompt 优化 场景下的 Agent / LLM 工作流增强。"
+        "usage_scenarios": "Prompt 优化 场景下的 Agent / LLM 工作流增强。",
+        "description_zh": "面向 Prompt 设计、模板复用和效果优化，帮助 Agent 更稳定地完成相关任务。适合用于Prompt 优化 场景下的 Agent / LLM 工作流增强。"
       },
       {
         "name": "Prompt-Engineering-Guide",
@@ -11890,7 +12115,8 @@
         "growth_rate": null,
         "score": 0.7843,
         "recommendation": "★★★★★",
-        "usage_scenarios": "Prompt 优化 场景下的 Agent / LLM 工作流增强。"
+        "usage_scenarios": "Prompt 优化 场景下的 Agent / LLM 工作流增强。",
+        "description_zh": "面向 Prompt 设计、模板复用和效果优化，减少无效上下文并控制模型输入成本。适合用于Prompt 优化 场景下的 Agent / LLM 工作流增强。"
       },
       {
         "name": "prompts.chat",
@@ -11947,7 +12173,8 @@
         "growth_rate": null,
         "score": 0.781,
         "recommendation": "★★★★★",
-        "usage_scenarios": "Prompt 优化 场景下的 Agent / LLM 工作流增强。"
+        "usage_scenarios": "Prompt 优化 场景下的 Agent / LLM 工作流增强。",
+        "description_zh": "面向 Prompt 设计、模板复用和效果优化，帮助 Agent 更稳定地完成相关任务。适合用于Prompt 优化 场景下的 Agent / LLM 工作流增强。"
       }
     ],
     "Token 节省": [
@@ -12003,6 +12230,7 @@
         "score": 0.8148,
         "recommendation": "★★★★★",
         "usage_scenarios": "压缩上下文、长任务记忆整理、降低 API 调用成本。",
+        "description_zh": "面向上下文压缩、记忆整理和 LLM 成本控制，帮助 Agent 更稳定地完成相关任务。适合用于压缩上下文、长任务记忆整理、降低 API 调用成本。",
         "token_saving": {
           "token_reduction_method": "通过上下文裁剪、记忆压缩或成本优化策略降低 token 使用。",
           "best_for": "长对话、Agent 多步骤任务、知识库检索前处理、需要控制 LLM 成本的工作流。",
@@ -12064,6 +12292,7 @@
         "score": 0.7132,
         "recommendation": "★★★★☆",
         "usage_scenarios": "压缩上下文、长任务记忆整理、降低 API 调用成本。",
+        "description_zh": "面向上下文压缩、记忆整理和 LLM 成本控制，减少无效上下文并控制模型输入成本。适合用于压缩上下文、长任务记忆整理、降低 API 调用成本。",
         "token_saving": {
           "token_reduction_method": "通过上下文裁剪、记忆压缩或成本优化策略降低 token 使用。",
           "best_for": "长对话、Agent 多步骤任务、知识库检索前处理、需要控制 LLM 成本的工作流。",
@@ -12105,6 +12334,7 @@
         "score": 0.4846,
         "recommendation": "★★★☆☆",
         "usage_scenarios": "压缩上下文、长任务记忆整理、降低 API 调用成本。",
+        "description_zh": "面向上下文压缩、记忆整理和 LLM 成本控制，减少无效上下文并控制模型输入成本。适合用于压缩上下文、长任务记忆整理、降低 API 调用成本。",
         "token_saving": {
           "token_reduction_method": "通过摘要和压缩上下文保留关键信息，减少传入模型的冗余内容。",
           "best_for": "长对话、Agent 多步骤任务、知识库检索前处理、需要控制 LLM 成本的工作流。",
@@ -12172,6 +12402,7 @@
         "score": 0.9638,
         "recommendation": "★★★★★",
         "usage_scenarios": "为 Agent 接入外部工具、数据源或本地能力。",
+        "description_zh": "面向 Agent 外部工具、数据源和本地能力接入，减少无效上下文并控制模型输入成本。适合用于为 Agent 接入外部工具、数据源或本地能力。",
         "token_saving": {
           "token_reduction_method": "通过优化或模板化 Prompt，减少重复说明和无效上下文。",
           "best_for": "长对话、Agent 多步骤任务、知识库检索前处理、需要控制 LLM 成本的工作流。",
@@ -12218,7 +12449,8 @@
         "growth_rate": 0.007372422531966363,
         "score": 0.9484,
         "recommendation": "★★★★★",
-        "usage_scenarios": "为 Agent 接入外部工具、数据源或本地能力。"
+        "usage_scenarios": "为 Agent 接入外部工具、数据源或本地能力。",
+        "description_zh": "面向 Agent 外部工具、数据源和本地能力接入，帮助 Agent 更稳定地完成相关任务。适合用于为 Agent 接入外部工具、数据源或本地能力。"
       },
       {
         "name": "awesome-llm-apps",
@@ -12261,7 +12493,8 @@
         "growth_rate": 0.01569179528559411,
         "score": 0.93,
         "recommendation": "★★★★★",
-        "usage_scenarios": "为 Agent 接入外部工具、数据源或本地能力。"
+        "usage_scenarios": "为 Agent 接入外部工具、数据源或本地能力。",
+        "description_zh": "面向 Agent 外部工具、数据源和本地能力接入，把分散的信息转成可检索、可调用的上下文。适合用于为 Agent 接入外部工具、数据源或本地能力。"
       },
       {
         "name": "servers",
@@ -12299,7 +12532,8 @@
         "growth_rate": null,
         "score": 0.8962,
         "recommendation": "★★★★★",
-        "usage_scenarios": "为 Agent 接入外部工具、数据源或本地能力。"
+        "usage_scenarios": "为 Agent 接入外部工具、数据源或本地能力。",
+        "description_zh": "面向 Agent 外部工具、数据源和本地能力接入，减少无效上下文并控制模型输入成本。适合用于为 Agent 接入外部工具、数据源或本地能力。"
       },
       {
         "name": "mempalace",
@@ -12344,7 +12578,8 @@
         "growth_rate": 0.004985079866596454,
         "score": 0.8949,
         "recommendation": "★★★★★",
-        "usage_scenarios": "为 Agent 接入外部工具、数据源或本地能力。"
+        "usage_scenarios": "为 Agent 接入外部工具、数据源或本地能力。",
+        "description_zh": "面向 Agent 外部工具、数据源和本地能力接入，帮助 Agent 更稳定地完成相关任务。适合用于为 Agent 接入外部工具、数据源或本地能力。"
       },
       {
         "name": "AstrBot",
@@ -12400,7 +12635,8 @@
         "growth_rate": 0.010933534153348395,
         "score": 0.8856,
         "recommendation": "★★★★★",
-        "usage_scenarios": "为 Agent 接入外部工具、数据源或本地能力。"
+        "usage_scenarios": "为 Agent 接入外部工具、数据源或本地能力。",
+        "description_zh": "面向 Agent 外部工具、数据源和本地能力接入，帮助 Agent 更稳定地完成相关任务。适合用于为 Agent 接入外部工具、数据源或本地能力。"
       },
       {
         "name": "Vibe-Trading",
@@ -12449,7 +12685,8 @@
         "growth_rate": 0.1308798031209799,
         "score": 0.8814,
         "recommendation": "★★★★★",
-        "usage_scenarios": "为 Agent 接入外部工具、数据源或本地能力。"
+        "usage_scenarios": "为 Agent 接入外部工具、数据源或本地能力。",
+        "description_zh": "面向 Agent 外部工具、数据源和本地能力接入，帮助 Agent 更稳定地完成相关任务。适合用于为 Agent 接入外部工具、数据源或本地能力。"
       },
       {
         "name": "gemini-cli",
@@ -12495,7 +12732,8 @@
         "growth_rate": null,
         "score": 0.88,
         "recommendation": "★★★★★",
-        "usage_scenarios": "为 Agent 接入外部工具、数据源或本地能力。"
+        "usage_scenarios": "为 Agent 接入外部工具、数据源或本地能力。",
+        "description_zh": "面向 Agent 外部工具、数据源和本地能力接入，帮助 Agent 更稳定地完成相关任务。适合用于为 Agent 接入外部工具、数据源或本地能力。"
       },
       {
         "name": "CowAgent",
@@ -12549,7 +12787,8 @@
         "growth_rate": 0.003166007991440861,
         "score": 0.8785,
         "recommendation": "★★★★★",
-        "usage_scenarios": "为 Agent 接入外部工具、数据源或本地能力。"
+        "usage_scenarios": "为 Agent 接入外部工具、数据源或本地能力。",
+        "description_zh": "面向 Agent 外部工具、数据源和本地能力接入，把分散的信息转成可检索、可调用的上下文。适合用于为 Agent 接入外部工具、数据源或本地能力。"
       },
       {
         "name": "ruflo",
@@ -12608,7 +12847,8 @@
         "growth_rate": null,
         "score": 0.8665,
         "recommendation": "★★★★★",
-        "usage_scenarios": "为 Agent 接入外部工具、数据源或本地能力。"
+        "usage_scenarios": "为 Agent 接入外部工具、数据源或本地能力。",
+        "description_zh": "面向 Agent 外部工具、数据源和本地能力接入，把分散的信息转成可检索、可调用的上下文。适合用于为 Agent 接入外部工具、数据源或本地能力。"
       }
     ]
   },
@@ -12658,7 +12898,8 @@
       "growth_rate": 0.01156401540100522,
       "score": 0.98,
       "recommendation": "★★★★★",
-      "usage_scenarios": "Cursor、Codex 或 IDE 内的编码规则与工作流模板。"
+      "usage_scenarios": "Cursor、Codex 或 IDE 内的编码规则与工作流模板。",
+      "description_zh": "面向代码编写与 Agent 编程协作，把分散的信息转成可检索、可调用的上下文。适合用于Cursor、Codex 或 IDE 内的编码规则与工作流模板。"
     },
     {
       "name": "ui-ux-pro-max-skill",
@@ -12716,7 +12957,8 @@
       "growth_rate": 0.035273979379811214,
       "score": 0.98,
       "recommendation": "★★★★★",
-      "usage_scenarios": "Cursor、Codex 或 IDE 内的编码规则与工作流模板。"
+      "usage_scenarios": "Cursor、Codex 或 IDE 内的编码规则与工作流模板。",
+      "description_zh": "面向代码编写与 Agent 编程协作，帮助 Agent 更稳定地完成相关任务。适合用于Cursor、Codex 或 IDE 内的编码规则与工作流模板。"
     },
     {
       "name": "headroom",
@@ -12776,6 +13018,7 @@
       "score": 0.9638,
       "recommendation": "★★★★★",
       "usage_scenarios": "为 Agent 接入外部工具、数据源或本地能力。",
+      "description_zh": "面向 Agent 外部工具、数据源和本地能力接入，减少无效上下文并控制模型输入成本。适合用于为 Agent 接入外部工具、数据源或本地能力。",
       "token_saving": {
         "token_reduction_method": "通过优化或模板化 Prompt，减少重复说明和无效上下文。",
         "best_for": "长对话、Agent 多步骤任务、知识库检索前处理、需要控制 LLM 成本的工作流。",
@@ -12839,7 +13082,8 @@
       "growth_rate": 0.035092090782615916,
       "score": 0.9588,
       "recommendation": "★★★★★",
-      "usage_scenarios": "个人效率 场景下的 Agent / LLM 工作流增强。"
+      "usage_scenarios": "个人效率 场景下的 Agent / LLM 工作流增强。",
+      "description_zh": "面向日常工作流和个人效率提升，帮助 Agent 更稳定地完成相关任务。适合用于个人效率 场景下的 Agent / LLM 工作流增强。"
     },
     {
       "name": "agents",
@@ -12898,7 +13142,8 @@
       "growth_rate": 0.007805839727195226,
       "score": 0.9527,
       "recommendation": "★★★★★",
-      "usage_scenarios": "Cursor、Codex 或 IDE 内的编码规则与工作流模板。"
+      "usage_scenarios": "Cursor、Codex 或 IDE 内的编码规则与工作流模板。",
+      "description_zh": "面向代码编写与 Agent 编程协作，帮助 Agent 更稳定地完成相关任务。适合用于Cursor、Codex 或 IDE 内的编码规则与工作流模板。"
     },
     {
       "name": "playwright-mcp",
@@ -12939,7 +13184,8 @@
       "growth_rate": 0.007372422531966363,
       "score": 0.9484,
       "recommendation": "★★★★★",
-      "usage_scenarios": "为 Agent 接入外部工具、数据源或本地能力。"
+      "usage_scenarios": "为 Agent 接入外部工具、数据源或本地能力。",
+      "description_zh": "面向 Agent 外部工具、数据源和本地能力接入，帮助 Agent 更稳定地完成相关任务。适合用于为 Agent 接入外部工具、数据源或本地能力。"
     },
     {
       "name": "OmniRoute",
@@ -12999,6 +13245,7 @@
       "score": 0.9443,
       "recommendation": "★★★★★",
       "usage_scenarios": "Cursor、Codex 或 IDE 内的编码规则与工作流模板。",
+      "description_zh": "面向代码编写与 Agent 编程协作，减少无效上下文并控制模型输入成本。适合用于Cursor、Codex 或 IDE 内的编码规则与工作流模板。",
       "token_saving": {
         "token_reduction_method": "通过上下文裁剪、记忆压缩或成本优化策略降低 token 使用。",
         "best_for": "长对话、Agent 多步骤任务、知识库检索前处理、需要控制 LLM 成本的工作流。",
@@ -13058,6 +13305,7 @@
       "score": 0.943,
       "recommendation": "★★★★★",
       "usage_scenarios": "批量生成文档、报表、幻灯片或电子表格。",
+      "description_zh": "面向 Word、PPT、Excel、PDF 等办公内容生成，帮助 Agent 更稳定地完成相关任务。适合用于批量生成文档、报表、幻灯片或电子表格。",
       "office_output": {
         "file_types": [
           "DOCX/Word",
@@ -13105,7 +13353,8 @@
       "growth_rate": 0.01991549295774648,
       "score": 0.9402,
       "recommendation": "★★★★★",
-      "usage_scenarios": "网页抓取 场景下的 Agent / LLM 工作流增强。"
+      "usage_scenarios": "网页抓取 场景下的 Agent / LLM 工作流增强。",
+      "description_zh": "面向网页信息采集与浏览器自动化，帮助 Agent 更稳定地完成相关任务。适合用于网页抓取 场景下的 Agent / LLM 工作流增强。"
     },
     {
       "name": "superpowers",
@@ -13151,7 +13400,8 @@
       "growth_rate": 0.02512365199059434,
       "score": 0.93,
       "recommendation": "★★★★★",
-      "usage_scenarios": "代码生成 场景下的 Agent / LLM 工作流增强。"
+      "usage_scenarios": "代码生成 场景下的 Agent / LLM 工作流增强。",
+      "description_zh": "面向代码编写与 Agent 编程协作，帮助 Agent 更稳定地完成相关任务。适合用于代码生成 场景下的 Agent / LLM 工作流增强。"
     },
     {
       "name": "skills",
@@ -13189,7 +13439,8 @@
       "growth_rate": 0.05940398783544771,
       "score": 0.93,
       "recommendation": "★★★★★",
-      "usage_scenarios": "代码生成 场景下的 Agent / LLM 工作流增强。"
+      "usage_scenarios": "代码生成 场景下的 Agent / LLM 工作流增强。",
+      "description_zh": "面向代码编写与 Agent 编程协作，帮助 Agent 更稳定地完成相关任务。适合用于代码生成 场景下的 Agent / LLM 工作流增强。"
     },
     {
       "name": "awesome-llm-apps",
@@ -13232,7 +13483,8 @@
       "growth_rate": 0.01569179528559411,
       "score": 0.93,
       "recommendation": "★★★★★",
-      "usage_scenarios": "为 Agent 接入外部工具、数据源或本地能力。"
+      "usage_scenarios": "为 Agent 接入外部工具、数据源或本地能力。",
+      "description_zh": "面向 Agent 外部工具、数据源和本地能力接入，把分散的信息转成可检索、可调用的上下文。适合用于为 Agent 接入外部工具、数据源或本地能力。"
     },
     {
       "name": "browser-use",
@@ -13278,7 +13530,8 @@
       "growth_rate": 0.014908390710701365,
       "score": 0.93,
       "recommendation": "★★★★★",
-      "usage_scenarios": "个人效率 场景下的 Agent / LLM 工作流增强。"
+      "usage_scenarios": "个人效率 场景下的 Agent / LLM 工作流增强。",
+      "description_zh": "面向日常工作流和个人效率提升，帮助 Agent 更稳定地完成相关任务。适合用于个人效率 场景下的 Agent / LLM 工作流增强。"
     },
     {
       "name": "repomix",
@@ -13337,7 +13590,8 @@
       "growth_rate": 0.008342333618859632,
       "score": 0.9187,
       "recommendation": "★★★★★",
-      "usage_scenarios": "代码审查 场景下的 Agent / LLM 工作流增强。"
+      "usage_scenarios": "代码审查 场景下的 Agent / LLM 工作流增强。",
+      "description_zh": "面向代码审查、质量检查与安全风险发现，帮助 Agent 更稳定地完成相关任务。适合用于代码审查 场景下的 Agent / LLM 工作流增强。"
     },
     {
       "name": "playwright",
@@ -13390,7 +13644,8 @@
       "growth_rate": 0.00475958150376755,
       "score": 0.9158,
       "recommendation": "★★★★★",
-      "usage_scenarios": "PDF / 文档处理 场景下的 Agent / LLM 工作流增强。"
+      "usage_scenarios": "PDF / 文档处理 场景下的 Agent / LLM 工作流增强。",
+      "description_zh": "面向 PDF、报告和结构化文档处理，把重复步骤整理成可复用的自动化流程。适合用于PDF / 文档处理 场景下的 Agent / LLM 工作流增强。"
     },
     {
       "name": "last30days-skill",
@@ -13448,7 +13703,8 @@
       "growth_rate": 0.053341758219359575,
       "score": 0.9099,
       "recommendation": "★★★★★",
-      "usage_scenarios": "Prompt 优化 场景下的 Agent / LLM 工作流增强。"
+      "usage_scenarios": "Prompt 优化 场景下的 Agent / LLM 工作流增强。",
+      "description_zh": "面向 Prompt 设计、模板复用和效果优化，减少无效上下文并控制模型输入成本。适合用于Prompt 优化 场景下的 Agent / LLM 工作流增强。"
     },
     {
       "name": "marketingskills",
@@ -13489,7 +13745,8 @@
       "growth_rate": 0.044262928417683096,
       "score": 0.9005,
       "recommendation": "★★★★★",
-      "usage_scenarios": "代码生成 场景下的 Agent / LLM 工作流增强。"
+      "usage_scenarios": "代码生成 场景下的 Agent / LLM 工作流增强。",
+      "description_zh": "面向代码编写与 Agent 编程协作，帮助 Agent 更稳定地完成相关任务。适合用于代码生成 场景下的 Agent / LLM 工作流增强。"
     },
     {
       "name": "academic-research-skills",
@@ -13536,7 +13793,8 @@
       "growth_rate": 0.030538131396500495,
       "score": 0.9001,
       "recommendation": "★★★★★",
-      "usage_scenarios": "Prompt 优化 场景下的 Agent / LLM 工作流增强。"
+      "usage_scenarios": "Prompt 优化 场景下的 Agent / LLM 工作流增强。",
+      "description_zh": "面向 Prompt 设计、模板复用和效果优化，把分散的信息转成可检索、可调用的上下文。适合用于Prompt 优化 场景下的 Agent / LLM 工作流增强。"
     },
     {
       "name": "servers",
@@ -13574,7 +13832,8 @@
       "growth_rate": null,
       "score": 0.8962,
       "recommendation": "★★★★★",
-      "usage_scenarios": "为 Agent 接入外部工具、数据源或本地能力。"
+      "usage_scenarios": "为 Agent 接入外部工具、数据源或本地能力。",
+      "description_zh": "面向 Agent 外部工具、数据源和本地能力接入，减少无效上下文并控制模型输入成本。适合用于为 Agent 接入外部工具、数据源或本地能力。"
     },
     {
       "name": "mempalace",
@@ -13619,7 +13878,8 @@
       "growth_rate": 0.004985079866596454,
       "score": 0.8949,
       "recommendation": "★★★★★",
-      "usage_scenarios": "为 Agent 接入外部工具、数据源或本地能力。"
+      "usage_scenarios": "为 Agent 接入外部工具、数据源或本地能力。",
+      "description_zh": "面向 Agent 外部工具、数据源和本地能力接入，帮助 Agent 更稳定地完成相关任务。适合用于为 Agent 接入外部工具、数据源或本地能力。"
     },
     {
       "name": "MinerU",
@@ -13675,6 +13935,7 @@
       "score": 0.891,
       "recommendation": "★★★★★",
       "usage_scenarios": "PDF / 文档处理 场景下的 Agent / LLM 工作流增强。",
+      "description_zh": "面向 PDF、报告和结构化文档处理，帮助 Agent 更稳定地完成相关任务。适合用于PDF / 文档处理 场景下的 Agent / LLM 工作流增强。",
       "office_output": {
         "file_types": [
           "DOCX/Word",
@@ -13745,7 +14006,8 @@
       "growth_rate": null,
       "score": 0.8888,
       "recommendation": "★★★★★",
-      "usage_scenarios": "网页抓取 场景下的 Agent / LLM 工作流增强。"
+      "usage_scenarios": "网页抓取 场景下的 Agent / LLM 工作流增强。",
+      "description_zh": "面向网页信息采集与浏览器自动化，帮助 Agent 更稳定地完成相关任务。适合用于网页抓取 场景下的 Agent / LLM 工作流增强。"
     },
     {
       "name": "awesome-openclaw-skills",
@@ -13796,7 +14058,8 @@
       "growth_rate": 0.003985080486847271,
       "score": 0.8866,
       "recommendation": "★★★★★",
-      "usage_scenarios": "个人效率 场景下的 Agent / LLM 工作流增强。"
+      "usage_scenarios": "个人效率 场景下的 Agent / LLM 工作流增强。",
+      "description_zh": "面向日常工作流和个人效率提升，帮助 Agent 更稳定地完成相关任务。适合用于个人效率 场景下的 Agent / LLM 工作流增强。"
     },
     {
       "name": "skills",
@@ -13834,7 +14097,8 @@
       "growth_rate": 0.032642487046632127,
       "score": 0.8861,
       "recommendation": "★★★★★",
-      "usage_scenarios": "Cursor、Codex 或 IDE 内的编码规则与工作流模板。"
+      "usage_scenarios": "Cursor、Codex 或 IDE 内的编码规则与工作流模板。",
+      "description_zh": "面向代码编写与 Agent 编程协作，帮助 Agent 更稳定地完成相关任务。适合用于Cursor、Codex 或 IDE 内的编码规则与工作流模板。"
     },
     {
       "name": "AstrBot",
@@ -13890,7 +14154,8 @@
       "growth_rate": 0.010933534153348395,
       "score": 0.8856,
       "recommendation": "★★★★★",
-      "usage_scenarios": "为 Agent 接入外部工具、数据源或本地能力。"
+      "usage_scenarios": "为 Agent 接入外部工具、数据源或本地能力。",
+      "description_zh": "面向 Agent 外部工具、数据源和本地能力接入，帮助 Agent 更稳定地完成相关任务。适合用于为 Agent 接入外部工具、数据源或本地能力。"
     },
     {
       "name": "nuwa-skill",
@@ -13927,7 +14192,8 @@
       "growth_rate": 0.02530751793080382,
       "score": 0.8853,
       "recommendation": "★★★★★",
-      "usage_scenarios": "Cursor、Codex 或 IDE 内的编码规则与工作流模板。"
+      "usage_scenarios": "Cursor、Codex 或 IDE 内的编码规则与工作流模板。",
+      "description_zh": "面向代码编写与 Agent 编程协作，帮助 Agent 更稳定地完成相关任务。适合用于Cursor、Codex 或 IDE 内的编码规则与工作流模板。"
     },
     {
       "name": "awesome-prompts",
@@ -13975,7 +14241,8 @@
       "growth_rate": 0.006314786131299893,
       "score": 0.8826,
       "recommendation": "★★★★★",
-      "usage_scenarios": "Prompt 优化 场景下的 Agent / LLM 工作流增强。"
+      "usage_scenarios": "Prompt 优化 场景下的 Agent / LLM 工作流增强。",
+      "description_zh": "面向 Prompt 设计、模板复用和效果优化，帮助 Agent 更稳定地完成相关任务。适合用于Prompt 优化 场景下的 Agent / LLM 工作流增强。"
     },
     {
       "name": "awesome-agent-skills",
@@ -14028,7 +14295,8 @@
       "growth_rate": 0.019737563507438136,
       "score": 0.8823,
       "recommendation": "★★★★★",
-      "usage_scenarios": "Cursor、Codex 或 IDE 内的编码规则与工作流模板。"
+      "usage_scenarios": "Cursor、Codex 或 IDE 内的编码规则与工作流模板。",
+      "description_zh": "面向代码编写与 Agent 编程协作，帮助 Agent 更稳定地完成相关任务。适合用于Cursor、Codex 或 IDE 内的编码规则与工作流模板。"
     },
     {
       "name": "Vibe-Trading",
@@ -14077,7 +14345,8 @@
       "growth_rate": 0.1308798031209799,
       "score": 0.8814,
       "recommendation": "★★★★★",
-      "usage_scenarios": "为 Agent 接入外部工具、数据源或本地能力。"
+      "usage_scenarios": "为 Agent 接入外部工具、数据源或本地能力。",
+      "description_zh": "面向 Agent 外部工具、数据源和本地能力接入，帮助 Agent 更稳定地完成相关任务。适合用于为 Agent 接入外部工具、数据源或本地能力。"
     },
     {
       "name": "firecrawl",
@@ -14134,7 +14403,8 @@
       "growth_rate": null,
       "score": 0.88,
       "recommendation": "★★★★★",
-      "usage_scenarios": "网页抓取 场景下的 Agent / LLM 工作流增强。"
+      "usage_scenarios": "网页抓取 场景下的 Agent / LLM 工作流增强。",
+      "description_zh": "面向网页信息采集与浏览器自动化，把分散的信息转成可检索、可调用的上下文。适合用于网页抓取 场景下的 Agent / LLM 工作流增强。"
     },
     {
       "name": "dify",
@@ -14193,7 +14463,8 @@
       "growth_rate": null,
       "score": 0.88,
       "recommendation": "★★★★★",
-      "usage_scenarios": "个人效率 场景下的 Agent / LLM 工作流增强。"
+      "usage_scenarios": "个人效率 场景下的 Agent / LLM 工作流增强。",
+      "description_zh": "面向日常工作流和个人效率提升，帮助 Agent 更稳定地完成相关任务。适合用于个人效率 场景下的 Agent / LLM 工作流增强。"
     },
     {
       "name": "gstack",
@@ -14231,7 +14502,8 @@
       "growth_rate": 0.015184962204829755,
       "score": 0.88,
       "recommendation": "★★★★★",
-      "usage_scenarios": "个人效率 场景下的 Agent / LLM 工作流增强。"
+      "usage_scenarios": "个人效率 场景下的 Agent / LLM 工作流增强。",
+      "description_zh": "面向日常工作流和个人效率提升，帮助 Agent 更稳定地完成相关任务。适合用于个人效率 场景下的 Agent / LLM 工作流增强。"
     },
     {
       "name": "gemini-cli",
@@ -14277,7 +14549,8 @@
       "growth_rate": null,
       "score": 0.88,
       "recommendation": "★★★★★",
-      "usage_scenarios": "为 Agent 接入外部工具、数据源或本地能力。"
+      "usage_scenarios": "为 Agent 接入外部工具、数据源或本地能力。",
+      "description_zh": "面向 Agent 外部工具、数据源和本地能力接入，帮助 Agent 更稳定地完成相关任务。适合用于为 Agent 接入外部工具、数据源或本地能力。"
     },
     {
       "name": "CowAgent",
@@ -14331,7 +14604,8 @@
       "growth_rate": 0.003166007991440861,
       "score": 0.8785,
       "recommendation": "★★★★★",
-      "usage_scenarios": "为 Agent 接入外部工具、数据源或本地能力。"
+      "usage_scenarios": "为 Agent 接入外部工具、数据源或本地能力。",
+      "description_zh": "面向 Agent 外部工具、数据源和本地能力接入，把分散的信息转成可检索、可调用的上下文。适合用于为 Agent 接入外部工具、数据源或本地能力。"
     },
     {
       "name": "claude-mem",
@@ -14391,6 +14665,7 @@
       "score": 0.8757,
       "recommendation": "★★★★★",
       "usage_scenarios": "构建检索增强问答、企业知识库和上下文注入。",
+      "description_zh": "面向知识库检索、RAG 问答和上下文注入，减少无效上下文并控制模型输入成本。适合用于构建检索增强问答、企业知识库和上下文注入。",
       "token_saving": {
         "token_reduction_method": "通过摘要和压缩上下文保留关键信息，减少传入模型的冗余内容。",
         "best_for": "长对话、Agent 多步骤任务、知识库检索前处理、需要控制 LLM 成本的工作流。",
@@ -14455,7 +14730,8 @@
       "growth_rate": 0.014989694584972832,
       "score": 0.875,
       "recommendation": "★★★★★",
-      "usage_scenarios": "Cursor、Codex 或 IDE 内的编码规则与工作流模板。"
+      "usage_scenarios": "Cursor、Codex 或 IDE 内的编码规则与工作流模板。",
+      "description_zh": "面向代码编写与 Agent 编程协作，帮助 Agent 更稳定地完成相关任务。适合用于Cursor、Codex 或 IDE 内的编码规则与工作流模板。"
     },
     {
       "name": "skills",
@@ -14495,7 +14771,8 @@
       "growth_rate": 0.013513086856312948,
       "score": 0.8747,
       "recommendation": "★★★★★",
-      "usage_scenarios": "个人效率 场景下的 Agent / LLM 工作流增强。"
+      "usage_scenarios": "个人效率 场景下的 Agent / LLM 工作流增强。",
+      "description_zh": "面向日常工作流和个人效率提升，帮助 Agent 更稳定地完成相关任务。适合用于个人效率 场景下的 Agent / LLM 工作流增强。"
     },
     {
       "name": "graphify",
@@ -14545,7 +14822,8 @@
       "growth_rate": null,
       "score": 0.8743,
       "recommendation": "★★★★★",
-      "usage_scenarios": "Cursor、Codex 或 IDE 内的编码规则与工作流模板。"
+      "usage_scenarios": "Cursor、Codex 或 IDE 内的编码规则与工作流模板。",
+      "description_zh": "面向代码编写与 Agent 编程协作，把分散的信息转成可检索、可调用的上下文。适合用于Cursor、Codex 或 IDE 内的编码规则与工作流模板。"
     },
     {
       "name": "agentic-awesome-skills",
@@ -14604,7 +14882,8 @@
       "growth_rate": null,
       "score": 0.8743,
       "recommendation": "★★★★★",
-      "usage_scenarios": "Cursor、Codex 或 IDE 内的编码规则与工作流模板。"
+      "usage_scenarios": "Cursor、Codex 或 IDE 内的编码规则与工作流模板。",
+      "description_zh": "面向代码编写与 Agent 编程协作，帮助 Agent 更稳定地完成相关任务。适合用于Cursor、Codex 或 IDE 内的编码规则与工作流模板。"
     },
     {
       "name": "ponytail",
@@ -14653,7 +14932,8 @@
       "growth_rate": null,
       "score": 0.8736,
       "recommendation": "★★★★★",
-      "usage_scenarios": "Cursor、Codex 或 IDE 内的编码规则与工作流模板。"
+      "usage_scenarios": "Cursor、Codex 或 IDE 内的编码规则与工作流模板。",
+      "description_zh": "面向代码编写与 Agent 编程协作，帮助 Agent 更稳定地完成相关任务。适合用于Cursor、Codex 或 IDE 内的编码规则与工作流模板。"
     },
     {
       "name": "RuView",
@@ -14712,7 +14992,8 @@
       "growth_rate": null,
       "score": 0.8733,
       "recommendation": "★★★★★",
-      "usage_scenarios": "个人效率 场景下的 Agent / LLM 工作流增强。"
+      "usage_scenarios": "个人效率 场景下的 Agent / LLM 工作流增强。",
+      "description_zh": "面向日常工作流和个人效率提升，帮助 Agent 更稳定地完成相关任务。适合用于个人效率 场景下的 Agent / LLM 工作流增强。"
     },
     {
       "name": "agent-skills",
@@ -14757,7 +15038,8 @@
       "growth_rate": null,
       "score": 0.8723,
       "recommendation": "★★★★★",
-      "usage_scenarios": "Cursor、Codex 或 IDE 内的编码规则与工作流模板。"
+      "usage_scenarios": "Cursor、Codex 或 IDE 内的编码规则与工作流模板。",
+      "description_zh": "面向代码编写与 Agent 编程协作，帮助 Agent 更稳定地完成相关任务。适合用于Cursor、Codex 或 IDE 内的编码规则与工作流模板。"
     },
     {
       "name": "open-design",
@@ -14817,6 +15099,7 @@
       "score": 0.8723,
       "recommendation": "★★★★★",
       "usage_scenarios": "Cursor、Codex 或 IDE 内的编码规则与工作流模板。",
+      "description_zh": "面向代码编写与 Agent 编程协作，将图像或视觉信息转成 Agent 可处理的结果。适合用于Cursor、Codex 或 IDE 内的编码规则与工作流模板。",
       "office_output": {
         "file_types": [
           "PPTX/PowerPoint",
@@ -14870,7 +15153,8 @@
       "growth_rate": 0.010900113938473224,
       "score": 0.8717,
       "recommendation": "★★★★★",
-      "usage_scenarios": "文档生成 场景下的 Agent / LLM 工作流增强。"
+      "usage_scenarios": "文档生成 场景下的 Agent / LLM 工作流增强。",
+      "description_zh": "面向技术文档、说明和知识内容生成，减少无效上下文并控制模型输入成本。适合用于文档生成 场景下的 Agent / LLM 工作流增强。"
     },
     {
       "name": "cli",
@@ -14925,7 +15209,8 @@
       "growth_rate": 0.0074817207957830305,
       "score": 0.8712,
       "recommendation": "★★★★★",
-      "usage_scenarios": "个人效率 场景下的 Agent / LLM 工作流增强。"
+      "usage_scenarios": "个人效率 场景下的 Agent / LLM 工作流增强。",
+      "description_zh": "面向日常工作流和个人效率提升，帮助 Agent 更稳定地完成相关任务。适合用于个人效率 场景下的 Agent / LLM 工作流增强。"
     },
     {
       "name": "OpenHands",
@@ -14972,7 +15257,8 @@
       "growth_rate": null,
       "score": 0.8711,
       "recommendation": "★★★★★",
-      "usage_scenarios": "代码生成 场景下的 Agent / LLM 工作流增强。"
+      "usage_scenarios": "代码生成 场景下的 Agent / LLM 工作流增强。",
+      "description_zh": "面向代码编写与 Agent 编程协作，帮助 Agent 更稳定地完成相关任务。适合用于代码生成 场景下的 Agent / LLM 工作流增强。"
     },
     {
       "name": "OpenMontage",
@@ -15030,7 +15316,8 @@
       "growth_rate": null,
       "score": 0.8701,
       "recommendation": "★★★★★",
-      "usage_scenarios": "Cursor、Codex 或 IDE 内的编码规则与工作流模板。"
+      "usage_scenarios": "Cursor、Codex 或 IDE 内的编码规则与工作流模板。",
+      "description_zh": "面向代码编写与 Agent 编程协作，帮助 Agent 更稳定地完成相关任务。适合用于Cursor、Codex 或 IDE 内的编码规则与工作流模板。"
     },
     {
       "name": "docling",
@@ -15085,6 +15372,7 @@
       "score": 0.8687,
       "recommendation": "★★★★★",
       "usage_scenarios": "PDF / 文档处理 场景下的 Agent / LLM 工作流增强。",
+      "description_zh": "面向 PDF、报告和结构化文档处理，帮助 Agent 更稳定地完成相关任务。适合用于PDF / 文档处理 场景下的 Agent / LLM 工作流增强。",
       "office_output": {
         "file_types": [
           "DOCX/Word",
@@ -15155,7 +15443,8 @@
       "growth_rate": null,
       "score": 0.8676,
       "recommendation": "★★★★★",
-      "usage_scenarios": "文档生成 场景下的 Agent / LLM 工作流增强。"
+      "usage_scenarios": "文档生成 场景下的 Agent / LLM 工作流增强。",
+      "description_zh": "面向技术文档、说明和知识内容生成，帮助 Agent 更稳定地完成相关任务。适合用于文档生成 场景下的 Agent / LLM 工作流增强。"
     },
     {
       "name": "PageIndex",
@@ -15206,7 +15495,8 @@
       "growth_rate": null,
       "score": 0.8672,
       "recommendation": "★★★★★",
-      "usage_scenarios": "构建检索增强问答、企业知识库和上下文注入。"
+      "usage_scenarios": "构建检索增强问答、企业知识库和上下文注入。",
+      "description_zh": "面向知识库检索、RAG 问答和上下文注入，把分散的信息转成可检索、可调用的上下文。适合用于构建检索增强问答、企业知识库和上下文注入。"
     },
     {
       "name": "ruflo",
@@ -15265,7 +15555,8 @@
       "growth_rate": null,
       "score": 0.8665,
       "recommendation": "★★★★★",
-      "usage_scenarios": "为 Agent 接入外部工具、数据源或本地能力。"
+      "usage_scenarios": "为 Agent 接入外部工具、数据源或本地能力。",
+      "description_zh": "面向 Agent 外部工具、数据源和本地能力接入，把分散的信息转成可检索、可调用的上下文。适合用于为 Agent 接入外部工具、数据源或本地能力。"
     },
     {
       "name": "claude-code-best-practice",
@@ -15324,7 +15615,8 @@
       "growth_rate": null,
       "score": 0.8657,
       "recommendation": "★★★★★",
-      "usage_scenarios": "代码生成 场景下的 Agent / LLM 工作流增强。"
+      "usage_scenarios": "代码生成 场景下的 Agent / LLM 工作流增强。",
+      "description_zh": "面向代码编写与 Agent 编程协作，帮助 Agent 更稳定地完成相关任务。适合用于代码生成 场景下的 Agent / LLM 工作流增强。"
     },
     {
       "name": "TrendRadar",
@@ -15379,7 +15671,8 @@
       "growth_rate": null,
       "score": 0.8647,
       "recommendation": "★★★★★",
-      "usage_scenarios": "为 Agent 接入外部工具、数据源或本地能力。"
+      "usage_scenarios": "为 Agent 接入外部工具、数据源或本地能力。",
+      "description_zh": "面向 Agent 外部工具、数据源和本地能力接入，帮助 Agent 更稳定地完成相关任务。适合用于为 Agent 接入外部工具、数据源或本地能力。"
     },
     {
       "name": "context7",
@@ -15422,7 +15715,8 @@
       "growth_rate": null,
       "score": 0.8639,
       "recommendation": "★★★★★",
-      "usage_scenarios": "为 Agent 接入外部工具、数据源或本地能力。"
+      "usage_scenarios": "为 Agent 接入外部工具、数据源或本地能力。",
+      "description_zh": "面向 Agent 外部工具、数据源和本地能力接入，减少无效上下文并控制模型输入成本。适合用于为 Agent 接入外部工具、数据源或本地能力。"
     },
     {
       "name": "crewAI",
@@ -15466,7 +15760,8 @@
       "growth_rate": null,
       "score": 0.862,
       "recommendation": "★★★★★",
-      "usage_scenarios": "个人效率 场景下的 Agent / LLM 工作流增强。"
+      "usage_scenarios": "个人效率 场景下的 Agent / LLM 工作流增强。",
+      "description_zh": "面向日常工作流和个人效率提升，帮助 Agent 更稳定地完成相关任务。适合用于个人效率 场景下的 Agent / LLM 工作流增强。"
     },
     {
       "name": "llama_index",
@@ -15515,7 +15810,8 @@
       "growth_rate": null,
       "score": 0.8594,
       "recommendation": "★★★★★",
-      "usage_scenarios": "构建检索增强问答、企业知识库和上下文注入。"
+      "usage_scenarios": "构建检索增强问答、企业知识库和上下文注入。",
+      "description_zh": "面向知识库检索、RAG 问答和上下文注入，将图像或视觉信息转成 Agent 可处理的结果。适合用于构建检索增强问答、企业知识库和上下文注入。"
     },
     {
       "name": "markitdown",
@@ -15561,6 +15857,7 @@
       "score": 0.855,
       "recommendation": "★★★★★",
       "usage_scenarios": "PDF / 文档处理 场景下的 Agent / LLM 工作流增强。",
+      "description_zh": "面向 PDF、报告和结构化文档处理，帮助 Agent 更稳定地完成相关任务。适合用于PDF / 文档处理 场景下的 Agent / LLM 工作流增强。",
       "office_output": {
         "file_types": [
           "PDF",
@@ -15628,7 +15925,8 @@
       "growth_rate": null,
       "score": 0.8544,
       "recommendation": "★★★★★",
-      "usage_scenarios": "Cursor、Codex 或 IDE 内的编码规则与工作流模板。"
+      "usage_scenarios": "Cursor、Codex 或 IDE 内的编码规则与工作流模板。",
+      "description_zh": "面向代码编写与 Agent 编程协作，把分散的信息转成可检索、可调用的上下文。适合用于Cursor、Codex 或 IDE 内的编码规则与工作流模板。"
     },
     {
       "name": "claude-howto",
@@ -15670,7 +15968,8 @@
       "growth_rate": null,
       "score": 0.8519,
       "recommendation": "★★★★★",
-      "usage_scenarios": "为 Agent 接入外部工具、数据源或本地能力。"
+      "usage_scenarios": "为 Agent 接入外部工具、数据源或本地能力。",
+      "description_zh": "面向 Agent 外部工具、数据源和本地能力接入，帮助 Agent 更稳定地完成相关任务。适合用于为 Agent 接入外部工具、数据源或本地能力。"
     },
     {
       "name": "ai-engineering-from-scratch",
@@ -15729,7 +16028,8 @@
       "growth_rate": 0.018733608092918696,
       "score": 0.8505,
       "recommendation": "★★★★★",
-      "usage_scenarios": "为 Agent 接入外部工具、数据源或本地能力。"
+      "usage_scenarios": "为 Agent 接入外部工具、数据源或本地能力。",
+      "description_zh": "面向 Agent 外部工具、数据源和本地能力接入，帮助 Agent 更稳定地完成相关任务。适合用于为 Agent 接入外部工具、数据源或本地能力。"
     },
     {
       "name": "PaddleOCR",
@@ -15782,6 +16082,7 @@
       "score": 0.8502,
       "recommendation": "★★★★★",
       "usage_scenarios": "PDF / 文档处理 场景下的 Agent / LLM 工作流增强。",
+      "description_zh": "面向 PDF、报告和结构化文档处理，将图像或视觉信息转成 Agent 可处理的结果。适合用于PDF / 文档处理 场景下的 Agent / LLM 工作流增强。",
       "office_output": {
         "file_types": [
           "PDF",
@@ -15849,7 +16150,8 @@
       "growth_rate": null,
       "score": 0.8493,
       "recommendation": "★★★★★",
-      "usage_scenarios": "Cursor、Codex 或 IDE 内的编码规则与工作流模板。"
+      "usage_scenarios": "Cursor、Codex 或 IDE 内的编码规则与工作流模板。",
+      "description_zh": "面向代码编写与 Agent 编程协作，减少无效上下文并控制模型输入成本。适合用于Cursor、Codex 或 IDE 内的编码规则与工作流模板。"
     },
     {
       "name": "xberg",
@@ -15909,6 +16211,7 @@
       "score": 0.8481,
       "recommendation": "★★★★★",
       "usage_scenarios": "为 Agent 接入外部工具、数据源或本地能力。",
+      "description_zh": "面向 Agent 外部工具、数据源和本地能力接入，将图像或视觉信息转成 Agent 可处理的结果。适合用于为 Agent 接入外部工具、数据源或本地能力。",
       "office_output": {
         "file_types": [
           "PDF"
@@ -15974,7 +16277,8 @@
       "growth_rate": 0.004897159647404506,
       "score": 0.845,
       "recommendation": "★★★★★",
-      "usage_scenarios": "Prompt 优化 场景下的 Agent / LLM 工作流增强。"
+      "usage_scenarios": "Prompt 优化 场景下的 Agent / LLM 工作流增强。",
+      "description_zh": "面向 Prompt 设计、模板复用和效果优化，帮助 Agent 更稳定地完成相关任务。适合用于Prompt 优化 场景下的 Agent / LLM 工作流增强。"
     },
     {
       "name": "CLI-Anything",
@@ -16012,7 +16316,8 @@
       "growth_rate": 0.009741275302739175,
       "score": 0.8439,
       "recommendation": "★★★★★",
-      "usage_scenarios": "个人效率 场景下的 Agent / LLM 工作流增强。"
+      "usage_scenarios": "个人效率 场景下的 Agent / LLM 工作流增强。",
+      "description_zh": "面向日常工作流和个人效率提升，帮助 Agent 更稳定地完成相关任务。适合用于个人效率 场景下的 Agent / LLM 工作流增强。"
     },
     {
       "name": "awesome-claude-skills",
@@ -16068,7 +16373,8 @@
       "growth_rate": null,
       "score": 0.8431,
       "recommendation": "★★★★★",
-      "usage_scenarios": "Cursor、Codex 或 IDE 内的编码规则与工作流模板。"
+      "usage_scenarios": "Cursor、Codex 或 IDE 内的编码规则与工作流模板。",
+      "description_zh": "面向日常工作流和个人效率提升，帮助 Agent 更稳定地完成相关任务。适合用于Cursor、Codex 或 IDE 内的编码规则与工作流模板。"
     },
     {
       "name": "nature-skills",
@@ -16109,7 +16415,8 @@
       "growth_rate": 0.07204930898510777,
       "score": 0.8413,
       "recommendation": "★★★★★",
-      "usage_scenarios": "个人效率 场景下的 Agent / LLM 工作流增强。"
+      "usage_scenarios": "个人效率 场景下的 Agent / LLM 工作流增强。",
+      "description_zh": "面向日常工作流和个人效率提升，帮助 Agent 更稳定地完成相关任务。适合用于个人效率 场景下的 Agent / LLM 工作流增强。"
     },
     {
       "name": "cognee",
@@ -16167,7 +16474,8 @@
       "growth_rate": null,
       "score": 0.8409,
       "recommendation": "★★★★★",
-      "usage_scenarios": "构建检索增强问答、企业知识库和上下文注入。"
+      "usage_scenarios": "构建检索增强问答、企业知识库和上下文注入。",
+      "description_zh": "面向知识库检索、RAG 问答和上下文注入，把分散的信息转成可检索、可调用的上下文。适合用于构建检索增强问答、企业知识库和上下文注入。"
     },
     {
       "name": "haystack",
@@ -16227,6 +16535,7 @@
       "score": 0.8389,
       "recommendation": "★★★★★",
       "usage_scenarios": "构建检索增强问答、企业知识库和上下文注入。",
+      "description_zh": "面向知识库检索、RAG 问答和上下文注入，减少无效上下文并控制模型输入成本。适合用于构建检索增强问答、企业知识库和上下文注入。",
       "token_saving": {
         "token_reduction_method": "通过摘要和压缩上下文保留关键信息，减少传入模型的冗余内容。",
         "best_for": "长对话、Agent 多步骤任务、知识库检索前处理、需要控制 LLM 成本的工作流。",
@@ -16276,7 +16585,8 @@
       "growth_rate": null,
       "score": 0.835,
       "recommendation": "★★★★★",
-      "usage_scenarios": "Cursor、Codex 或 IDE 内的编码规则与工作流模板。"
+      "usage_scenarios": "Cursor、Codex 或 IDE 内的编码规则与工作流模板。",
+      "description_zh": "面向代码编写与 Agent 编程协作，帮助 Agent 更稳定地完成相关任务。适合用于Cursor、Codex 或 IDE 内的编码规则与工作流模板。"
     },
     {
       "name": "opensquilla",
@@ -16327,6 +16637,7 @@
       "score": 0.8308,
       "recommendation": "★★★★★",
       "usage_scenarios": "为 Agent 接入外部工具、数据源或本地能力。",
+      "description_zh": "面向 Agent 外部工具、数据源和本地能力接入，减少无效上下文并控制模型输入成本。适合用于为 Agent 接入外部工具、数据源或本地能力。",
       "token_saving": {
         "token_reduction_method": "通过上下文裁剪、记忆压缩或成本优化策略降低 token 使用。",
         "best_for": "长对话、Agent 多步骤任务、知识库检索前处理、需要控制 LLM 成本的工作流。",
@@ -16386,7 +16697,8 @@
       "growth_rate": null,
       "score": 0.83,
       "recommendation": "★★★★★",
-      "usage_scenarios": "为 Agent 接入外部工具、数据源或本地能力。"
+      "usage_scenarios": "为 Agent 接入外部工具、数据源或本地能力。",
+      "description_zh": "面向 Agent 外部工具、数据源和本地能力接入，帮助 Agent 更稳定地完成相关任务。适合用于为 Agent 接入外部工具、数据源或本地能力。"
     },
     {
       "name": "agency-agents",
@@ -16424,7 +16736,8 @@
       "growth_rate": null,
       "score": 0.83,
       "recommendation": "★★★★★",
-      "usage_scenarios": "个人效率 场景下的 Agent / LLM 工作流增强。"
+      "usage_scenarios": "个人效率 场景下的 Agent / LLM 工作流增强。",
+      "description_zh": "面向日常工作流和个人效率提升，帮助 Agent 更稳定地完成相关任务。适合用于个人效率 场景下的 Agent / LLM 工作流增强。"
     },
     {
       "name": "cc-switch",
@@ -16483,7 +16796,8 @@
       "growth_rate": null,
       "score": 0.83,
       "recommendation": "★★★★★",
-      "usage_scenarios": "为 Agent 接入外部工具、数据源或本地能力。"
+      "usage_scenarios": "为 Agent 接入外部工具、数据源或本地能力。",
+      "description_zh": "面向 Agent 外部工具、数据源和本地能力接入，帮助 Agent 更稳定地完成相关任务。适合用于为 Agent 接入外部工具、数据源或本地能力。"
     },
     {
       "name": "generative-ai-for-beginners",
@@ -16536,7 +16850,8 @@
       "growth_rate": null,
       "score": 0.83,
       "recommendation": "★★★★★",
-      "usage_scenarios": "Prompt 优化 场景下的 Agent / LLM 工作流增强。"
+      "usage_scenarios": "Prompt 优化 场景下的 Agent / LLM 工作流增强。",
+      "description_zh": "面向 Prompt 设计、模板复用和效果优化，帮助 Agent 更稳定地完成相关任务。适合用于Prompt 优化 场景下的 Agent / LLM 工作流增强。"
     },
     {
       "name": "airflow",
@@ -16595,7 +16910,8 @@
       "growth_rate": null,
       "score": 0.8265,
       "recommendation": "★★★★★",
-      "usage_scenarios": "个人效率 场景下的 Agent / LLM 工作流增强。"
+      "usage_scenarios": "个人效率 场景下的 Agent / LLM 工作流增强。",
+      "description_zh": "面向日常工作流和个人效率提升，帮助 Agent 更稳定地完成相关任务。适合用于个人效率 场景下的 Agent / LLM 工作流增强。"
     },
     {
       "name": "agency-agents-zh",
@@ -16651,7 +16967,8 @@
       "growth_rate": null,
       "score": 0.8264,
       "recommendation": "★★★★★",
-      "usage_scenarios": "Cursor、Codex 或 IDE 内的编码规则与工作流模板。"
+      "usage_scenarios": "Cursor、Codex 或 IDE 内的编码规则与工作流模板。",
+      "description_zh": "面向代码编写与 Agent 编程协作，帮助 Agent 更稳定地完成相关任务。适合用于Cursor、Codex 或 IDE 内的编码规则与工作流模板。"
     },
     {
       "name": "NextChat",
@@ -16709,7 +17026,8 @@
       "growth_rate": null,
       "score": 0.8263,
       "recommendation": "★★★★★",
-      "usage_scenarios": "为 Agent 接入外部工具、数据源或本地能力。"
+      "usage_scenarios": "为 Agent 接入外部工具、数据源或本地能力。",
+      "description_zh": "面向 Agent 外部工具、数据源和本地能力接入，帮助 Agent 更稳定地完成相关任务。适合用于为 Agent 接入外部工具、数据源或本地能力。"
     },
     {
       "name": "caveman",
@@ -16759,6 +17077,7 @@
       "score": 0.8263,
       "recommendation": "★★★★★",
       "usage_scenarios": "Prompt 优化 场景下的 Agent / LLM 工作流增强。",
+      "description_zh": "面向 Prompt 设计、模板复用和效果优化，减少无效上下文并控制模型输入成本。适合用于Prompt 优化 场景下的 Agent / LLM 工作流增强。",
       "token_saving": {
         "token_reduction_method": "通过优化或模板化 Prompt，减少重复说明和无效上下文。",
         "best_for": "长对话、Agent 多步骤任务、知识库检索前处理、需要控制 LLM 成本的工作流。",
@@ -16808,7 +17127,8 @@
       "growth_rate": null,
       "score": 0.824,
       "recommendation": "★★★★★",
-      "usage_scenarios": "为 Agent 接入外部工具、数据源或本地能力。"
+      "usage_scenarios": "为 Agent 接入外部工具、数据源或本地能力。",
+      "description_zh": "面向 Agent 外部工具、数据源和本地能力接入，帮助 Agent 更稳定地完成相关任务。适合用于为 Agent 接入外部工具、数据源或本地能力。"
     },
     {
       "name": "deer-flow",
@@ -16865,7 +17185,8 @@
       "growth_rate": null,
       "score": 0.822,
       "recommendation": "★★★★★",
-      "usage_scenarios": "个人效率 场景下的 Agent / LLM 工作流增强。"
+      "usage_scenarios": "个人效率 场景下的 Agent / LLM 工作流增强。",
+      "description_zh": "面向日常工作流和个人效率提升，把重复步骤整理成可复用的自动化流程。适合用于个人效率 场景下的 Agent / LLM 工作流增强。"
     },
     {
       "name": "eigent",
@@ -16913,7 +17234,8 @@
       "growth_rate": null,
       "score": 0.8214,
       "recommendation": "★★★★★",
-      "usage_scenarios": "个人效率 场景下的 Agent / LLM 工作流增强。"
+      "usage_scenarios": "个人效率 场景下的 Agent / LLM 工作流增强。",
+      "description_zh": "面向日常工作流和个人效率提升，帮助 Agent 更稳定地完成相关任务。适合用于个人效率 场景下的 Agent / LLM 工作流增强。"
     },
     {
       "name": "Skill_Seekers",
@@ -16971,6 +17293,7 @@
       "score": 0.8212,
       "recommendation": "★★★★★",
       "usage_scenarios": "为 Agent 接入外部工具、数据源或本地能力。",
+      "description_zh": "面向 Agent 外部工具、数据源和本地能力接入，帮助 Agent 更稳定地完成相关任务。适合用于为 Agent 接入外部工具、数据源或本地能力。",
       "office_output": {
         "file_types": [
           "PDF"
@@ -17037,7 +17360,8 @@
       "growth_rate": null,
       "score": 0.8205,
       "recommendation": "★★★★★",
-      "usage_scenarios": "代码生成 场景下的 Agent / LLM 工作流增强。"
+      "usage_scenarios": "代码生成 场景下的 Agent / LLM 工作流增强。",
+      "description_zh": "面向代码编写与 Agent 编程协作，帮助 Agent 更稳定地完成相关任务。适合用于代码生成 场景下的 Agent / LLM 工作流增强。"
     },
     {
       "name": "superpowers-zh",
@@ -17091,7 +17415,8 @@
       "growth_rate": null,
       "score": 0.8182,
       "recommendation": "★★★★★",
-      "usage_scenarios": "Cursor、Codex 或 IDE 内的编码规则与工作流模板。"
+      "usage_scenarios": "Cursor、Codex 或 IDE 内的编码规则与工作流模板。",
+      "description_zh": "面向代码编写与 Agent 编程协作，帮助 Agent 更稳定地完成相关任务。适合用于Cursor、Codex 或 IDE 内的编码规则与工作流模板。"
     },
     {
       "name": "hello-agents",
@@ -17132,7 +17457,8 @@
       "growth_rate": null,
       "score": 0.8172,
       "recommendation": "★★★★★",
-      "usage_scenarios": "构建检索增强问答、企业知识库和上下文注入。"
+      "usage_scenarios": "构建检索增强问答、企业知识库和上下文注入。",
+      "description_zh": "面向知识库检索、RAG 问答和上下文注入，帮助 Agent 更稳定地完成相关任务。适合用于构建检索增强问答、企业知识库和上下文注入。"
     },
     {
       "name": "taste-skill",
@@ -17184,7 +17510,8 @@
       "growth_rate": null,
       "score": 0.8157,
       "recommendation": "★★★★★",
-      "usage_scenarios": "代码生成 场景下的 Agent / LLM 工作流增强。"
+      "usage_scenarios": "代码生成 场景下的 Agent / LLM 工作流增强。",
+      "description_zh": "面向代码编写与 Agent 编程协作，帮助 Agent 更稳定地完成相关任务。适合用于代码生成 场景下的 Agent / LLM 工作流增强。"
     },
     {
       "name": "code-review-graph",
@@ -17235,7 +17562,8 @@
       "growth_rate": 0.013493097160718937,
       "score": 0.8157,
       "recommendation": "★★★★★",
-      "usage_scenarios": "为 Agent 接入外部工具、数据源或本地能力。"
+      "usage_scenarios": "为 Agent 接入外部工具、数据源或本地能力。",
+      "description_zh": "面向 Agent 外部工具、数据源和本地能力接入，减少无效上下文并控制模型输入成本。适合用于为 Agent 接入外部工具、数据源或本地能力。"
     },
     {
       "name": "mem0",
@@ -17289,6 +17617,7 @@
       "score": 0.8148,
       "recommendation": "★★★★★",
       "usage_scenarios": "压缩上下文、长任务记忆整理、降低 API 调用成本。",
+      "description_zh": "面向上下文压缩、记忆整理和 LLM 成本控制，帮助 Agent 更稳定地完成相关任务。适合用于压缩上下文、长任务记忆整理、降低 API 调用成本。",
       "token_saving": {
         "token_reduction_method": "通过上下文裁剪、记忆压缩或成本优化策略降低 token 使用。",
         "best_for": "长对话、Agent 多步骤任务、知识库检索前处理、需要控制 LLM 成本的工作流。",
@@ -17351,7 +17680,8 @@
       "growth_rate": null,
       "score": 0.8136,
       "recommendation": "★★★★★",
-      "usage_scenarios": "图像 / 多模态 场景下的 Agent / LLM 工作流增强。"
+      "usage_scenarios": "图像 / 多模态 场景下的 Agent / LLM 工作流增强。",
+      "description_zh": "面向图像理解、OCR 和多模态任务，帮助 Agent 更稳定地完成相关任务。适合用于图像 / 多模态 场景下的 Agent / LLM 工作流增强。"
     },
     {
       "name": "awesome-mcp-servers",
@@ -17387,7 +17717,8 @@
       "growth_rate": 0.003598635840198423,
       "score": 0.8108,
       "recommendation": "★★★★★",
-      "usage_scenarios": "为 Agent 接入外部工具、数据源或本地能力。"
+      "usage_scenarios": "为 Agent 接入外部工具、数据源或本地能力。",
+      "description_zh": "面向 Agent 外部工具、数据源和本地能力接入，帮助 Agent 更稳定地完成相关任务。适合用于为 Agent 接入外部工具、数据源或本地能力。"
     },
     {
       "name": "awesome-cursorrules",
@@ -17431,7 +17762,8 @@
       "growth_rate": null,
       "score": 0.8074,
       "recommendation": "★★★★★",
-      "usage_scenarios": "Cursor、Codex 或 IDE 内的编码规则与工作流模板。"
+      "usage_scenarios": "Cursor、Codex 或 IDE 内的编码规则与工作流模板。",
+      "description_zh": "面向代码编写与 Agent 编程协作，帮助 Agent 更稳定地完成相关任务。适合用于Cursor、Codex 或 IDE 内的编码规则与工作流模板。"
     },
     {
       "name": "langchain",
@@ -17489,7 +17821,8 @@
       "growth_rate": null,
       "score": 0.8068,
       "recommendation": "★★★★★",
-      "usage_scenarios": "构建检索增强问答、企业知识库和上下文注入。"
+      "usage_scenarios": "构建检索增强问答、企业知识库和上下文注入。",
+      "description_zh": "面向知识库检索、RAG 问答和上下文注入，帮助 Agent 更稳定地完成相关任务。适合用于构建检索增强问答、企业知识库和上下文注入。"
     },
     {
       "name": "GitNexus",
@@ -17528,6 +17861,7 @@
       "score": 0.8051,
       "recommendation": "★★★★★",
       "usage_scenarios": "为 Agent 接入外部工具、数据源或本地能力。",
+      "description_zh": "面向 Agent 外部工具、数据源和本地能力接入，把分散的信息转成可检索、可调用的上下文。适合用于为 Agent 接入外部工具、数据源或本地能力。",
       "token_saving": {
         "token_reduction_method": "通过上下文裁剪、记忆压缩或成本优化策略降低 token 使用。",
         "best_for": "长对话、Agent 多步骤任务、知识库检索前处理、需要控制 LLM 成本的工作流。",
@@ -17571,7 +17905,8 @@
       "growth_rate": 0.012564452083209861,
       "score": 0.8039,
       "recommendation": "★★★★★",
-      "usage_scenarios": "个人效率 场景下的 Agent / LLM 工作流增强。"
+      "usage_scenarios": "个人效率 场景下的 Agent / LLM 工作流增强。",
+      "description_zh": "面向日常工作流和个人效率提升，减少无效上下文并控制模型输入成本。适合用于个人效率 场景下的 Agent / LLM 工作流增强。"
     },
     {
       "name": "CLIProxyAPI",
@@ -17616,7 +17951,8 @@
       "growth_rate": null,
       "score": 0.8026,
       "recommendation": "★★★★★",
-      "usage_scenarios": "为 Agent 接入外部工具、数据源或本地能力。"
+      "usage_scenarios": "为 Agent 接入外部工具、数据源或本地能力。",
+      "description_zh": "面向 Agent 外部工具、数据源和本地能力接入，帮助 Agent 更稳定地完成相关任务。适合用于为 Agent 接入外部工具、数据源或本地能力。"
     },
     {
       "name": "Prompt_Engineering",
@@ -17672,7 +18008,8 @@
       "growth_rate": null,
       "score": 0.8019,
       "recommendation": "★★★★★",
-      "usage_scenarios": "Prompt 优化 场景下的 Agent / LLM 工作流增强。"
+      "usage_scenarios": "Prompt 优化 场景下的 Agent / LLM 工作流增强。",
+      "description_zh": "面向 Prompt 设计、模板复用和效果优化，把分散的信息转成可检索、可调用的上下文。适合用于Prompt 优化 场景下的 Agent / LLM 工作流增强。"
     },
     {
       "name": "agent-browser",
@@ -17710,7 +18047,8 @@
       "growth_rate": null,
       "score": 0.8008,
       "recommendation": "★★★★★",
-      "usage_scenarios": "个人效率 场景下的 Agent / LLM 工作流增强。"
+      "usage_scenarios": "个人效率 场景下的 Agent / LLM 工作流增强。",
+      "description_zh": "面向日常工作流和个人效率提升，把重复步骤整理成可复用的自动化流程。适合用于个人效率 场景下的 Agent / LLM 工作流增强。"
     },
     {
       "name": "ollama",
@@ -17764,7 +18102,8 @@
       "growth_rate": null,
       "score": 0.8,
       "recommendation": "★★★★★",
-      "usage_scenarios": "图像 / 多模态 场景下的 Agent / LLM 工作流增强。"
+      "usage_scenarios": "图像 / 多模态 场景下的 Agent / LLM 工作流增强。",
+      "description_zh": "面向图像理解、OCR 和多模态任务，帮助 Agent 更稳定地完成相关任务。适合用于图像 / 多模态 场景下的 Agent / LLM 工作流增强。"
     },
     {
       "name": "openagent",
@@ -17822,7 +18161,8 @@
       "growth_rate": 0.008988764044943821,
       "score": 0.7975,
       "recommendation": "★★★★★",
-      "usage_scenarios": "为 Agent 接入外部工具、数据源或本地能力。"
+      "usage_scenarios": "为 Agent 接入外部工具、数据源或本地能力。",
+      "description_zh": "面向 Agent 外部工具、数据源和本地能力接入，把分散的信息转成可检索、可调用的上下文。适合用于为 Agent 接入外部工具、数据源或本地能力。"
     },
     {
       "name": "lean-ctx",
@@ -17881,6 +18221,7 @@
       "score": 0.7956,
       "recommendation": "★★★★★",
       "usage_scenarios": "Cursor、Codex 或 IDE 内的编码规则与工作流模板。",
+      "description_zh": "面向代码编写与 Agent 编程协作，减少无效上下文并控制模型输入成本。适合用于Cursor、Codex 或 IDE 内的编码规则与工作流模板。",
       "token_saving": {
         "token_reduction_method": "通过上下文裁剪、记忆压缩或成本优化策略降低 token 使用。",
         "best_for": "长对话、Agent 多步骤任务、知识库检索前处理、需要控制 LLM 成本的工作流。",
@@ -17945,6 +18286,7 @@
       "score": 0.7926,
       "recommendation": "★★★★★",
       "usage_scenarios": "PDF / 文档处理 场景下的 Agent / LLM 工作流增强。",
+      "description_zh": "面向 PDF、报告和结构化文档处理，帮助 Agent 更稳定地完成相关任务。适合用于PDF / 文档处理 场景下的 Agent / LLM 工作流增强。",
       "office_output": {
         "file_types": [
           "DOCX/Word",
@@ -18006,7 +18348,8 @@
       "growth_rate": null,
       "score": 0.7921,
       "recommendation": "★★★★★",
-      "usage_scenarios": "代码生成 场景下的 Agent / LLM 工作流增强。"
+      "usage_scenarios": "代码生成 场景下的 Agent / LLM 工作流增强。",
+      "description_zh": "面向代码编写与 Agent 编程协作，帮助 Agent 更稳定地完成相关任务。适合用于代码生成 场景下的 Agent / LLM 工作流增强。"
     },
     {
       "name": "giskard-oss",
@@ -18061,7 +18404,8 @@
       "growth_rate": null,
       "score": 0.7904,
       "recommendation": "★★★★★",
-      "usage_scenarios": "测试生成 场景下的 Agent / LLM 工作流增强。"
+      "usage_scenarios": "测试生成 场景下的 Agent / LLM 工作流增强。",
+      "description_zh": "面向测试用例生成与自动化验证，帮助 Agent 更稳定地完成相关任务。适合用于测试生成 场景下的 Agent / LLM 工作流增强。"
     },
     {
       "name": "mlflow",
@@ -18118,7 +18462,8 @@
       "growth_rate": null,
       "score": 0.7902,
       "recommendation": "★★★★★",
-      "usage_scenarios": "Prompt 优化 场景下的 Agent / LLM 工作流增强。"
+      "usage_scenarios": "Prompt 优化 场景下的 Agent / LLM 工作流增强。",
+      "description_zh": "面向 Prompt 设计、模板复用和效果优化，帮助 Agent 更稳定地完成相关任务。适合用于Prompt 优化 场景下的 Agent / LLM 工作流增强。"
     },
     {
       "name": "agenticSeek",
@@ -18165,7 +18510,8 @@
       "growth_rate": null,
       "score": 0.7898,
       "recommendation": "★★★★★",
-      "usage_scenarios": "个人效率 场景下的 Agent / LLM 工作流增强。"
+      "usage_scenarios": "个人效率 场景下的 Agent / LLM 工作流增强。",
+      "description_zh": "面向日常工作流和个人效率提升，帮助 Agent 更稳定地完成相关任务。适合用于个人效率 场景下的 Agent / LLM 工作流增强。"
     },
     {
       "name": "codecompanion.nvim",
@@ -18220,7 +18566,8 @@
       "growth_rate": null,
       "score": 0.7875,
       "recommendation": "★★★★★",
-      "usage_scenarios": "为 Agent 接入外部工具、数据源或本地能力。"
+      "usage_scenarios": "为 Agent 接入外部工具、数据源或本地能力。",
+      "description_zh": "面向 Agent 外部工具、数据源和本地能力接入，帮助 Agent 更稳定地完成相关任务。适合用于为 Agent 接入外部工具、数据源或本地能力。"
     },
     {
       "name": "pm-skills",
@@ -18266,7 +18613,8 @@
       "growth_rate": null,
       "score": 0.786,
       "recommendation": "★★★★★",
-      "usage_scenarios": "个人效率 场景下的 Agent / LLM 工作流增强。"
+      "usage_scenarios": "个人效率 场景下的 Agent / LLM 工作流增强。",
+      "description_zh": "面向日常工作流和个人效率提升，帮助 Agent 更稳定地完成相关任务。适合用于个人效率 场景下的 Agent / LLM 工作流增强。"
     },
     {
       "name": "awesome-claude-code-subagents",
@@ -18315,7 +18663,8 @@
       "growth_rate": null,
       "score": 0.7856,
       "recommendation": "★★★★★",
-      "usage_scenarios": "个人效率 场景下的 Agent / LLM 工作流增强。"
+      "usage_scenarios": "个人效率 场景下的 Agent / LLM 工作流增强。",
+      "description_zh": "面向日常工作流和个人效率提升，帮助 Agent 更稳定地完成相关任务。适合用于个人效率 场景下的 Agent / LLM 工作流增强。"
     },
     {
       "name": "GenAI_Agents",
@@ -18373,7 +18722,8 @@
       "growth_rate": null,
       "score": 0.7855,
       "recommendation": "★★★★★",
-      "usage_scenarios": "为 Agent 接入外部工具、数据源或本地能力。"
+      "usage_scenarios": "为 Agent 接入外部工具、数据源或本地能力。",
+      "description_zh": "面向 Agent 外部工具、数据源和本地能力接入，帮助 Agent 更稳定地完成相关任务。适合用于为 Agent 接入外部工具、数据源或本地能力。"
     },
     {
       "name": "andrej-karpathy-skills",
@@ -18410,7 +18760,8 @@
       "growth_rate": null,
       "score": 0.785,
       "recommendation": "★★★★★",
-      "usage_scenarios": "代码生成 场景下的 Agent / LLM 工作流增强。"
+      "usage_scenarios": "代码生成 场景下的 Agent / LLM 工作流增强。",
+      "description_zh": "面向代码编写与 Agent 编程协作，帮助 Agent 更稳定地完成相关任务。适合用于代码生成 场景下的 Agent / LLM 工作流增强。"
     },
     {
       "name": "Prompt-Engineering-Guide",
@@ -18459,7 +18810,8 @@
       "growth_rate": null,
       "score": 0.7843,
       "recommendation": "★★★★★",
-      "usage_scenarios": "Prompt 优化 场景下的 Agent / LLM 工作流增强。"
+      "usage_scenarios": "Prompt 优化 场景下的 Agent / LLM 工作流增强。",
+      "description_zh": "面向 Prompt 设计、模板复用和效果优化，减少无效上下文并控制模型输入成本。适合用于Prompt 优化 场景下的 Agent / LLM 工作流增强。"
     },
     {
       "name": "jcodemunch-mcp",
@@ -18519,6 +18871,7 @@
       "score": 0.7811,
       "recommendation": "★★★★★",
       "usage_scenarios": "Cursor、Codex 或 IDE 内的编码规则与工作流模板。",
+      "description_zh": "面向代码编写与 Agent 编程协作，减少无效上下文并控制模型输入成本。适合用于Cursor、Codex 或 IDE 内的编码规则与工作流模板。",
       "token_saving": {
         "token_reduction_method": "通过上下文裁剪、记忆压缩或成本优化策略降低 token 使用。",
         "best_for": "长对话、Agent 多步骤任务、知识库检索前处理、需要控制 LLM 成本的工作流。",
@@ -18581,7 +18934,8 @@
       "growth_rate": null,
       "score": 0.781,
       "recommendation": "★★★★★",
-      "usage_scenarios": "Prompt 优化 场景下的 Agent / LLM 工作流增强。"
+      "usage_scenarios": "Prompt 优化 场景下的 Agent / LLM 工作流增强。",
+      "description_zh": "面向 Prompt 设计、模板复用和效果优化，帮助 Agent 更稳定地完成相关任务。适合用于Prompt 优化 场景下的 Agent / LLM 工作流增强。"
     },
     {
       "name": "hermes-agent",
@@ -18636,7 +18990,8 @@
       "growth_rate": null,
       "score": 0.78,
       "recommendation": "★★★★★",
-      "usage_scenarios": "个人效率 场景下的 Agent / LLM 工作流增强。"
+      "usage_scenarios": "个人效率 场景下的 Agent / LLM 工作流增强。",
+      "description_zh": "面向日常工作流和个人效率提升，帮助 Agent 更稳定地完成相关任务。适合用于个人效率 场景下的 Agent / LLM 工作流增强。"
     },
     {
       "name": "pua",
@@ -18679,7 +19034,8 @@
       "growth_rate": null,
       "score": 0.7791,
       "recommendation": "★★★★☆",
-      "usage_scenarios": "个人效率 场景下的 Agent / LLM 工作流增强。"
+      "usage_scenarios": "个人效率 场景下的 Agent / LLM 工作流增强。",
+      "description_zh": "面向日常工作流和个人效率提升，帮助 Agent 更稳定地完成相关任务。适合用于个人效率 场景下的 Agent / LLM 工作流增强。"
     },
     {
       "name": "langgraph",
@@ -18735,7 +19091,8 @@
       "growth_rate": null,
       "score": 0.7785,
       "recommendation": "★★★★☆",
-      "usage_scenarios": "构建检索增强问答、企业知识库和上下文注入。"
+      "usage_scenarios": "构建检索增强问答、企业知识库和上下文注入。",
+      "description_zh": "面向知识库检索、RAG 问答和上下文注入，帮助 Agent 更稳定地完成相关任务。适合用于构建检索增强问答、企业知识库和上下文注入。"
     },
     {
       "name": "oh-my-pi",
@@ -18789,7 +19146,8 @@
       "growth_rate": null,
       "score": 0.7768,
       "recommendation": "★★★★☆",
-      "usage_scenarios": "为 Agent 接入外部工具、数据源或本地能力。"
+      "usage_scenarios": "为 Agent 接入外部工具、数据源或本地能力。",
+      "description_zh": "面向 Agent 外部工具、数据源和本地能力接入，帮助 Agent 更稳定地完成相关任务。适合用于为 Agent 接入外部工具、数据源或本地能力。"
     },
     {
       "name": "Front-End-Checklist",
@@ -18843,7 +19201,8 @@
       "growth_rate": null,
       "score": 0.7755,
       "recommendation": "★★★★☆",
-      "usage_scenarios": "为 Agent 接入外部工具、数据源或本地能力。"
+      "usage_scenarios": "为 Agent 接入外部工具、数据源或本地能力。",
+      "description_zh": "面向 Agent 外部工具、数据源和本地能力接入，帮助 Agent 更稳定地完成相关任务。适合用于为 Agent 接入外部工具、数据源或本地能力。"
     },
     {
       "name": "DeepCode",
@@ -18884,7 +19243,8 @@
       "growth_rate": null,
       "score": 0.7744,
       "recommendation": "★★★★☆",
-      "usage_scenarios": "代码生成 场景下的 Agent / LLM 工作流增强。"
+      "usage_scenarios": "代码生成 场景下的 Agent / LLM 工作流增强。",
+      "description_zh": "面向代码编写与 Agent 编程协作，帮助 Agent 更稳定地完成相关任务。适合用于代码生成 场景下的 Agent / LLM 工作流增强。"
     },
     {
       "name": "cli",
@@ -18922,7 +19282,8 @@
       "growth_rate": null,
       "score": 0.7733,
       "recommendation": "★★★★☆",
-      "usage_scenarios": "PDF / 文档处理 场景下的 Agent / LLM 工作流增强。"
+      "usage_scenarios": "PDF / 文档处理 场景下的 Agent / LLM 工作流增强。",
+      "description_zh": "面向 PDF、报告和结构化文档处理，帮助 Agent 更稳定地完成相关任务。适合用于PDF / 文档处理 场景下的 Agent / LLM 工作流增强。"
     },
     {
       "name": "obsidian-skills",
@@ -18975,7 +19336,8 @@
       "growth_rate": 0.03486386014267055,
       "score": 0.772,
       "recommendation": "★★★★☆",
-      "usage_scenarios": "PDF / 文档处理 场景下的 Agent / LLM 工作流增强。"
+      "usage_scenarios": "PDF / 文档处理 场景下的 Agent / LLM 工作流增强。",
+      "description_zh": "面向 PDF、报告和结构化文档处理，帮助 Agent 更稳定地完成相关任务。适合用于PDF / 文档处理 场景下的 Agent / LLM 工作流增强。"
     },
     {
       "name": "better-deepseek",
@@ -19034,6 +19396,7 @@
       "score": 0.7708,
       "recommendation": "★★★★☆",
       "usage_scenarios": "批量生成文档、报表、幻灯片或电子表格。",
+      "description_zh": "面向 Word、PPT、Excel、PDF 等办公内容生成，把重复步骤整理成可复用的自动化流程。适合用于批量生成文档、报表、幻灯片或电子表格。",
       "office_output": {
         "file_types": [
           "DOCX/Word",
@@ -19081,7 +19444,8 @@
       "growth_rate": null,
       "score": 0.7706,
       "recommendation": "★★★★☆",
-      "usage_scenarios": "个人效率 场景下的 Agent / LLM 工作流增强。"
+      "usage_scenarios": "个人效率 场景下的 Agent / LLM 工作流增强。",
+      "description_zh": "面向日常工作流和个人效率提升，帮助 Agent 更稳定地完成相关任务。适合用于个人效率 场景下的 Agent / LLM 工作流增强。"
     },
     {
       "name": "paperless-gpt",
@@ -19128,7 +19492,8 @@
       "growth_rate": null,
       "score": 0.768,
       "recommendation": "★★★★☆",
-      "usage_scenarios": "PDF / 文档处理 场景下的 Agent / LLM 工作流增强。"
+      "usage_scenarios": "PDF / 文档处理 场景下的 Agent / LLM 工作流增强。",
+      "description_zh": "面向 PDF、报告和结构化文档处理，将图像或视觉信息转成 Agent 可处理的结果。适合用于PDF / 文档处理 场景下的 Agent / LLM 工作流增强。"
     },
     {
       "name": "LangGPT",
@@ -19181,7 +19546,8 @@
       "growth_rate": null,
       "score": 0.7664,
       "recommendation": "★★★★☆",
-      "usage_scenarios": "Prompt 优化 场景下的 Agent / LLM 工作流增强。"
+      "usage_scenarios": "Prompt 优化 场景下的 Agent / LLM 工作流增强。",
+      "description_zh": "面向 Prompt 设计、模板复用和效果优化，把重复步骤整理成可复用的自动化流程。适合用于Prompt 优化 场景下的 Agent / LLM 工作流增强。"
     },
     {
       "name": "claude-cookbooks",
@@ -19218,7 +19584,8 @@
       "growth_rate": null,
       "score": 0.7647,
       "recommendation": "★★★★☆",
-      "usage_scenarios": "代码生成 场景下的 Agent / LLM 工作流增强。"
+      "usage_scenarios": "代码生成 场景下的 Agent / LLM 工作流增强。",
+      "description_zh": "面向代码编写与 Agent 编程协作，帮助 Agent 更稳定地完成相关任务。适合用于代码生成 场景下的 Agent / LLM 工作流增强。"
     },
     {
       "name": "TencentDB-Agent-Memory",
@@ -19266,7 +19633,8 @@
       "growth_rate": null,
       "score": 0.7605,
       "recommendation": "★★★★☆",
-      "usage_scenarios": "构建检索增强问答、企业知识库和上下文注入。"
+      "usage_scenarios": "构建检索增强问答、企业知识库和上下文注入。",
+      "description_zh": "面向知识库检索、RAG 问答和上下文注入，帮助 Agent 更稳定地完成相关任务。适合用于构建检索增强问答、企业知识库和上下文注入。"
     },
     {
       "name": "Mano-P",
@@ -19318,7 +19686,8 @@
       "growth_rate": 0.005418924551896623,
       "score": 0.76,
       "recommendation": "★★★★☆",
-      "usage_scenarios": "图像 / 多模态 场景下的 Agent / LLM 工作流增强。"
+      "usage_scenarios": "图像 / 多模态 场景下的 Agent / LLM 工作流增强。",
+      "description_zh": "面向图像理解、OCR 和多模态任务，帮助 Agent 更稳定地完成相关任务。适合用于图像 / 多模态 场景下的 Agent / LLM 工作流增强。"
     },
     {
       "name": "awesome-ai-agent-papers",
@@ -19365,7 +19734,8 @@
       "growth_rate": 0.028966425279789335,
       "score": 0.7587,
       "recommendation": "★★★★☆",
-      "usage_scenarios": "个人效率 场景下的 Agent / LLM 工作流增强。"
+      "usage_scenarios": "个人效率 场景下的 Agent / LLM 工作流增强。",
+      "description_zh": "面向日常工作流和个人效率提升，把分散的信息转成可检索、可调用的上下文。适合用于个人效率 场景下的 Agent / LLM 工作流增强。"
     },
     {
       "name": "dspy",
@@ -19402,7 +19772,8 @@
       "growth_rate": null,
       "score": 0.7553,
       "recommendation": "★★★★☆",
-      "usage_scenarios": "文档生成 场景下的 Agent / LLM 工作流增强。"
+      "usage_scenarios": "文档生成 场景下的 Agent / LLM 工作流增强。",
+      "description_zh": "面向技术文档、说明和知识内容生成，帮助 Agent 更稳定地完成相关任务。适合用于文档生成 场景下的 Agent / LLM 工作流增强。"
     },
     {
       "name": "atom",
@@ -19457,7 +19828,8 @@
       "growth_rate": null,
       "score": 0.7527,
       "recommendation": "★★★★☆",
-      "usage_scenarios": "个人效率 场景下的 Agent / LLM 工作流增强。"
+      "usage_scenarios": "个人效率 场景下的 Agent / LLM 工作流增强。",
+      "description_zh": "面向日常工作流和个人效率提升，把重复步骤整理成可复用的自动化流程。适合用于个人效率 场景下的 Agent / LLM 工作流增强。"
     },
     {
       "name": "AgentGuide",
@@ -19507,7 +19879,8 @@
       "growth_rate": null,
       "score": 0.7487,
       "recommendation": "★★★★☆",
-      "usage_scenarios": "构建检索增强问答、企业知识库和上下文注入。"
+      "usage_scenarios": "构建检索增强问答、企业知识库和上下文注入。",
+      "description_zh": "面向知识库检索、RAG 问答和上下文注入，把分散的信息转成可检索、可调用的上下文。适合用于构建检索增强问答、企业知识库和上下文注入。"
     },
     {
       "name": "awesome-zsh-plugins",
@@ -19559,7 +19932,8 @@
       "growth_rate": null,
       "score": 0.7476,
       "recommendation": "★★★★☆",
-      "usage_scenarios": "Prompt 优化 场景下的 Agent / LLM 工作流增强。"
+      "usage_scenarios": "Prompt 优化 场景下的 Agent / LLM 工作流增强。",
+      "description_zh": "面向 Prompt 设计、模板复用和效果优化，帮助 Agent 更稳定地完成相关任务。适合用于Prompt 优化 场景下的 Agent / LLM 工作流增强。"
     },
     {
       "name": "sub2api",
@@ -19607,7 +19981,8 @@
       "growth_rate": null,
       "score": 0.745,
       "recommendation": "★★★★☆",
-      "usage_scenarios": "个人效率 场景下的 Agent / LLM 工作流增强。"
+      "usage_scenarios": "个人效率 场景下的 Agent / LLM 工作流增强。",
+      "description_zh": "面向日常工作流和个人效率提升，帮助 Agent 更稳定地完成相关任务。适合用于个人效率 场景下的 Agent / LLM 工作流增强。"
     },
     {
       "name": "awesome-LangGraph",
@@ -19653,7 +20028,8 @@
       "growth_rate": 0.004766949152542373,
       "score": 0.7428,
       "recommendation": "★★★★☆",
-      "usage_scenarios": "Prompt 优化 场景下的 Agent / LLM 工作流增强。"
+      "usage_scenarios": "Prompt 优化 场景下的 Agent / LLM 工作流增强。",
+      "description_zh": "面向 Prompt 设计、模板复用和效果优化，帮助 Agent 更稳定地完成相关任务。适合用于Prompt 优化 场景下的 Agent / LLM 工作流增强。"
     },
     {
       "name": "gepa",
@@ -19691,7 +20067,8 @@
       "growth_rate": null,
       "score": 0.7425,
       "recommendation": "★★★★☆",
-      "usage_scenarios": "Prompt 优化 场景下的 Agent / LLM 工作流增强。"
+      "usage_scenarios": "Prompt 优化 场景下的 Agent / LLM 工作流增强。",
+      "description_zh": "面向 Prompt 设计、模板复用和效果优化，帮助 Agent 更稳定地完成相关任务。适合用于Prompt 优化 场景下的 Agent / LLM 工作流增强。"
     },
     {
       "name": "guizang-ppt-skill",
@@ -19738,7 +20115,8 @@
       "growth_rate": null,
       "score": 0.7377,
       "recommendation": "★★★★☆",
-      "usage_scenarios": "Prompt 优化 场景下的 Agent / LLM 工作流增强。"
+      "usage_scenarios": "Prompt 优化 场景下的 Agent / LLM 工作流增强。",
+      "description_zh": "面向 Prompt 设计、模板复用和效果优化，将图像或视觉信息转成 Agent 可处理的结果。适合用于Prompt 优化 场景下的 Agent / LLM 工作流增强。"
     },
     {
       "name": "awesome-hermes-agent",
@@ -19783,7 +20161,8 @@
       "growth_rate": null,
       "score": 0.7368,
       "recommendation": "★★★★☆",
-      "usage_scenarios": "个人效率 场景下的 Agent / LLM 工作流增强。"
+      "usage_scenarios": "个人效率 场景下的 Agent / LLM 工作流增强。",
+      "description_zh": "面向日常工作流和个人效率提升，把分散的信息转成可检索、可调用的上下文。适合用于个人效率 场景下的 Agent / LLM 工作流增强。"
     },
     {
       "name": "awesome-openclaw-agents",
@@ -19842,7 +20221,8 @@
       "growth_rate": null,
       "score": 0.7356,
       "recommendation": "★★★★☆",
-      "usage_scenarios": "个人效率 场景下的 Agent / LLM 工作流增强。"
+      "usage_scenarios": "个人效率 场景下的 Agent / LLM 工作流增强。",
+      "description_zh": "面向日常工作流和个人效率提升，帮助 Agent 更稳定地完成相关任务。适合用于个人效率 场景下的 Agent / LLM 工作流增强。"
     },
     {
       "name": "dom-to-pptx",
@@ -19901,6 +20281,7 @@
       "score": 0.7314,
       "recommendation": "★★★★☆",
       "usage_scenarios": "批量生成文档、报表、幻灯片或电子表格。",
+      "description_zh": "面向 Word、PPT、Excel、PDF 等办公内容生成，将图像或视觉信息转成 Agent 可处理的结果。适合用于批量生成文档、报表、幻灯片或电子表格。",
       "office_output": {
         "file_types": [
           "PPTX/PowerPoint",
@@ -19955,7 +20336,8 @@
       "growth_rate": null,
       "score": 0.7307,
       "recommendation": "★★★★☆",
-      "usage_scenarios": "Prompt 优化 场景下的 Agent / LLM 工作流增强。"
+      "usage_scenarios": "Prompt 优化 场景下的 Agent / LLM 工作流增强。",
+      "description_zh": "面向 Prompt 设计、模板复用和效果优化，减少无效上下文并控制模型输入成本。适合用于Prompt 优化 场景下的 Agent / LLM 工作流增强。"
     },
     {
       "name": "video-use",
@@ -19991,7 +20373,8 @@
       "growth_rate": null,
       "score": 0.7283,
       "recommendation": "★★★★☆",
-      "usage_scenarios": "代码生成 场景下的 Agent / LLM 工作流增强。"
+      "usage_scenarios": "代码生成 场景下的 Agent / LLM 工作流增强。",
+      "description_zh": "面向代码编写与 Agent 编程协作，帮助 Agent 更稳定地完成相关任务。适合用于代码生成 场景下的 Agent / LLM 工作流增强。"
     },
     {
       "name": "parlant",
@@ -20041,7 +20424,8 @@
       "growth_rate": null,
       "score": 0.7282,
       "recommendation": "★★★★☆",
-      "usage_scenarios": "个人效率 场景下的 Agent / LLM 工作流增强。"
+      "usage_scenarios": "个人效率 场景下的 Agent / LLM 工作流增强。",
+      "description_zh": "面向日常工作流和个人效率提升，帮助 Agent 更稳定地完成相关任务。适合用于个人效率 场景下的 Agent / LLM 工作流增强。"
     },
     {
       "name": "awesome-codex-skills",
@@ -20092,7 +20476,8 @@
       "growth_rate": null,
       "score": 0.7271,
       "recommendation": "★★★★☆",
-      "usage_scenarios": "个人效率 场景下的 Agent / LLM 工作流增强。"
+      "usage_scenarios": "个人效率 场景下的 Agent / LLM 工作流增强。",
+      "description_zh": "面向日常工作流和个人效率提升，帮助 Agent 更稳定地完成相关任务。适合用于个人效率 场景下的 Agent / LLM 工作流增强。"
     },
     {
       "name": "Biomni",
@@ -20134,7 +20519,8 @@
       "growth_rate": null,
       "score": 0.727,
       "recommendation": "★★★★☆",
-      "usage_scenarios": "构建检索增强问答、企业知识库和上下文注入。"
+      "usage_scenarios": "构建检索增强问答、企业知识库和上下文注入。",
+      "description_zh": "面向知识库检索、RAG 问答和上下文注入，帮助 Agent 更稳定地完成相关任务。适合用于构建检索增强问答、企业知识库和上下文注入。"
     },
     {
       "name": "OpenHarness",
@@ -20172,7 +20558,8 @@
       "growth_rate": null,
       "score": 0.7268,
       "recommendation": "★★★★☆",
-      "usage_scenarios": "个人效率 场景下的 Agent / LLM 工作流增强。"
+      "usage_scenarios": "个人效率 场景下的 Agent / LLM 工作流增强。",
+      "description_zh": "面向日常工作流和个人效率提升，帮助 Agent 更稳定地完成相关任务。适合用于个人效率 场景下的 Agent / LLM 工作流增强。"
     },
     {
       "name": "learn-claude-code",
@@ -20220,7 +20607,8 @@
       "growth_rate": null,
       "score": 0.7245,
       "recommendation": "★★★★☆",
-      "usage_scenarios": "个人效率 场景下的 Agent / LLM 工作流增强。"
+      "usage_scenarios": "个人效率 场景下的 Agent / LLM 工作流增强。",
+      "description_zh": "面向日常工作流和个人效率提升，帮助 Agent 更稳定地完成相关任务。适合用于个人效率 场景下的 Agent / LLM 工作流增强。"
     },
     {
       "name": "awesome-harness-engineering",
@@ -20268,7 +20656,8 @@
       "growth_rate": null,
       "score": 0.7235,
       "recommendation": "★★★★☆",
-      "usage_scenarios": "为 Agent 接入外部工具、数据源或本地能力。"
+      "usage_scenarios": "为 Agent 接入外部工具、数据源或本地能力。",
+      "description_zh": "面向 Agent 外部工具、数据源和本地能力接入，帮助 Agent 更稳定地完成相关任务。适合用于为 Agent 接入外部工具、数据源或本地能力。"
     },
     {
       "name": "gotenberg",
@@ -20325,6 +20714,7 @@
       "score": 0.721,
       "recommendation": "★★★★☆",
       "usage_scenarios": "批量生成文档、报表、幻灯片或电子表格。",
+      "description_zh": "面向 Word、PPT、Excel、PDF 等办公内容生成，帮助 Agent 更稳定地完成相关任务。适合用于批量生成文档、报表、幻灯片或电子表格。",
       "office_output": {
         "file_types": [
           "DOCX/Word",
@@ -20384,7 +20774,8 @@
       "growth_rate": null,
       "score": 0.7193,
       "recommendation": "★★★★☆",
-      "usage_scenarios": "个人效率 场景下的 Agent / LLM 工作流增强。"
+      "usage_scenarios": "个人效率 场景下的 Agent / LLM 工作流增强。",
+      "description_zh": "面向日常工作流和个人效率提升，帮助 Agent 更稳定地完成相关任务。适合用于个人效率 场景下的 Agent / LLM 工作流增强。"
     },
     {
       "name": "my-claude-code-setup",
@@ -20430,7 +20821,8 @@
       "growth_rate": null,
       "score": 0.7179,
       "recommendation": "★★★★☆",
-      "usage_scenarios": "Prompt 优化 场景下的 Agent / LLM 工作流增强。"
+      "usage_scenarios": "Prompt 优化 场景下的 Agent / LLM 工作流增强。",
+      "description_zh": "面向 Prompt 设计、模板复用和效果优化，帮助 Agent 更稳定地完成相关任务。适合用于Prompt 优化 场景下的 Agent / LLM 工作流增强。"
     },
     {
       "name": "Awesome-LLM-Long-Context-Modeling",
@@ -20486,6 +20878,7 @@
       "score": 0.7132,
       "recommendation": "★★★★☆",
       "usage_scenarios": "压缩上下文、长任务记忆整理、降低 API 调用成本。",
+      "description_zh": "面向上下文压缩、记忆整理和 LLM 成本控制，减少无效上下文并控制模型输入成本。适合用于压缩上下文、长任务记忆整理、降低 API 调用成本。",
       "token_saving": {
         "token_reduction_method": "通过上下文裁剪、记忆压缩或成本优化策略降低 token 使用。",
         "best_for": "长对话、Agent 多步骤任务、知识库检索前处理、需要控制 LLM 成本的工作流。",
@@ -20550,7 +20943,8 @@
       "growth_rate": null,
       "score": 0.7126,
       "recommendation": "★★★★☆",
-      "usage_scenarios": "为 Agent 接入外部工具、数据源或本地能力。"
+      "usage_scenarios": "为 Agent 接入外部工具、数据源或本地能力。",
+      "description_zh": "面向 Agent 外部工具、数据源和本地能力接入，帮助 Agent 更稳定地完成相关任务。适合用于为 Agent 接入外部工具、数据源或本地能力。"
     },
     {
       "name": "visual-explainer",
@@ -20586,7 +20980,8 @@
       "growth_rate": null,
       "score": 0.7125,
       "recommendation": "★★★★☆",
-      "usage_scenarios": "代码审查 场景下的 Agent / LLM 工作流增强。"
+      "usage_scenarios": "代码审查 场景下的 Agent / LLM 工作流增强。",
+      "description_zh": "面向代码审查、质量检查与安全风险发现，把重复步骤整理成可复用的自动化流程。适合用于代码审查 场景下的 Agent / LLM 工作流增强。"
     },
     {
       "name": "research-skills",
@@ -20623,7 +21018,8 @@
       "growth_rate": 0.011299435028248588,
       "score": 0.7117,
       "recommendation": "★★★★☆",
-      "usage_scenarios": "个人效率 场景下的 Agent / LLM 工作流增强。"
+      "usage_scenarios": "个人效率 场景下的 Agent / LLM 工作流增强。",
+      "description_zh": "面向日常工作流和个人效率提升，把分散的信息转成可检索、可调用的上下文。适合用于个人效率 场景下的 Agent / LLM 工作流增强。"
     },
     {
       "name": "openai-cookbook",
@@ -20664,7 +21060,8 @@
       "growth_rate": null,
       "score": 0.7116,
       "recommendation": "★★★★☆",
-      "usage_scenarios": "数据分析 场景下的 Agent / LLM 工作流增强。"
+      "usage_scenarios": "数据分析 场景下的 Agent / LLM 工作流增强。",
+      "description_zh": "面向数据整理、分析和洞察提取，帮助 Agent 更稳定地完成相关任务。适合用于数据分析 场景下的 Agent / LLM 工作流增强。"
     },
     {
       "name": "pypdf",
@@ -20711,6 +21108,7 @@
       "score": 0.7109,
       "recommendation": "★★★★☆",
       "usage_scenarios": "PDF / 文档处理 场景下的 Agent / LLM 工作流增强。",
+      "description_zh": "面向 PDF、报告和结构化文档处理，帮助 Agent 更稳定地完成相关任务。适合用于PDF / 文档处理 场景下的 Agent / LLM 工作流增强。",
       "office_output": {
         "file_types": [
           "PDF"
@@ -20761,7 +21159,8 @@
       "growth_rate": null,
       "score": 0.706,
       "recommendation": "★★★★☆",
-      "usage_scenarios": "数据分析 场景下的 Agent / LLM 工作流增强。"
+      "usage_scenarios": "数据分析 场景下的 Agent / LLM 工作流增强。",
+      "description_zh": "面向数据整理、分析和洞察提取，帮助 Agent 更稳定地完成相关任务。适合用于数据分析 场景下的 Agent / LLM 工作流增强。"
     },
     {
       "name": "qodo-cover",
@@ -20804,7 +21203,8 @@
       "growth_rate": null,
       "score": 0.7046,
       "recommendation": "★★★★☆",
-      "usage_scenarios": "个人效率 场景下的 Agent / LLM 工作流增强。"
+      "usage_scenarios": "个人效率 场景下的 Agent / LLM 工作流增强。",
+      "description_zh": "面向日常工作流和个人效率提升，把分散的信息转成可检索、可调用的上下文。适合用于个人效率 场景下的 Agent / LLM 工作流增强。"
     },
     {
       "name": "llm-engineer-toolkit",
@@ -20846,7 +21246,8 @@
       "growth_rate": 0.006341094075335983,
       "score": 0.698,
       "recommendation": "★★★★☆",
-      "usage_scenarios": "个人效率 场景下的 Agent / LLM 工作流增强。"
+      "usage_scenarios": "个人效率 场景下的 Agent / LLM 工作流增强。",
+      "description_zh": "面向日常工作流和个人效率提升，帮助 Agent 更稳定地完成相关任务。适合用于个人效率 场景下的 Agent / LLM 工作流增强。"
     },
     {
       "name": "learning",
@@ -20891,7 +21292,8 @@
       "growth_rate": 0.0007232749891508751,
       "score": 0.6947,
       "recommendation": "★★★★☆",
-      "usage_scenarios": "个人效率 场景下的 Agent / LLM 工作流增强。"
+      "usage_scenarios": "个人效率 场景下的 Agent / LLM 工作流增强。",
+      "description_zh": "面向日常工作流和个人效率提升，帮助 Agent 更稳定地完成相关任务。适合用于个人效率 场景下的 Agent / LLM 工作流增强。"
     },
     {
       "name": "opencowork",
@@ -20937,7 +21339,8 @@
       "growth_rate": null,
       "score": 0.6924,
       "recommendation": "★★★★☆",
-      "usage_scenarios": "个人效率 场景下的 Agent / LLM 工作流增强。"
+      "usage_scenarios": "个人效率 场景下的 Agent / LLM 工作流增强。",
+      "description_zh": "面向日常工作流和个人效率提升，帮助 Agent 更稳定地完成相关任务。适合用于个人效率 场景下的 Agent / LLM 工作流增强。"
     },
     {
       "name": "DecryptPrompt",
@@ -20989,7 +21392,8 @@
       "growth_rate": null,
       "score": 0.6824,
       "recommendation": "★★★★☆",
-      "usage_scenarios": "Prompt 优化 场景下的 Agent / LLM 工作流增强。"
+      "usage_scenarios": "Prompt 优化 场景下的 Agent / LLM 工作流增强。",
+      "description_zh": "面向 Prompt 设计、模板复用和效果优化，帮助 Agent 更稳定地完成相关任务。适合用于Prompt 优化 场景下的 Agent / LLM 工作流增强。"
     },
     {
       "name": "agent-lightning",
@@ -21033,7 +21437,8 @@
       "growth_rate": null,
       "score": 0.6818,
       "recommendation": "★★★★☆",
-      "usage_scenarios": "个人效率 场景下的 Agent / LLM 工作流增强。"
+      "usage_scenarios": "个人效率 场景下的 Agent / LLM 工作流增强。",
+      "description_zh": "面向日常工作流和个人效率提升，帮助 Agent 更稳定地完成相关任务。适合用于个人效率 场景下的 Agent / LLM 工作流增强。"
     },
     {
       "name": "Awesome-LLM-Compression",
@@ -21071,6 +21476,7 @@
       "score": 0.6787,
       "recommendation": "★★★★☆",
       "usage_scenarios": "Prompt 优化 场景下的 Agent / LLM 工作流增强。",
+      "description_zh": "面向 Prompt 设计、模板复用和效果优化，减少无效上下文并控制模型输入成本。适合用于Prompt 优化 场景下的 Agent / LLM 工作流增强。",
       "token_saving": {
         "token_reduction_method": "通过优化或模板化 Prompt，减少重复说明和无效上下文。",
         "best_for": "长对话、Agent 多步骤任务、知识库检索前处理、需要控制 LLM 成本的工作流。",
@@ -21112,7 +21518,8 @@
       "growth_rate": null,
       "score": 0.6783,
       "recommendation": "★★★★☆",
-      "usage_scenarios": "代码生成 场景下的 Agent / LLM 工作流增强。"
+      "usage_scenarios": "代码生成 场景下的 Agent / LLM 工作流增强。",
+      "description_zh": "面向代码编写与 Agent 编程协作，把分散的信息转成可检索、可调用的上下文。适合用于代码生成 场景下的 Agent / LLM 工作流增强。"
     },
     {
       "name": "ai-paper2slide-skill",
@@ -21150,6 +21557,7 @@
       "score": 0.6782,
       "recommendation": "★★★★☆",
       "usage_scenarios": "批量生成文档、报表、幻灯片或电子表格。",
+      "description_zh": "面向 Word、PPT、Excel、PDF 等办公内容生成，把分散的信息转成可检索、可调用的上下文。适合用于批量生成文档、报表、幻灯片或电子表格。",
       "office_output": {
         "file_types": [
           "DOCX/Word",
@@ -21197,6 +21605,7 @@
       "score": 0.6757,
       "recommendation": "★★★★☆",
       "usage_scenarios": "Prompt 优化 场景下的 Agent / LLM 工作流增强。",
+      "description_zh": "面向 Prompt 设计、模板复用和效果优化，减少无效上下文并控制模型输入成本。适合用于Prompt 优化 场景下的 Agent / LLM 工作流增强。",
       "token_saving": {
         "token_reduction_method": "通过优化或模板化 Prompt，减少重复说明和无效上下文。",
         "best_for": "长对话、Agent 多步骤任务、知识库检索前处理、需要控制 LLM 成本的工作流。",
@@ -21252,7 +21661,8 @@
       "growth_rate": null,
       "score": 0.6748,
       "recommendation": "★★★★☆",
-      "usage_scenarios": "个人效率 场景下的 Agent / LLM 工作流增强。"
+      "usage_scenarios": "个人效率 场景下的 Agent / LLM 工作流增强。",
+      "description_zh": "面向日常工作流和个人效率提升，把分散的信息转成可检索、可调用的上下文。适合用于个人效率 场景下的 Agent / LLM 工作流增强。"
     },
     {
       "name": "newsjack",
@@ -21295,7 +21705,8 @@
       "growth_rate": null,
       "score": 0.6741,
       "recommendation": "★★★★☆",
-      "usage_scenarios": "个人效率 场景下的 Agent / LLM 工作流增强。"
+      "usage_scenarios": "个人效率 场景下的 Agent / LLM 工作流增强。",
+      "description_zh": "面向日常工作流和个人效率提升，帮助 Agent 更稳定地完成相关任务。适合用于个人效率 场景下的 Agent / LLM 工作流增强。"
     },
     {
       "name": "aiworkdeck",
@@ -21354,7 +21765,8 @@
       "growth_rate": null,
       "score": 0.6734,
       "recommendation": "★★★★☆",
-      "usage_scenarios": "个人效率 场景下的 Agent / LLM 工作流增强。"
+      "usage_scenarios": "个人效率 场景下的 Agent / LLM 工作流增强。",
+      "description_zh": "面向日常工作流和个人效率提升，将图像或视觉信息转成 Agent 可处理的结果。适合用于个人效率 场景下的 Agent / LLM 工作流增强。"
     },
     {
       "name": "awesome-claude-code-toolkit",
@@ -21399,7 +21811,8 @@
       "growth_rate": null,
       "score": 0.6703,
       "recommendation": "★★★★☆",
-      "usage_scenarios": "为 Agent 接入外部工具、数据源或本地能力。"
+      "usage_scenarios": "为 Agent 接入外部工具、数据源或本地能力。",
+      "description_zh": "面向 Agent 外部工具、数据源和本地能力接入，帮助 Agent 更稳定地完成相关任务。适合用于为 Agent 接入外部工具、数据源或本地能力。"
     },
     {
       "name": "agentic-context-engine",
@@ -21449,7 +21862,8 @@
       "growth_rate": null,
       "score": 0.6682,
       "recommendation": "★★★★☆",
-      "usage_scenarios": "个人效率 场景下的 Agent / LLM 工作流增强。"
+      "usage_scenarios": "个人效率 场景下的 Agent / LLM 工作流增强。",
+      "description_zh": "面向日常工作流和个人效率提升，帮助 Agent 更稳定地完成相关任务。适合用于个人效率 场景下的 Agent / LLM 工作流增强。"
     },
     {
       "name": "Aut_Sci_Write",
@@ -21499,6 +21913,7 @@
       "score": 0.6667,
       "recommendation": "★★★★☆",
       "usage_scenarios": "PDF / 文档处理 场景下的 Agent / LLM 工作流增强。",
+      "description_zh": "面向 PDF、报告和结构化文档处理，把分散的信息转成可检索、可调用的上下文。适合用于PDF / 文档处理 场景下的 Agent / LLM 工作流增强。",
       "office_output": {
         "file_types": [
           "PPTX/PowerPoint",
@@ -21560,7 +21975,8 @@
       "growth_rate": 0.0023154848046309695,
       "score": 0.6646,
       "recommendation": "★★★★☆",
-      "usage_scenarios": "个人效率 场景下的 Agent / LLM 工作流增强。"
+      "usage_scenarios": "个人效率 场景下的 Agent / LLM 工作流增强。",
+      "description_zh": "面向日常工作流和个人效率提升，帮助 Agent 更稳定地完成相关任务。适合用于个人效率 场景下的 Agent / LLM 工作流增强。"
     },
     {
       "name": "DataFactory.MCP",
@@ -21598,7 +22014,8 @@
       "growth_rate": null,
       "score": 0.6614,
       "recommendation": "★★★★☆",
-      "usage_scenarios": "为 Agent 接入外部工具、数据源或本地能力。"
+      "usage_scenarios": "为 Agent 接入外部工具、数据源或本地能力。",
+      "description_zh": "面向 Agent 外部工具、数据源和本地能力接入，减少无效上下文并控制模型输入成本。适合用于为 Agent 接入外部工具、数据源或本地能力。"
     },
     {
       "name": "devops_os",
@@ -21657,7 +22074,8 @@
       "growth_rate": null,
       "score": 0.6606,
       "recommendation": "★★★★☆",
-      "usage_scenarios": "DevOps / CI/CD 场景下的 Agent / LLM 工作流增强。"
+      "usage_scenarios": "DevOps / CI/CD 场景下的 Agent / LLM 工作流增强。",
+      "description_zh": "面向部署、流水线和工程运维自动化，把重复步骤整理成可复用的自动化流程。适合用于DevOps / CI/CD 场景下的 Agent / LLM 工作流增强。"
     },
     {
       "name": "tiktoken",
@@ -21695,6 +22113,7 @@
       "score": 0.6592,
       "recommendation": "★★★★☆",
       "usage_scenarios": "PDF / 文档处理 场景下的 Agent / LLM 工作流增强。",
+      "description_zh": "面向 PDF、报告和结构化文档处理，减少无效上下文并控制模型输入成本。适合用于PDF / 文档处理 场景下的 Agent / LLM 工作流增强。",
       "token_saving": {
         "token_reduction_method": "通过上下文裁剪、记忆压缩或成本优化策略降低 token 使用。",
         "best_for": "长对话、Agent 多步骤任务、知识库检索前处理、需要控制 LLM 成本的工作流。",
@@ -21745,7 +22164,8 @@
       "growth_rate": null,
       "score": 0.6576,
       "recommendation": "★★★★☆",
-      "usage_scenarios": "个人效率 场景下的 Agent / LLM 工作流增强。"
+      "usage_scenarios": "个人效率 场景下的 Agent / LLM 工作流增强。",
+      "description_zh": "面向日常工作流和个人效率提升，帮助 Agent 更稳定地完成相关任务。适合用于个人效率 场景下的 Agent / LLM 工作流增强。"
     },
     {
       "name": "awesome-claude-code-config",
@@ -21783,7 +22203,8 @@
       "growth_rate": 0.004081632653061225,
       "score": 0.6575,
       "recommendation": "★★★★☆",
-      "usage_scenarios": "为 Agent 接入外部工具、数据源或本地能力。"
+      "usage_scenarios": "为 Agent 接入外部工具、数据源或本地能力。",
+      "description_zh": "面向 Agent 外部工具、数据源和本地能力接入，帮助 Agent 更稳定地完成相关任务。适合用于为 Agent 接入外部工具、数据源或本地能力。"
     },
     {
       "name": "colleague-skill",
@@ -21821,7 +22242,8 @@
       "growth_rate": null,
       "score": 0.6564,
       "recommendation": "★★★★☆",
-      "usage_scenarios": "个人效率 场景下的 Agent / LLM 工作流增强。"
+      "usage_scenarios": "个人效率 场景下的 Agent / LLM 工作流增强。",
+      "description_zh": "面向日常工作流和个人效率提升，帮助 Agent 更稳定地完成相关任务。适合用于个人效率 场景下的 Agent / LLM 工作流增强。"
     },
     {
       "name": "AutoApply-AI-Agentic-Browser-Automation-for-Job-Search",
@@ -21870,7 +22292,8 @@
       "growth_rate": 0.06521739130434782,
       "score": 0.6541,
       "recommendation": "★★★★☆",
-      "usage_scenarios": "个人效率 场景下的 Agent / LLM 工作流增强。"
+      "usage_scenarios": "个人效率 场景下的 Agent / LLM 工作流增强。",
+      "description_zh": "面向日常工作流和个人效率提升，把分散的信息转成可检索、可调用的上下文。适合用于个人效率 场景下的 Agent / LLM 工作流增强。"
     },
     {
       "name": "skills",
@@ -21907,7 +22330,8 @@
       "growth_rate": null,
       "score": 0.6528,
       "recommendation": "★★★★☆",
-      "usage_scenarios": "个人效率 场景下的 Agent / LLM 工作流增强。"
+      "usage_scenarios": "个人效率 场景下的 Agent / LLM 工作流增强。",
+      "description_zh": "面向日常工作流和个人效率提升，帮助 Agent 更稳定地完成相关任务。适合用于个人效率 场景下的 Agent / LLM 工作流增强。"
     },
     {
       "name": "Awesome-Code-LLM",
@@ -21955,7 +22379,8 @@
       "growth_rate": null,
       "score": 0.6522,
       "recommendation": "★★★★☆",
-      "usage_scenarios": "构建检索增强问答、企业知识库和上下文注入。"
+      "usage_scenarios": "构建检索增强问答、企业知识库和上下文注入。",
+      "description_zh": "面向知识库检索、RAG 问答和上下文注入，把分散的信息转成可检索、可调用的上下文。适合用于构建检索增强问答、企业知识库和上下文注入。"
     },
     {
       "name": "Awesome-LLM-Inference",
@@ -22007,7 +22432,8 @@
       "growth_rate": 0.0016741071428571428,
       "score": 0.6495,
       "recommendation": "★★★★☆",
-      "usage_scenarios": "个人效率 场景下的 Agent / LLM 工作流增强。"
+      "usage_scenarios": "个人效率 场景下的 Agent / LLM 工作流增强。",
+      "description_zh": "面向日常工作流和个人效率提升，帮助 Agent 更稳定地完成相关任务。适合用于个人效率 场景下的 Agent / LLM 工作流增强。"
     },
     {
       "name": "Awesome-Scientific-Skills",
@@ -22052,7 +22478,8 @@
       "growth_rate": 0.010660980810234541,
       "score": 0.6483,
       "recommendation": "★★★★☆",
-      "usage_scenarios": "文档生成 场景下的 Agent / LLM 工作流增强。"
+      "usage_scenarios": "文档生成 场景下的 Agent / LLM 工作流增强。",
+      "description_zh": "面向技术文档、说明和知识内容生成，把分散的信息转成可检索、可调用的上下文。适合用于文档生成 场景下的 Agent / LLM 工作流增强。"
     },
     {
       "name": "json-to-office",
@@ -22102,6 +22529,7 @@
       "score": 0.6479,
       "recommendation": "★★★★☆",
       "usage_scenarios": "批量生成文档、报表、幻灯片或电子表格。",
+      "description_zh": "面向 Word、PPT、Excel、PDF 等办公内容生成，把重复步骤整理成可复用的自动化流程。适合用于批量生成文档、报表、幻灯片或电子表格。",
       "office_output": {
         "file_types": [
           "DOCX/Word",
@@ -22161,7 +22589,8 @@
       "growth_rate": 0.057777777777777775,
       "score": 0.6472,
       "recommendation": "★★★★☆",
-      "usage_scenarios": "个人效率 场景下的 Agent / LLM 工作流增强。"
+      "usage_scenarios": "个人效率 场景下的 Agent / LLM 工作流增强。",
+      "description_zh": "面向日常工作流和个人效率提升，把重复步骤整理成可复用的自动化流程。适合用于个人效率 场景下的 Agent / LLM 工作流增强。"
     },
     {
       "name": "Deep-Research-Agent",
@@ -22204,6 +22633,7 @@
       "score": 0.6412,
       "recommendation": "★★★★☆",
       "usage_scenarios": "代码审查 场景下的 Agent / LLM 工作流增强。",
+      "description_zh": "面向代码审查、质量检查与安全风险发现，把分散的信息转成可检索、可调用的上下文。适合用于代码审查 场景下的 Agent / LLM 工作流增强。",
       "office_output": {
         "file_types": [
           "DOCX/Word"
@@ -22259,7 +22689,8 @@
       "growth_rate": 0.01834862385321101,
       "score": 0.6393,
       "recommendation": "★★★★☆",
-      "usage_scenarios": "个人效率 场景下的 Agent / LLM 工作流增强。"
+      "usage_scenarios": "个人效率 场景下的 Agent / LLM 工作流增强。",
+      "description_zh": "面向日常工作流和个人效率提升，帮助 Agent 更稳定地完成相关任务。适合用于个人效率 场景下的 Agent / LLM 工作流增强。"
     },
     {
       "name": "GUI-Agents-Paper-List",
@@ -22297,7 +22728,8 @@
       "growth_rate": null,
       "score": 0.6352,
       "recommendation": "★★★★☆",
-      "usage_scenarios": "个人效率 场景下的 Agent / LLM 工作流增强。"
+      "usage_scenarios": "个人效率 场景下的 Agent / LLM 工作流增强。",
+      "description_zh": "面向日常工作流和个人效率提升，帮助 Agent 更稳定地完成相关任务。适合用于个人效率 场景下的 Agent / LLM 工作流增强。"
     },
     {
       "name": "Mini-Agent",
@@ -22339,7 +22771,8 @@
       "growth_rate": null,
       "score": 0.6346,
       "recommendation": "★★★★☆",
-      "usage_scenarios": "构建检索增强问答、企业知识库和上下文注入。"
+      "usage_scenarios": "构建检索增强问答、企业知识库和上下文注入。",
+      "description_zh": "面向知识库检索、RAG 问答和上下文注入，帮助 Agent 更稳定地完成相关任务。适合用于构建检索增强问答、企业知识库和上下文注入。"
     },
     {
       "name": "Awesome-LLM4AD",
@@ -22380,7 +22813,8 @@
       "growth_rate": null,
       "score": 0.634,
       "recommendation": "★★★★☆",
-      "usage_scenarios": "图像 / 多模态 场景下的 Agent / LLM 工作流增强。"
+      "usage_scenarios": "图像 / 多模态 场景下的 Agent / LLM 工作流增强。",
+      "description_zh": "面向图像理解、OCR 和多模态任务，帮助 Agent 更稳定地完成相关任务。适合用于图像 / 多模态 场景下的 Agent / LLM 工作流增强。"
     },
     {
       "name": "officecli",
@@ -22440,6 +22874,7 @@
       "score": 0.6305,
       "recommendation": "★★★★☆",
       "usage_scenarios": "批量生成文档、报表、幻灯片或电子表格。",
+      "description_zh": "面向 Word、PPT、Excel、PDF 等办公内容生成，把重复步骤整理成可复用的自动化流程。适合用于批量生成文档、报表、幻灯片或电子表格。",
       "office_output": {
         "file_types": [
           "DOCX/Word",
@@ -22509,6 +22944,7 @@
       "score": 0.6302,
       "recommendation": "★★★★☆",
       "usage_scenarios": "批量生成文档、报表、幻灯片或电子表格。",
+      "description_zh": "面向 Word、PPT、Excel、PDF 等办公内容生成，帮助 Agent 更稳定地完成相关任务。适合用于批量生成文档、报表、幻灯片或电子表格。",
       "office_output": {
         "file_types": [
           "PPTX/PowerPoint"
@@ -22559,7 +22995,8 @@
       "growth_rate": null,
       "score": 0.6285,
       "recommendation": "★★★★☆",
-      "usage_scenarios": "个人效率 场景下的 Agent / LLM 工作流增强。"
+      "usage_scenarios": "个人效率 场景下的 Agent / LLM 工作流增强。",
+      "description_zh": "面向日常工作流和个人效率提升，帮助 Agent 更稳定地完成相关任务。适合用于个人效率 场景下的 Agent / LLM 工作流增强。"
     },
     {
       "name": "cti-expert",
@@ -22608,7 +23045,8 @@
       "growth_rate": 0.024896265560165973,
       "score": 0.6258,
       "recommendation": "★★★★☆",
-      "usage_scenarios": "个人效率 场景下的 Agent / LLM 工作流增强。"
+      "usage_scenarios": "个人效率 场景下的 Agent / LLM 工作流增强。",
+      "description_zh": "面向日常工作流和个人效率提升，帮助 Agent 更稳定地完成相关任务。适合用于个人效率 场景下的 Agent / LLM 工作流增强。"
     },
     {
       "name": "awesome-generative-ai",
@@ -22664,7 +23102,8 @@
       "growth_rate": 0.001430615164520744,
       "score": 0.624,
       "recommendation": "★★★★☆",
-      "usage_scenarios": "Prompt 优化 场景下的 Agent / LLM 工作流增强。"
+      "usage_scenarios": "Prompt 优化 场景下的 Agent / LLM 工作流增强。",
+      "description_zh": "面向 Prompt 设计、模板复用和效果优化，帮助 Agent 更稳定地完成相关任务。适合用于Prompt 优化 场景下的 Agent / LLM 工作流增强。"
     },
     {
       "name": "Awesome-LLM-RAG-Application",
@@ -22701,6 +23140,7 @@
       "score": 0.6176,
       "recommendation": "★★★☆☆",
       "usage_scenarios": "Prompt 优化 场景下的 Agent / LLM 工作流增强。",
+      "description_zh": "面向 Prompt 设计、模板复用和效果优化，把分散的信息转成可检索、可调用的上下文。适合用于Prompt 优化 场景下的 Agent / LLM 工作流增强。",
       "token_saving": {
         "token_reduction_method": "通过优化或模板化 Prompt，减少重复说明和无效上下文。",
         "best_for": "长对话、Agent 多步骤任务、知识库检索前处理、需要控制 LLM 成本的工作流。",
@@ -22743,7 +23183,8 @@
       "growth_rate": null,
       "score": 0.6164,
       "recommendation": "★★★☆☆",
-      "usage_scenarios": "代码生成 场景下的 Agent / LLM 工作流增强。"
+      "usage_scenarios": "代码生成 场景下的 Agent / LLM 工作流增强。",
+      "description_zh": "面向代码编写与 Agent 编程协作，帮助 Agent 更稳定地完成相关任务。适合用于代码生成 场景下的 Agent / LLM 工作流增强。"
     },
     {
       "name": "ragas",
@@ -22785,7 +23226,8 @@
       "growth_rate": null,
       "score": 0.6162,
       "recommendation": "★★★☆☆",
-      "usage_scenarios": "测试生成 场景下的 Agent / LLM 工作流增强。"
+      "usage_scenarios": "测试生成 场景下的 Agent / LLM 工作流增强。",
+      "description_zh": "面向测试用例生成与自动化验证，帮助 Agent 更稳定地完成相关任务。适合用于测试生成 场景下的 Agent / LLM 工作流增强。"
     },
     {
       "name": "devportfolio",
@@ -22831,7 +23273,8 @@
       "growth_rate": null,
       "score": 0.615,
       "recommendation": "★★★☆☆",
-      "usage_scenarios": "Prompt 优化 场景下的 Agent / LLM 工作流增强。"
+      "usage_scenarios": "Prompt 优化 场景下的 Agent / LLM 工作流增强。",
+      "description_zh": "面向 Prompt 设计、模板复用和效果优化，帮助 Agent 更稳定地完成相关任务。适合用于Prompt 优化 场景下的 Agent / LLM 工作流增强。"
     },
     {
       "name": "PythonIDE-PyMe",
@@ -22886,7 +23329,8 @@
       "growth_rate": null,
       "score": 0.6131,
       "recommendation": "★★★☆☆",
-      "usage_scenarios": "代码生成 场景下的 Agent / LLM 工作流增强。"
+      "usage_scenarios": "代码生成 场景下的 Agent / LLM 工作流增强。",
+      "description_zh": "面向代码编写与 Agent 编程协作，帮助 Agent 更稳定地完成相关任务。适合用于代码生成 场景下的 Agent / LLM 工作流增强。"
     },
     {
       "name": "Awesome-LLM",
@@ -22924,7 +23368,8 @@
       "growth_rate": null,
       "score": 0.6103,
       "recommendation": "★★★☆☆",
-      "usage_scenarios": "个人效率 场景下的 Agent / LLM 工作流增强。"
+      "usage_scenarios": "个人效率 场景下的 Agent / LLM 工作流增强。",
+      "description_zh": "面向日常工作流和个人效率提升，帮助 Agent 更稳定地完成相关任务。适合用于个人效率 场景下的 Agent / LLM 工作流增强。"
     },
     {
       "name": "ArgusBot",
@@ -22962,7 +23407,8 @@
       "growth_rate": 0.0,
       "score": 0.609,
       "recommendation": "★★★☆☆",
-      "usage_scenarios": "代码审查 场景下的 Agent / LLM 工作流增强。"
+      "usage_scenarios": "代码审查 场景下的 Agent / LLM 工作流增强。",
+      "description_zh": "面向代码审查、质量检查与安全风险发现，提供结构化检查结果并降低遗漏风险。适合用于代码审查 场景下的 Agent / LLM 工作流增强。"
     },
     {
       "name": "vibe-tools",
@@ -23000,7 +23446,8 @@
       "growth_rate": null,
       "score": 0.6076,
       "recommendation": "★★★☆☆",
-      "usage_scenarios": "Cursor、Codex 或 IDE 内的编码规则与工作流模板。"
+      "usage_scenarios": "Cursor、Codex 或 IDE 内的编码规则与工作流模板。",
+      "description_zh": "面向 Prompt 设计、模板复用和效果优化，帮助 Agent 更稳定地完成相关任务。适合用于Cursor、Codex 或 IDE 内的编码规则与工作流模板。"
     },
     {
       "name": "kimi-skills",
@@ -23038,6 +23485,7 @@
       "score": 0.6036,
       "recommendation": "★★★☆☆",
       "usage_scenarios": "PDF / 文档处理 场景下的 Agent / LLM 工作流增强。",
+      "description_zh": "面向 PDF、报告和结构化文档处理，帮助 Agent 更稳定地完成相关任务。适合用于PDF / 文档处理 场景下的 Agent / LLM 工作流增强。",
       "office_output": {
         "file_types": [
           "DOCX/Word",
@@ -23091,7 +23539,8 @@
       "growth_rate": null,
       "score": 0.6035,
       "recommendation": "★★★☆☆",
-      "usage_scenarios": "Prompt 优化 场景下的 Agent / LLM 工作流增强。"
+      "usage_scenarios": "Prompt 优化 场景下的 Agent / LLM 工作流增强。",
+      "description_zh": "面向 Prompt 设计、模板复用和效果优化，帮助 Agent 更稳定地完成相关任务。适合用于Prompt 优化 场景下的 Agent / LLM 工作流增强。"
     },
     {
       "name": "NBLM2PPTX",
@@ -23139,6 +23588,7 @@
       "score": 0.599,
       "recommendation": "★★★☆☆",
       "usage_scenarios": "图像 / 多模态 场景下的 Agent / LLM 工作流增强。",
+      "description_zh": "面向图像理解、OCR 和多模态任务，将图像或视觉信息转成 Agent 可处理的结果。适合用于图像 / 多模态 场景下的 Agent / LLM 工作流增强。",
       "office_output": {
         "file_types": [
           "PPTX/PowerPoint",
@@ -23193,7 +23643,8 @@
       "growth_rate": 0.0053639846743295016,
       "score": 0.5909,
       "recommendation": "★★★☆☆",
-      "usage_scenarios": "个人效率 场景下的 Agent / LLM 工作流增强。"
+      "usage_scenarios": "个人效率 场景下的 Agent / LLM 工作流增强。",
+      "description_zh": "面向日常工作流和个人效率提升，帮助 Agent 更稳定地完成相关任务。适合用于个人效率 场景下的 Agent / LLM 工作流增强。"
     },
     {
       "name": "slopornot",
@@ -23236,7 +23687,8 @@
       "growth_rate": null,
       "score": 0.5906,
       "recommendation": "★★★☆☆",
-      "usage_scenarios": "Cursor、Codex 或 IDE 内的编码规则与工作流模板。"
+      "usage_scenarios": "Cursor、Codex 或 IDE 内的编码规则与工作流模板。",
+      "description_zh": "面向代码编写与 Agent 编程协作，帮助 Agent 更稳定地完成相关任务。适合用于Cursor、Codex 或 IDE 内的编码规则与工作流模板。"
     },
     {
       "name": "n8nworkflows.xyz",
@@ -23277,7 +23729,8 @@
       "growth_rate": null,
       "score": 0.5872,
       "recommendation": "★★★☆☆",
-      "usage_scenarios": "个人效率 场景下的 Agent / LLM 工作流增强。"
+      "usage_scenarios": "个人效率 场景下的 Agent / LLM 工作流增强。",
+      "description_zh": "面向日常工作流和个人效率提升，帮助 Agent 更稳定地完成相关任务。适合用于个人效率 场景下的 Agent / LLM 工作流增强。"
     },
     {
       "name": "TheBigPromptLibrary",
@@ -23313,7 +23766,8 @@
       "growth_rate": null,
       "score": 0.5864,
       "recommendation": "★★★☆☆",
-      "usage_scenarios": "Prompt 优化 场景下的 Agent / LLM 工作流增强。"
+      "usage_scenarios": "Prompt 优化 场景下的 Agent / LLM 工作流增强。",
+      "description_zh": "面向 Prompt 设计、模板复用和效果优化，帮助 Agent 更稳定地完成相关任务。适合用于Prompt 优化 场景下的 Agent / LLM 工作流增强。"
     },
     {
       "name": "ags",
@@ -23369,7 +23823,8 @@
       "growth_rate": null,
       "score": 0.584,
       "recommendation": "★★★☆☆",
-      "usage_scenarios": "Cursor、Codex 或 IDE 内的编码规则与工作流模板。"
+      "usage_scenarios": "Cursor、Codex 或 IDE 内的编码规则与工作流模板。",
+      "description_zh": "面向代码编写与 Agent 编程协作，帮助 Agent 更稳定地完成相关任务。适合用于Cursor、Codex 或 IDE 内的编码规则与工作流模板。"
     },
     {
       "name": "slides-ai-plugin",
@@ -23424,6 +23879,7 @@
       "score": 0.5829,
       "recommendation": "★★★☆☆",
       "usage_scenarios": "Prompt 优化 场景下的 Agent / LLM 工作流增强。",
+      "description_zh": "面向 Prompt 设计、模板复用和效果优化，帮助 Agent 更稳定地完成相关任务。适合用于Prompt 优化 场景下的 Agent / LLM 工作流增强。",
       "office_output": {
         "file_types": [
           "PPTX/PowerPoint",
@@ -23470,7 +23926,8 @@
       "growth_rate": null,
       "score": 0.5824,
       "recommendation": "★★★☆☆",
-      "usage_scenarios": "个人效率 场景下的 Agent / LLM 工作流增强。"
+      "usage_scenarios": "个人效率 场景下的 Agent / LLM 工作流增强。",
+      "description_zh": "面向日常工作流和个人效率提升，帮助 Agent 更稳定地完成相关任务。适合用于个人效率 场景下的 Agent / LLM 工作流增强。"
     },
     {
       "name": "sail-skill",
@@ -23517,7 +23974,8 @@
       "growth_rate": null,
       "score": 0.5804,
       "recommendation": "★★★☆☆",
-      "usage_scenarios": "个人效率 场景下的 Agent / LLM 工作流增强。"
+      "usage_scenarios": "个人效率 场景下的 Agent / LLM 工作流增强。",
+      "description_zh": "面向日常工作流和个人效率提升，提供结构化检查结果并降低遗漏风险。适合用于个人效率 场景下的 Agent / LLM 工作流增强。"
     },
     {
       "name": "universal-skills-manager",
@@ -23554,7 +24012,8 @@
       "growth_rate": null,
       "score": 0.575,
       "recommendation": "★★★☆☆",
-      "usage_scenarios": "PDF / 文档处理 场景下的 Agent / LLM 工作流增强。"
+      "usage_scenarios": "PDF / 文档处理 场景下的 Agent / LLM 工作流增强。",
+      "description_zh": "面向 PDF、报告和结构化文档处理，提供结构化检查结果并降低遗漏风险。适合用于PDF / 文档处理 场景下的 Agent / LLM 工作流增强。"
     },
     {
       "name": "opencode-academic-research",
@@ -23592,7 +24051,8 @@
       "growth_rate": null,
       "score": 0.5711,
       "recommendation": "★★★☆☆",
-      "usage_scenarios": "代码审查 场景下的 Agent / LLM 工作流增强。"
+      "usage_scenarios": "代码审查 场景下的 Agent / LLM 工作流增强。",
+      "description_zh": "面向代码审查、质量检查与安全风险发现，把分散的信息转成可检索、可调用的上下文。适合用于代码审查 场景下的 Agent / LLM 工作流增强。"
     },
     {
       "name": "tech-marketing-framework",
@@ -23630,7 +24090,8 @@
       "growth_rate": null,
       "score": 0.5568,
       "recommendation": "★★★☆☆",
-      "usage_scenarios": "代码生成 场景下的 Agent / LLM 工作流增强。"
+      "usage_scenarios": "代码生成 场景下的 Agent / LLM 工作流增强。",
+      "description_zh": "面向代码编写与 Agent 编程协作，帮助 Agent 更稳定地完成相关任务。适合用于代码生成 场景下的 Agent / LLM 工作流增强。"
     },
     {
       "name": "AI-Agents-public",
@@ -23666,7 +24127,8 @@
       "growth_rate": null,
       "score": 0.5533,
       "recommendation": "★★★☆☆",
-      "usage_scenarios": "Prompt 优化 场景下的 Agent / LLM 工作流增强。"
+      "usage_scenarios": "Prompt 优化 场景下的 Agent / LLM 工作流增强。",
+      "description_zh": "面向 Prompt 设计、模板复用和效果优化，帮助 Agent 更稳定地完成相关任务。适合用于Prompt 优化 场景下的 Agent / LLM 工作流增强。"
     },
     {
       "name": "LLM-Agents-Papers",
@@ -23708,7 +24170,8 @@
       "growth_rate": 0.0008598452278589854,
       "score": 0.5516,
       "recommendation": "★★★☆☆",
-      "usage_scenarios": "个人效率 场景下的 Agent / LLM 工作流增强。"
+      "usage_scenarios": "个人效率 场景下的 Agent / LLM 工作流增强。",
+      "description_zh": "面向日常工作流和个人效率提升，帮助 Agent 更稳定地完成相关任务。适合用于个人效率 场景下的 Agent / LLM 工作流增强。"
     },
     {
       "name": "antigravity-marketing",
@@ -23745,7 +24208,8 @@
       "growth_rate": null,
       "score": 0.5448,
       "recommendation": "★★★☆☆",
-      "usage_scenarios": "个人效率 场景下的 Agent / LLM 工作流增强。"
+      "usage_scenarios": "个人效率 场景下的 Agent / LLM 工作流增强。",
+      "description_zh": "面向日常工作流和个人效率提升，帮助 Agent 更稳定地完成相关任务。适合用于个人效率 场景下的 Agent / LLM 工作流增强。"
     },
     {
       "name": "irb-in-hurry",
@@ -23799,6 +24263,7 @@
       "score": 0.5438,
       "recommendation": "★★★☆☆",
       "usage_scenarios": "批量生成文档、报表、幻灯片或电子表格。",
+      "description_zh": "面向 Word、PPT、Excel、PDF 等办公内容生成，帮助 Agent 更稳定地完成相关任务。适合用于批量生成文档、报表、幻灯片或电子表格。",
       "office_output": {
         "file_types": [
           "DOCX/Word"
@@ -23855,7 +24320,8 @@
       "growth_rate": null,
       "score": 0.541,
       "recommendation": "★★★☆☆",
-      "usage_scenarios": "个人效率 场景下的 Agent / LLM 工作流增强。"
+      "usage_scenarios": "个人效率 场景下的 Agent / LLM 工作流增强。",
+      "description_zh": "面向日常工作流和个人效率提升，帮助 Agent 更稳定地完成相关任务。适合用于个人效率 场景下的 Agent / LLM 工作流增强。"
     },
     {
       "name": "resume-tailor-plugin",
@@ -23903,6 +24369,7 @@
       "score": 0.5394,
       "recommendation": "★★★☆☆",
       "usage_scenarios": "批量生成文档、报表、幻灯片或电子表格。",
+      "description_zh": "面向 Word、PPT、Excel、PDF 等办公内容生成，帮助 Agent 更稳定地完成相关任务。适合用于批量生成文档、报表、幻灯片或电子表格。",
       "office_output": {
         "file_types": [
           "DOCX/Word",
@@ -23949,7 +24416,8 @@
       "growth_rate": null,
       "score": 0.5302,
       "recommendation": "★★★☆☆",
-      "usage_scenarios": "个人效率 场景下的 Agent / LLM 工作流增强。"
+      "usage_scenarios": "个人效率 场景下的 Agent / LLM 工作流增强。",
+      "description_zh": "面向日常工作流和个人效率提升，把重复步骤整理成可复用的自动化流程。适合用于个人效率 场景下的 Agent / LLM 工作流增强。"
     },
     {
       "name": "academic-scholar-skills",
@@ -23987,7 +24455,8 @@
       "growth_rate": null,
       "score": 0.529,
       "recommendation": "★★★☆☆",
-      "usage_scenarios": "个人效率 场景下的 Agent / LLM 工作流增强。"
+      "usage_scenarios": "个人效率 场景下的 Agent / LLM 工作流增强。",
+      "description_zh": "面向日常工作流和个人效率提升，帮助 Agent 更稳定地完成相关任务。适合用于个人效率 场景下的 Agent / LLM 工作流增强。"
     },
     {
       "name": "inspiration-case-figure-guide",
@@ -24026,6 +24495,7 @@
       "score": 0.5193,
       "recommendation": "★★★☆☆",
       "usage_scenarios": "PDF / 文档处理 场景下的 Agent / LLM 工作流增强。",
+      "description_zh": "面向 PDF、报告和结构化文档处理，把分散的信息转成可检索、可调用的上下文。适合用于PDF / 文档处理 场景下的 Agent / LLM 工作流增强。",
       "office_output": {
         "file_types": [
           "PDF"
@@ -24087,7 +24557,8 @@
       "growth_rate": null,
       "score": 0.5125,
       "recommendation": "★★★☆☆",
-      "usage_scenarios": "为 Agent 接入外部工具、数据源或本地能力。"
+      "usage_scenarios": "为 Agent 接入外部工具、数据源或本地能力。",
+      "description_zh": "面向 Agent 外部工具、数据源和本地能力接入，把重复步骤整理成可复用的自动化流程。适合用于为 Agent 接入外部工具、数据源或本地能力。"
     },
     {
       "name": "scholar-ppt-cn",
@@ -24138,6 +24609,7 @@
       "score": 0.5031,
       "recommendation": "★★★☆☆",
       "usage_scenarios": "Prompt 优化 场景下的 Agent / LLM 工作流增强。",
+      "description_zh": "面向 Prompt 设计、模板复用和效果优化，帮助 Agent 更稳定地完成相关任务。适合用于Prompt 优化 场景下的 Agent / LLM 工作流增强。",
       "office_output": {
         "file_types": [
           "PPTX/PowerPoint"
@@ -24193,7 +24665,8 @@
       "growth_rate": null,
       "score": 0.4922,
       "recommendation": "★★★☆☆",
-      "usage_scenarios": "Prompt 优化 场景下的 Agent / LLM 工作流增强。"
+      "usage_scenarios": "Prompt 优化 场景下的 Agent / LLM 工作流增强。",
+      "description_zh": "面向 Prompt 设计、模板复用和效果优化，帮助 Agent 更稳定地完成相关任务。适合用于Prompt 优化 场景下的 Agent / LLM 工作流增强。"
     },
     {
       "name": "Awesome-GPTs",
@@ -24236,7 +24709,8 @@
       "growth_rate": 0.0008718395815170009,
       "score": 0.4893,
       "recommendation": "★★★☆☆",
-      "usage_scenarios": "Prompt 优化 场景下的 Agent / LLM 工作流增强。"
+      "usage_scenarios": "Prompt 优化 场景下的 Agent / LLM 工作流增强。",
+      "description_zh": "面向 Prompt 设计、模板复用和效果优化，帮助 Agent 更稳定地完成相关任务。适合用于Prompt 优化 场景下的 Agent / LLM 工作流增强。"
     },
     {
       "name": "cyber-doctor",
@@ -24281,7 +24755,8 @@
       "growth_rate": 0.006711409395973154,
       "score": 0.489,
       "recommendation": "★★★☆☆",
-      "usage_scenarios": "构建检索增强问答、企业知识库和上下文注入。"
+      "usage_scenarios": "构建检索增强问答、企业知识库和上下文注入。",
+      "description_zh": "面向知识库检索、RAG 问答和上下文注入，把分散的信息转成可检索、可调用的上下文。适合用于构建检索增强问答、企业知识库和上下文注入。"
     },
     {
       "name": "OS-Agent-Survey",
@@ -24334,7 +24809,8 @@
       "growth_rate": null,
       "score": 0.4881,
       "recommendation": "★★★☆☆",
-      "usage_scenarios": "个人效率 场景下的 Agent / LLM 工作流增强。"
+      "usage_scenarios": "个人效率 场景下的 Agent / LLM 工作流增强。",
+      "description_zh": "面向日常工作流和个人效率提升，帮助 Agent 更稳定地完成相关任务。适合用于个人效率 场景下的 Agent / LLM 工作流增强。"
     },
     {
       "name": "academic-skills",
@@ -24370,6 +24846,7 @@
       "score": 0.4846,
       "recommendation": "★★★☆☆",
       "usage_scenarios": "压缩上下文、长任务记忆整理、降低 API 调用成本。",
+      "description_zh": "面向上下文压缩、记忆整理和 LLM 成本控制，减少无效上下文并控制模型输入成本。适合用于压缩上下文、长任务记忆整理、降低 API 调用成本。",
       "token_saving": {
         "token_reduction_method": "通过摘要和压缩上下文保留关键信息，减少传入模型的冗余内容。",
         "best_for": "长对话、Agent 多步骤任务、知识库检索前处理、需要控制 LLM 成本的工作流。",
@@ -24413,6 +24890,7 @@
       "score": 0.4836,
       "recommendation": "★★★☆☆",
       "usage_scenarios": "批量生成文档、报表、幻灯片或电子表格。",
+      "description_zh": "面向 Word、PPT、Excel、PDF 等办公内容生成，帮助 Agent 更稳定地完成相关任务。适合用于批量生成文档、报表、幻灯片或电子表格。",
       "office_output": {
         "file_types": [
           "DOCX/Word"
@@ -24458,6 +24936,7 @@
       "score": 0.482,
       "recommendation": "★★★☆☆",
       "usage_scenarios": "批量生成文档、报表、幻灯片或电子表格。",
+      "description_zh": "面向 Word、PPT、Excel、PDF 等办公内容生成，把重复步骤整理成可复用的自动化流程。适合用于批量生成文档、报表、幻灯片或电子表格。",
       "office_output": {
         "file_types": [
           "PPTX/PowerPoint"
@@ -24500,7 +24979,8 @@
       "growth_rate": null,
       "score": 0.4589,
       "recommendation": "★★★☆☆",
-      "usage_scenarios": "Prompt 优化 场景下的 Agent / LLM 工作流增强。"
+      "usage_scenarios": "Prompt 优化 场景下的 Agent / LLM 工作流增强。",
+      "description_zh": "面向 Prompt 设计、模板复用和效果优化，帮助 Agent 更稳定地完成相关任务。适合用于Prompt 优化 场景下的 Agent / LLM 工作流增强。"
     },
     {
       "name": "Awesome-Efficient-LLM",
@@ -24546,6 +25026,7 @@
       "score": 0.4564,
       "recommendation": "★★★☆☆",
       "usage_scenarios": "个人效率 场景下的 Agent / LLM 工作流增强。",
+      "description_zh": "面向日常工作流和个人效率提升，帮助 Agent 更稳定地完成相关任务。适合用于个人效率 场景下的 Agent / LLM 工作流增强。",
       "token_saving": {
         "token_reduction_method": "通过上下文裁剪、记忆压缩或成本优化策略降低 token 使用。",
         "best_for": "长对话、Agent 多步骤任务、知识库检索前处理、需要控制 LLM 成本的工作流。",
@@ -24586,7 +25067,8 @@
       "growth_rate": null,
       "score": 0.4557,
       "recommendation": "★★★☆☆",
-      "usage_scenarios": "个人效率 场景下的 Agent / LLM 工作流增强。"
+      "usage_scenarios": "个人效率 场景下的 Agent / LLM 工作流增强。",
+      "description_zh": "面向日常工作流和个人效率提升，帮助 Agent 更稳定地完成相关任务。适合用于个人效率 场景下的 Agent / LLM 工作流增强。"
     },
     {
       "name": "python-docx",
@@ -24622,6 +25104,7 @@
       "score": 0.454,
       "recommendation": "★★★☆☆",
       "usage_scenarios": "批量生成文档、报表、幻灯片或电子表格。",
+      "description_zh": "面向 Word、PPT、Excel、PDF 等办公内容生成，把重复步骤整理成可复用的自动化流程。适合用于批量生成文档、报表、幻灯片或电子表格。",
       "office_output": {
         "file_types": [
           "DOCX/Word"
@@ -24671,7 +25154,8 @@
       "growth_rate": null,
       "score": 0.4404,
       "recommendation": "★★☆☆☆",
-      "usage_scenarios": "个人效率 场景下的 Agent / LLM 工作流增强。"
+      "usage_scenarios": "个人效率 场景下的 Agent / LLM 工作流增强。",
+      "description_zh": "面向日常工作流和个人效率提升，帮助 Agent 更稳定地完成相关任务。适合用于个人效率 场景下的 Agent / LLM 工作流增强。"
     },
     {
       "name": "contract-playbook-ai",
@@ -24708,6 +25192,7 @@
       "score": 0.4298,
       "recommendation": "★★☆☆☆",
       "usage_scenarios": "代码审查 场景下的 Agent / LLM 工作流增强。",
+      "description_zh": "面向代码审查、质量检查与安全风险发现，把重复步骤整理成可复用的自动化流程。适合用于代码审查 场景下的 Agent / LLM 工作流增强。",
       "office_output": {
         "file_types": [
           "DOCX/Word"
@@ -24751,7 +25236,8 @@
       "growth_rate": null,
       "score": 0.4204,
       "recommendation": "★★☆☆☆",
-      "usage_scenarios": "个人效率 场景下的 Agent / LLM 工作流增强。"
+      "usage_scenarios": "个人效率 场景下的 Agent / LLM 工作流增强。",
+      "description_zh": "面向日常工作流和个人效率提升，帮助 Agent 更稳定地完成相关任务。适合用于个人效率 场景下的 Agent / LLM 工作流增强。"
     },
     {
       "name": "slides_generator",
@@ -24796,6 +25282,7 @@
       "score": 0.401,
       "recommendation": "★★☆☆☆",
       "usage_scenarios": "批量生成文档、报表、幻灯片或电子表格。",
+      "description_zh": "面向 Word、PPT、Excel、PDF 等办公内容生成，帮助 Agent 更稳定地完成相关任务。适合用于批量生成文档、报表、幻灯片或电子表格。",
       "office_output": {
         "file_types": [
           "PPTX/PowerPoint"
@@ -24842,7 +25329,8 @@
       "growth_rate": null,
       "score": 0.3697,
       "recommendation": "★★☆☆☆",
-      "usage_scenarios": "个人效率 场景下的 Agent / LLM 工作流增强。"
+      "usage_scenarios": "个人效率 场景下的 Agent / LLM 工作流增强。",
+      "description_zh": "面向日常工作流和个人效率提升，帮助 Agent 更稳定地完成相关任务。适合用于个人效率 场景下的 Agent / LLM 工作流增强。"
     }
   ]
 }

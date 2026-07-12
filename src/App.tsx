@@ -30,7 +30,7 @@ function App() {
   const [query, setQuery] = useState('');
   const [category, setCategory] = useState('全部');
   const [sort, setSort] = useState<SortKey>('score');
-  const [light, setLight] = useState(false);
+  const [light, setLight] = useState(true);
 
   const categories = useMemo(() => {
     const values = new Set(data.skills.map((skill) => skill.category).filter(Boolean) as string[]);
@@ -48,6 +48,7 @@ function App() {
           skill.name,
           skill.owner,
           skill.description,
+          skill.description_zh,
           skill.readme_summary,
           skill.category,
           skill.skill_type,
