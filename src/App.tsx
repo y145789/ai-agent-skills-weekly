@@ -1,4 +1,4 @@
-import { Moon, Search, SlidersHorizontal, Sun } from 'lucide-react';
+import { Moon, Search, SlidersHorizontal, Sun, X } from 'lucide-react';
 import { useMemo, useState } from 'react';
 import rawData from '../data/processed/skills.json';
 import LeaderboardTable from './components/LeaderboardTable';
@@ -61,6 +61,8 @@ function App() {
       .sort((a, b) => getSortValue(b, sort) - getSortValue(a, sort));
   }, [category, query, sort]);
 
+  const isFiltering = query.trim().length > 0 || category !== '全部';
+
   return (
     <main className={light ? 'app light' : 'app'}>
       <header className="hero">
@@ -112,44 +114,9 @@ function App() {
 
       <section className="section">
         <div className="section-title">
-          <p className="eyebrow">Featured</p>
-          <h2>精选：减少 Token 消耗的 Skill</h2>
-          <p>关注 token reduction、context compression、prompt compression、summarization、long context management 和 prompt optimization。</p>
-        </div>
-        <div className="card-grid">
-          {data.featured_token_saving.map((skill) => (
-            <SkillCard skill={skill} key={`token-${skill.owner}/${skill.name}`} />
-          ))}
-        </div>
-      </section>
-
-      <section className="section">
-        <div className="section-title">
-          <p className="eyebrow">Featured</p>
-          <h2>精选：Office / Word / PPT / PDF 输出 Skill</h2>
-          <p>覆盖 DOCX、PPTX、XLSX、PDF、文档排版、报告生成、slide generation 和 office automation。</p>
-        </div>
-        <div className="card-grid">
-          {data.featured_office.map((skill) => (
-            <SkillCard skill={skill} key={`office-${skill.owner}/${skill.name}`} />
-          ))}
-        </div>
-      </section>
-
-      <LeaderboardTable title="总 Star 榜 Top 50" items={data.top_stars} mode="stars" />
-      <LeaderboardTable
-        title="Star 增长最快榜"
-        items={data.top_growth}
-        mode="growth"
-        emptyText="首次采集，暂无增长数据。下周快照生成后会自动计算本周新增 Stars。"
-      />
-
-      <RadarSection radar={data.radar} />
-
-      <section className="section">
-        <div className="section-title">
           <p className="eyebrow">Explore</p>
-          <h2>全部 Skill 搜索</h2>
+          <h2>搜索 Skill</h2>
+          <p>从 {numberFormat.format(data.skills.length)} 个项目中查找适合你工作流的工具。</p>
         </div>
         <div className="toolbar">
           <label className="search-box">
@@ -174,14 +141,66 @@ function App() {
               <option value="recent">按最近更新</option>
             </select>
           </label>
+          {isFiltering && (
+            <button className="clear-filter" type="button" onClick={() => { setQuery(''); setCategory('全部'); }}>
+              <X size={16} />
+              清空筛选
+            </button>
+          )}
         </div>
-        <div className="result-count">当前显示 {filtered.length} / {data.skills.length}</div>
-        <div className="card-grid">
-          {filtered.slice(0, 80).map((skill) => (
-            <SkillCard skill={skill} key={`all-${skill.owner}/${skill.name}`} />
-          ))}
-        </div>
+        {isFiltering && (
+          <>
+            <div className="result-count">找到 {filtered.length} 个匹配项目</div>
+            {filtered.length > 0 ? (
+              <div className="card-grid">
+                {filtered.slice(0, 80).map((skill) => (
+                  <SkillCard skill={skill} key={`search-${skill.owner}/${skill.name}`} />
+                ))}
+              </div>
+            ) : <div className="empty-state">没有找到匹配的 Skill，换个关键词试试。</div>}
+          </>
+        )}
       </section>
+
+      {!isFiltering && (
+        <>
+          <section className="section">
+            <div className="section-title">
+              <p className="eyebrow">Featured</p>
+              <h2>精选：减少 Token 消耗的 Skill</h2>
+              <p>关注 token reduction、context compression、prompt compression、summarization、long context management 和 prompt optimization。</p>
+            </div>
+            <div className="card-grid">
+              {data.featured_token_saving.map((skill) => (
+                <SkillCard skill={skill} key={`token-${skill.owner}/${skill.name}`} />
+              ))}
+            </div>
+          </section>
+
+          <section className="section">
+            <div className="section-title">
+              <p className="eyebrow">Featured</p>
+              <h2>精选：Office / Word / PPT / PDF 输出 Skill</h2>
+              <p>覆盖 DOCX、PPTX、XLSX、PDF、文档排版、报告生成、slide generation 和 office automation。</p>
+            </div>
+            <div className="card-grid">
+              {data.featured_office.map((skill) => (
+                <SkillCard skill={skill} key={`office-${skill.owner}/${skill.name}`} />
+              ))}
+            </div>
+          </section>
+
+          <LeaderboardTable title="总 Star 榜 Top 50" items={data.top_stars} mode="stars" />
+          <LeaderboardTable
+            title="Star 增长最快榜"
+            items={data.top_growth}
+            mode="growth"
+            emptyText="首次采集，暂无增长数据。下周快照生成后会自动计算本周新增 Stars。"
+          />
+
+          <RadarSection radar={data.radar} />
+        </>
+      )}
     </main>
   );
 }

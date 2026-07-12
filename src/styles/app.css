@@ -40,7 +40,7 @@ select {
 
 .app.light {
   color: #16202a;
-  background: #f7faf9;
+  background: #f5fbfc;
 }
 
 .hero,
@@ -535,9 +535,25 @@ tbody tr:hover {
 
 .toolbar {
   display: grid;
-  grid-template-columns: minmax(240px, 1fr) minmax(180px, 240px) minmax(160px, 220px);
+  grid-template-columns: minmax(280px, 1.4fr) minmax(180px, 0.75fr) minmax(160px, 0.65fr) auto;
   gap: 10px;
   margin-bottom: 12px;
+}
+
+.clear-filter {
+  display: inline-flex;
+  min-height: 46px;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+  padding: 0 14px;
+  color: #34718c;
+  cursor: pointer;
+  background: #e9f6f8;
+  border: 1px solid #bfe4ea;
+  border-radius: 8px;
+  font-weight: 800;
+  white-space: nowrap;
 }
 
 .search-box,
@@ -584,6 +600,26 @@ tbody tr:hover {
   color: #52616f;
 }
 
+.light .brand {
+  color: #247fa8;
+}
+
+.light .eyebrow {
+  color: #1595aa;
+}
+
+.light h1,
+.light h2,
+.light h3 {
+  color: #18364a;
+}
+
+.light .status-row span {
+  color: #477083;
+  background: #edf8fa;
+  border-color: #cfecef;
+}
+
 .light .stats-panel,
 .light .skill-card,
 .light .table-wrap,
@@ -606,6 +642,26 @@ tbody tr:hover {
   border-color: #dfe6ed;
 }
 
+.light .stats-panel div:nth-child(1) {
+  background: #e7f7f7;
+  border-color: #bfe9e2;
+}
+
+.light .stats-panel div:nth-child(2) {
+  background: #edf1fb;
+  border-color: #d8d9ef;
+}
+
+.light .stats-panel div:nth-child(3) {
+  background: #fff7df;
+  border-color: #f3e1a8;
+}
+
+.light .stats-panel div:nth-child(4) {
+  background: #eef8df;
+  border-color: #d5e9ae;
+}
+
 .light .stats-panel strong,
 .light .name-cell,
 .light .detail-panel dt {
@@ -616,6 +672,46 @@ tbody tr:hover {
   color: #16202a;
   background: #eef3f6;
   border-color: #dce3ea;
+}
+
+.light .button {
+  color: #274154;
+  background: #ffd46c;
+  border-color: #f1c45a;
+}
+
+.light .button--secondary {
+  color: #145b66;
+  background: #73d7ca;
+  border-color: #59c6b8;
+}
+
+.light .skill-card:hover {
+  border-color: #a9dfe2;
+  box-shadow: 0 14px 34px rgba(42, 104, 119, 0.1);
+  transform: translateY(-2px);
+}
+
+.light .tag:nth-child(3n) {
+  color: #5d4e92;
+  background: #f0ecfb;
+  border-color: #ddd4f3;
+}
+
+.light .tag:nth-child(4n) {
+  color: #6b5a26;
+  background: #fff5d9;
+  border-color: #f4e1a7;
+}
+
+.light .tag:nth-child(5n) {
+  color: #47722b;
+  background: #eef8df;
+  border-color: #d4e9ae;
+}
+
+.light .clear-filter:hover {
+  background: #dff1f4;
 }
 
 .light .stats-panel {
